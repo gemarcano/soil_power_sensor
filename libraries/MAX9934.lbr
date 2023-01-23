@@ -72,6 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>High-Precision, Low-Voltage, Current-Sense Amplifier with Current Output and Chip Select for Multiplexing</description>
 <packages>
 <package name="21-0228_R61A1+1_MXM">
 <smd name="A1" x="-0.5" y="0.25" dx="0.254" dy="0.254" layer="1" roundness="100"/>
