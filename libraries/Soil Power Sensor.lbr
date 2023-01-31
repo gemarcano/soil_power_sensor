@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -1249,61 +1249,61 @@
 <pin name="GND" x="17.78" y="-15.24" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="STM32WLE5C8U6">
-<pin name="PB3" x="2.54" y="0" length="middle"/>
-<pin name="PB4" x="2.54" y="-2.54" length="middle"/>
-<pin name="PB5" x="2.54" y="-5.08" length="middle"/>
-<pin name="PB6" x="2.54" y="-7.62" length="middle"/>
-<pin name="PB7" x="2.54" y="-10.16" length="middle"/>
-<pin name="PB8" x="2.54" y="-12.7" length="middle"/>
-<pin name="PA0" x="2.54" y="-15.24" length="middle"/>
-<pin name="PA1" x="2.54" y="-17.78" length="middle"/>
-<pin name="PA2" x="2.54" y="-20.32" length="middle"/>
-<pin name="PA3" x="2.54" y="-22.86" length="middle"/>
-<pin name="VDD_2" x="2.54" y="-25.4" length="middle" direction="pwr"/>
-<pin name="PA4" x="2.54" y="-27.94" length="middle"/>
-<pin name="PA5" x="2.54" y="-30.48" length="middle"/>
-<pin name="PA6" x="2.54" y="-33.02" length="middle"/>
-<pin name="PA7" x="2.54" y="-35.56" length="middle"/>
-<pin name="PA8" x="2.54" y="-38.1" length="middle"/>
-<pin name="PA9" x="2.54" y="-40.64" length="middle"/>
-<pin name="NRST" x="2.54" y="-43.18" length="middle"/>
-<pin name="PH3-BOOT0" x="2.54" y="-45.72" length="middle"/>
-<pin name="RFI_P" x="2.54" y="-48.26" length="middle" direction="in"/>
-<pin name="RFI_N" x="2.54" y="-50.8" length="middle" direction="in"/>
-<pin name="RFO_LP" x="2.54" y="-53.34" length="middle" direction="out"/>
-<pin name="RFO_HP" x="2.54" y="-55.88" length="middle" direction="out"/>
-<pin name="VR_PA" x="2.54" y="-58.42" length="middle" direction="pwr"/>
-<pin name="VDDPA" x="68.58" y="-60.96" length="middle" direction="pwr" rot="R180"/>
-<pin name="OSC_IN" x="68.58" y="-58.42" length="middle" direction="in" rot="R180"/>
-<pin name="OSC_OUT" x="68.58" y="-55.88" length="middle" direction="out" rot="R180"/>
-<pin name="VDDRF" x="68.58" y="-53.34" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDRF1V55" x="68.58" y="-50.8" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB0-VDD_TCXO" x="68.58" y="-48.26" length="middle" rot="R180"/>
-<pin name="PB2" x="68.58" y="-45.72" length="middle" rot="R180"/>
-<pin name="PB12" x="68.58" y="-43.18" length="middle" rot="R180"/>
-<pin name="PA10" x="68.58" y="-40.64" length="middle" rot="R180"/>
-<pin name="PA11" x="68.58" y="-38.1" length="middle" rot="R180"/>
-<pin name="PA12" x="68.58" y="-35.56" length="middle" rot="R180"/>
-<pin name="PA13" x="68.58" y="-33.02" length="middle" rot="R180"/>
-<pin name="VBAT" x="68.58" y="-30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="PC13" x="68.58" y="-27.94" length="middle" rot="R180"/>
-<pin name="PC14-OSC32_IN" x="68.58" y="-25.4" length="middle" rot="R180"/>
-<pin name="PC15-OSC32_OUT" x="68.58" y="-22.86" length="middle" rot="R180"/>
-<pin name="VDDA" x="68.58" y="-20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="PA14" x="68.58" y="-17.78" length="middle" rot="R180"/>
-<pin name="PA15" x="68.58" y="-15.24" length="middle" rot="R180"/>
-<pin name="VDD" x="68.58" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VFBSMPS" x="68.58" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSMPS" x="68.58" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="VLXSMPS" x="68.58" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSSSMPS" x="68.58" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="VSS" x="68.58" y="0" length="middle" direction="pas" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-66.04" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-66.04" x2="63.5" y2="-66.04" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="-66.04" x2="63.5" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="30.8356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="30.2006" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="PB3" x="-33.02" y="25.4" length="middle"/>
+<pin name="PB4" x="-33.02" y="22.86" length="middle"/>
+<pin name="PB5" x="-33.02" y="20.32" length="middle"/>
+<pin name="PB6" x="-33.02" y="17.78" length="middle"/>
+<pin name="PB7" x="-33.02" y="15.24" length="middle"/>
+<pin name="PB8" x="-33.02" y="12.7" length="middle"/>
+<pin name="PA0" x="-33.02" y="10.16" length="middle"/>
+<pin name="PA1" x="-33.02" y="7.62" length="middle"/>
+<pin name="PA2" x="-33.02" y="5.08" length="middle"/>
+<pin name="PA3" x="-33.02" y="2.54" length="middle"/>
+<pin name="VDD_2" x="-33.02" y="0" length="middle" direction="pwr"/>
+<pin name="PA4" x="-33.02" y="-2.54" length="middle"/>
+<pin name="PA5" x="-33.02" y="-5.08" length="middle"/>
+<pin name="PA6" x="-33.02" y="-7.62" length="middle"/>
+<pin name="PA7" x="-33.02" y="-10.16" length="middle"/>
+<pin name="PA8" x="-33.02" y="-12.7" length="middle"/>
+<pin name="PA9" x="-33.02" y="-15.24" length="middle"/>
+<pin name="NRST" x="-33.02" y="-17.78" length="middle"/>
+<pin name="PH3-BOOT0" x="-33.02" y="-20.32" length="middle"/>
+<pin name="RFI_P" x="-33.02" y="-22.86" length="middle" direction="in"/>
+<pin name="RFI_N" x="-33.02" y="-25.4" length="middle" direction="in"/>
+<pin name="RFO_LP" x="-33.02" y="-27.94" length="middle" direction="out"/>
+<pin name="RFO_HP" x="-33.02" y="-30.48" length="middle" direction="out"/>
+<pin name="VR_PA" x="-33.02" y="-33.02" length="middle" direction="pwr"/>
+<pin name="VDDPA" x="33.02" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="OSC_IN" x="33.02" y="-33.02" length="middle" direction="in" rot="R180"/>
+<pin name="OSC_OUT" x="33.02" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="VDDRF" x="33.02" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDRF1V55" x="33.02" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB0-VDD_TCXO" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="PB2" x="33.02" y="-20.32" length="middle" rot="R180"/>
+<pin name="PB12" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA10" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA11" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA12" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA13" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="VBAT" x="33.02" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PC13" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC14-OSC32_IN" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="PC15-OSC32_OUT" x="33.02" y="2.54" length="middle" rot="R180"/>
+<pin name="VDDA" x="33.02" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA14" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="PA15" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="VDD" x="33.02" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VFBSMPS" x="33.02" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSMPS" x="33.02" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VLXSMPS" x="33.02" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSSSMPS" x="33.02" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="VSS" x="33.02" y="25.4" length="middle" direction="pas" rot="R180"/>
+<wire x1="-27.94" y1="30.48" x2="-27.94" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="-27.94" y1="-40.64" x2="27.94" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-40.64" x2="27.94" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="30.48" x2="-27.94" y2="30.48" width="0.1524" layer="94"/>
+<text x="-4.7244" y="34.5186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="31.9786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="STM32WLE5J8I6">
 <wire x1="5.08" y1="2.54" x2="48.26" y2="2.54" width="0.254" layer="94"/>
@@ -1386,9 +1386,103 @@
 <pin name="RFO_LP" x="53.34" y="-86.36" length="middle" rot="R180"/>
 <pin name="RFO_HP" x="53.34" y="-88.9" length="middle" rot="R180"/>
 </symbol>
+<symbol name="STM32WLXX_QFN48_GPIO">
+<description>STM32WLXX QFN48 Package GPIO</description>
+<pin name="PA0" x="-17.78" y="17.78" length="middle"/>
+<pin name="PA1" x="-17.78" y="15.24" length="middle"/>
+<pin name="PA2" x="-17.78" y="12.7" length="middle"/>
+<pin name="PA3" x="-17.78" y="10.16" length="middle"/>
+<pin name="PA4" x="-17.78" y="7.62" length="middle"/>
+<pin name="PA5" x="-17.78" y="5.08" length="middle"/>
+<pin name="PA6" x="-17.78" y="2.54" length="middle"/>
+<pin name="PA7" x="-17.78" y="0" length="middle"/>
+<pin name="PA8" x="-17.78" y="-2.54" length="middle"/>
+<pin name="PA9" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PA10" x="-17.78" y="-7.62" length="middle"/>
+<pin name="PA11" x="-17.78" y="-10.16" length="middle"/>
+<pin name="PA12" x="-17.78" y="-12.7" length="middle"/>
+<pin name="PA13" x="-17.78" y="-15.24" length="middle"/>
+<pin name="PA14" x="-17.78" y="-17.78" length="middle"/>
+<pin name="PA15" x="-17.78" y="-20.32" length="middle"/>
+<pin name="PC13" x="-17.78" y="-27.94" length="middle"/>
+<pin name="PB2" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="PB3" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="PB4" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PB5" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="PB6" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PB7" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PB8" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB12" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<text x="-5.08" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32WLXX_QFN48_CORE">
+<description>STM32WLXX QFN48 Package Core Supply</description>
+<pin name="VDD" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDD_2" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="VBAT" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="VSS" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32WLXX_QFN48_RF">
+<description>STM32WLXX QFN48 Package RF</description>
+<pin name="VDDRF1V55" x="-20.32" y="15.24" length="middle" direction="pwr"/>
+<pin name="VDDPA" x="-20.32" y="10.16" length="middle" direction="pwr"/>
+<pin name="VDDRF" x="-20.32" y="5.08" length="middle" direction="pwr"/>
+<pin name="PB0-VDD_TCXO" x="-20.32" y="-5.08" length="middle"/>
+<pin name="OSC_IN" x="-20.32" y="-12.7" length="middle" direction="in"/>
+<pin name="OSC_OUT" x="-20.32" y="-15.24" length="middle" direction="out"/>
+<pin name="VR_PA" x="20.32" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="RFO_HP" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="RFO_LP" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="RFI_P" x="20.32" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="RFI_N" x="20.32" y="-15.24" length="middle" direction="in" rot="R180"/>
+<wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32WLXX_QFN48_POWER">
+<description>STM32WLXX QFN48 Package LDO/SMPS</description>
+<pin name="VDDSMPS" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<pin name="VLXSMPS" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="VSSSMPS" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="VFBSMPS" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32WLXX_QFN48_OSC32">
+<pin name="PC14-OSC32_IN" x="-22.86" y="5.08" length="middle"/>
+<pin name="PC15_OSC32_OUT" x="-22.86" y="-5.08" length="middle"/>
+<pin name="PH3-BOOT0" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="NRST" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LMP2232">
+<description>Dual, Micropower, 1.6V, Precision , Operational Amplifier with CMOS Input</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="-17.78" y="12.7" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="-17.78" y="-12.7" swaplevel="1"/>
@@ -1413,7 +1507,7 @@
 </devices>
 </deviceset>
 <deviceset name="MAX9918ASA+T" prefix="U">
-<description>None </description>
+<description>-20V to +75V Input Range, Precision Uni-/Bidirectional, Current-Sense Amplifiers</description>
 <gates>
 <gate name="G$1" symbol="MAX9918ASA+T" x="0" y="0"/>
 </gates>
@@ -1444,7 +1538,7 @@
 </devices>
 </deviceset>
 <deviceset name="MAX11208BEUBT" prefix="U">
-<description> &lt;a href="https://pricing.snapeda.com/parts/MAX11208BEUB%2B/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<description>20-Bit, Single-Channel, Ultra-Low-Power, Delta-Sigma ADC with 2-Wire Serial Interface</description>
 <gates>
 <gate name="A" symbol="MAX11208BEUBT" x="0" y="0"/>
 </gates>
@@ -1477,121 +1571,66 @@
 </devices>
 </deviceset>
 <deviceset name="STM32WLE5C8U6" prefix="U">
+<description>Sub-GHz Wireless Microcontrollers. Arm Cortex-M4 @48 MHz with 64 Kbytes of Flash memory, 20 Kbytes of SRAM. LoRa, (G)FSK, (G)MSK, BPSK modulations. AES 256-bit. Multiprotocol System-on-Chip.</description>
 <gates>
-<gate name="A" symbol="STM32WLE5C8U6" x="0" y="0"/>
+<gate name="A" symbol="STM32WLXX_QFN48_CORE" x="-53.34" y="20.32"/>
+<gate name="B" symbol="STM32WLXX_QFN48_GPIO" x="0" y="20.32"/>
+<gate name="C" symbol="STM32WLXX_QFN48_OSC32" x="60.96" y="20.32"/>
+<gate name="D" symbol="STM32WLXX_QFN48_POWER" x="-43.18" y="-40.64"/>
+<gate name="E" symbol="STM32WLXX_QFN48_RF" x="60.96" y="-30.48"/>
 </gates>
 <devices>
-<device name="" package="UFQFPN48_7X7_STM">
-<connects>
-<connect gate="A" pin="NRST" pad="18"/>
-<connect gate="A" pin="OSC_IN" pad="26"/>
-<connect gate="A" pin="OSC_OUT" pad="27"/>
-<connect gate="A" pin="PA0" pad="7"/>
-<connect gate="A" pin="PA1" pad="8"/>
-<connect gate="A" pin="PA10" pad="33"/>
-<connect gate="A" pin="PA11" pad="34"/>
-<connect gate="A" pin="PA12" pad="35"/>
-<connect gate="A" pin="PA13" pad="36"/>
-<connect gate="A" pin="PA14" pad="42"/>
-<connect gate="A" pin="PA15" pad="43"/>
-<connect gate="A" pin="PA2" pad="9"/>
-<connect gate="A" pin="PA3" pad="10"/>
-<connect gate="A" pin="PA4" pad="12"/>
-<connect gate="A" pin="PA5" pad="13"/>
-<connect gate="A" pin="PA6" pad="14"/>
-<connect gate="A" pin="PA7" pad="15"/>
-<connect gate="A" pin="PA8" pad="16"/>
-<connect gate="A" pin="PA9" pad="17"/>
-<connect gate="A" pin="PB0-VDD_TCXO" pad="30"/>
-<connect gate="A" pin="PB12" pad="32"/>
-<connect gate="A" pin="PB2" pad="31"/>
-<connect gate="A" pin="PB3" pad="1"/>
-<connect gate="A" pin="PB4" pad="2"/>
-<connect gate="A" pin="PB5" pad="3"/>
-<connect gate="A" pin="PB6" pad="4"/>
-<connect gate="A" pin="PB7" pad="5"/>
-<connect gate="A" pin="PB8" pad="6"/>
-<connect gate="A" pin="PC13" pad="38"/>
-<connect gate="A" pin="PC14-OSC32_IN" pad="39"/>
-<connect gate="A" pin="PC15-OSC32_OUT" pad="40"/>
-<connect gate="A" pin="PH3-BOOT0" pad="19"/>
-<connect gate="A" pin="RFI_N" pad="21"/>
-<connect gate="A" pin="RFI_P" pad="20"/>
-<connect gate="A" pin="RFO_HP" pad="23"/>
-<connect gate="A" pin="RFO_LP" pad="22"/>
-<connect gate="A" pin="VBAT" pad="37"/>
-<connect gate="A" pin="VDD" pad="44"/>
-<connect gate="A" pin="VDDA" pad="41"/>
-<connect gate="A" pin="VDDPA" pad="25"/>
-<connect gate="A" pin="VDDRF" pad="28"/>
-<connect gate="A" pin="VDDRF1V55" pad="29"/>
-<connect gate="A" pin="VDDSMPS" pad="46"/>
-<connect gate="A" pin="VDD_2" pad="11"/>
-<connect gate="A" pin="VFBSMPS" pad="45"/>
-<connect gate="A" pin="VLXSMPS" pad="47"/>
-<connect gate="A" pin="VR_PA" pad="24"/>
-<connect gate="A" pin="VSS" pad="49"/>
-<connect gate="A" pin="VSSSMPS" pad="48"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STM32WLE5C8U6" constant="no"/>
-<attribute name="MFR_NAME" value="STMicroelectronics" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="UFQFPN48_7X7_STM-M" package="UFQFPN48_7X7_STM-M">
 <connects>
-<connect gate="A" pin="NRST" pad="18"/>
-<connect gate="A" pin="OSC_IN" pad="26"/>
-<connect gate="A" pin="OSC_OUT" pad="27"/>
-<connect gate="A" pin="PA0" pad="7"/>
-<connect gate="A" pin="PA1" pad="8"/>
-<connect gate="A" pin="PA10" pad="33"/>
-<connect gate="A" pin="PA11" pad="34"/>
-<connect gate="A" pin="PA12" pad="35"/>
-<connect gate="A" pin="PA13" pad="36"/>
-<connect gate="A" pin="PA14" pad="42"/>
-<connect gate="A" pin="PA15" pad="43"/>
-<connect gate="A" pin="PA2" pad="9"/>
-<connect gate="A" pin="PA3" pad="10"/>
-<connect gate="A" pin="PA4" pad="12"/>
-<connect gate="A" pin="PA5" pad="13"/>
-<connect gate="A" pin="PA6" pad="14"/>
-<connect gate="A" pin="PA7" pad="15"/>
-<connect gate="A" pin="PA8" pad="16"/>
-<connect gate="A" pin="PA9" pad="17"/>
-<connect gate="A" pin="PB0-VDD_TCXO" pad="30"/>
-<connect gate="A" pin="PB12" pad="32"/>
-<connect gate="A" pin="PB2" pad="31"/>
-<connect gate="A" pin="PB3" pad="1"/>
-<connect gate="A" pin="PB4" pad="2"/>
-<connect gate="A" pin="PB5" pad="3"/>
-<connect gate="A" pin="PB6" pad="4"/>
-<connect gate="A" pin="PB7" pad="5"/>
-<connect gate="A" pin="PB8" pad="6"/>
-<connect gate="A" pin="PC13" pad="38"/>
-<connect gate="A" pin="PC14-OSC32_IN" pad="39"/>
-<connect gate="A" pin="PC15-OSC32_OUT" pad="40"/>
-<connect gate="A" pin="PH3-BOOT0" pad="19"/>
-<connect gate="A" pin="RFI_N" pad="21"/>
-<connect gate="A" pin="RFI_P" pad="20"/>
-<connect gate="A" pin="RFO_HP" pad="23"/>
-<connect gate="A" pin="RFO_LP" pad="22"/>
 <connect gate="A" pin="VBAT" pad="37"/>
-<connect gate="A" pin="VDD" pad="44"/>
+<connect gate="A" pin="VDD" pad="11"/>
 <connect gate="A" pin="VDDA" pad="41"/>
-<connect gate="A" pin="VDDPA" pad="25"/>
-<connect gate="A" pin="VDDRF" pad="28"/>
-<connect gate="A" pin="VDDRF1V55" pad="29"/>
-<connect gate="A" pin="VDDSMPS" pad="46"/>
-<connect gate="A" pin="VDD_2" pad="11"/>
-<connect gate="A" pin="VFBSMPS" pad="45"/>
-<connect gate="A" pin="VLXSMPS" pad="47"/>
-<connect gate="A" pin="VR_PA" pad="24"/>
+<connect gate="A" pin="VDD_2" pad="44"/>
 <connect gate="A" pin="VSS" pad="49"/>
-<connect gate="A" pin="VSSSMPS" pad="48"/>
+<connect gate="B" pin="PA0" pad="7"/>
+<connect gate="B" pin="PA1" pad="8"/>
+<connect gate="B" pin="PA10" pad="33"/>
+<connect gate="B" pin="PA11" pad="34"/>
+<connect gate="B" pin="PA12" pad="35"/>
+<connect gate="B" pin="PA13" pad="36"/>
+<connect gate="B" pin="PA14" pad="42"/>
+<connect gate="B" pin="PA15" pad="43"/>
+<connect gate="B" pin="PA2" pad="9"/>
+<connect gate="B" pin="PA3" pad="10"/>
+<connect gate="B" pin="PA4" pad="12"/>
+<connect gate="B" pin="PA5" pad="13"/>
+<connect gate="B" pin="PA6" pad="14"/>
+<connect gate="B" pin="PA7" pad="15"/>
+<connect gate="B" pin="PA8" pad="16"/>
+<connect gate="B" pin="PA9" pad="17"/>
+<connect gate="B" pin="PB12" pad="32"/>
+<connect gate="B" pin="PB2" pad="31"/>
+<connect gate="B" pin="PB3" pad="1"/>
+<connect gate="B" pin="PB4" pad="2"/>
+<connect gate="B" pin="PB5" pad="3"/>
+<connect gate="B" pin="PB6" pad="4"/>
+<connect gate="B" pin="PB7" pad="5"/>
+<connect gate="B" pin="PB8" pad="6"/>
+<connect gate="B" pin="PC13" pad="38"/>
+<connect gate="C" pin="NRST" pad="18"/>
+<connect gate="C" pin="PC14-OSC32_IN" pad="39"/>
+<connect gate="C" pin="PC15_OSC32_OUT" pad="40"/>
+<connect gate="C" pin="PH3-BOOT0" pad="19"/>
+<connect gate="D" pin="VDDSMPS" pad="46"/>
+<connect gate="D" pin="VFBSMPS" pad="45"/>
+<connect gate="D" pin="VLXSMPS" pad="47"/>
+<connect gate="D" pin="VSSSMPS" pad="48"/>
+<connect gate="E" pin="OSC_IN" pad="26"/>
+<connect gate="E" pin="OSC_OUT" pad="27"/>
+<connect gate="E" pin="PB0-VDD_TCXO" pad="30"/>
+<connect gate="E" pin="RFI_N" pad="21"/>
+<connect gate="E" pin="RFI_P" pad="20"/>
+<connect gate="E" pin="RFO_HP" pad="23"/>
+<connect gate="E" pin="RFO_LP" pad="22"/>
+<connect gate="E" pin="VDDPA" pad="25"/>
+<connect gate="E" pin="VDDRF" pad="28"/>
+<connect gate="E" pin="VDDRF1V55" pad="29"/>
+<connect gate="E" pin="VR_PA" pad="24"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1603,55 +1642,55 @@
 </device>
 <device name="UFQFPN48_7X7_STM-L" package="UFQFPN48_7X7_STM-L">
 <connects>
-<connect gate="A" pin="NRST" pad="18"/>
-<connect gate="A" pin="OSC_IN" pad="26"/>
-<connect gate="A" pin="OSC_OUT" pad="27"/>
-<connect gate="A" pin="PA0" pad="7"/>
-<connect gate="A" pin="PA1" pad="8"/>
-<connect gate="A" pin="PA10" pad="33"/>
-<connect gate="A" pin="PA11" pad="34"/>
-<connect gate="A" pin="PA12" pad="35"/>
-<connect gate="A" pin="PA13" pad="36"/>
-<connect gate="A" pin="PA14" pad="42"/>
-<connect gate="A" pin="PA15" pad="43"/>
-<connect gate="A" pin="PA2" pad="9"/>
-<connect gate="A" pin="PA3" pad="10"/>
-<connect gate="A" pin="PA4" pad="12"/>
-<connect gate="A" pin="PA5" pad="13"/>
-<connect gate="A" pin="PA6" pad="14"/>
-<connect gate="A" pin="PA7" pad="15"/>
-<connect gate="A" pin="PA8" pad="16"/>
-<connect gate="A" pin="PA9" pad="17"/>
-<connect gate="A" pin="PB0-VDD_TCXO" pad="30"/>
-<connect gate="A" pin="PB12" pad="32"/>
-<connect gate="A" pin="PB2" pad="31"/>
-<connect gate="A" pin="PB3" pad="1"/>
-<connect gate="A" pin="PB4" pad="2"/>
-<connect gate="A" pin="PB5" pad="3"/>
-<connect gate="A" pin="PB6" pad="4"/>
-<connect gate="A" pin="PB7" pad="5"/>
-<connect gate="A" pin="PB8" pad="6"/>
-<connect gate="A" pin="PC13" pad="38"/>
-<connect gate="A" pin="PC14-OSC32_IN" pad="39"/>
-<connect gate="A" pin="PC15-OSC32_OUT" pad="40"/>
-<connect gate="A" pin="PH3-BOOT0" pad="19"/>
-<connect gate="A" pin="RFI_N" pad="21"/>
-<connect gate="A" pin="RFI_P" pad="20"/>
-<connect gate="A" pin="RFO_HP" pad="23"/>
-<connect gate="A" pin="RFO_LP" pad="22"/>
 <connect gate="A" pin="VBAT" pad="37"/>
-<connect gate="A" pin="VDD" pad="44"/>
+<connect gate="A" pin="VDD" pad="11"/>
 <connect gate="A" pin="VDDA" pad="41"/>
-<connect gate="A" pin="VDDPA" pad="25"/>
-<connect gate="A" pin="VDDRF" pad="28"/>
-<connect gate="A" pin="VDDRF1V55" pad="29"/>
-<connect gate="A" pin="VDDSMPS" pad="46"/>
-<connect gate="A" pin="VDD_2" pad="11"/>
-<connect gate="A" pin="VFBSMPS" pad="45"/>
-<connect gate="A" pin="VLXSMPS" pad="47"/>
-<connect gate="A" pin="VR_PA" pad="24"/>
+<connect gate="A" pin="VDD_2" pad="44"/>
 <connect gate="A" pin="VSS" pad="49"/>
-<connect gate="A" pin="VSSSMPS" pad="48"/>
+<connect gate="B" pin="PA0" pad="7"/>
+<connect gate="B" pin="PA1" pad="8"/>
+<connect gate="B" pin="PA10" pad="33"/>
+<connect gate="B" pin="PA11" pad="34"/>
+<connect gate="B" pin="PA12" pad="35"/>
+<connect gate="B" pin="PA13" pad="36"/>
+<connect gate="B" pin="PA14" pad="42"/>
+<connect gate="B" pin="PA15" pad="43"/>
+<connect gate="B" pin="PA2" pad="9"/>
+<connect gate="B" pin="PA3" pad="10"/>
+<connect gate="B" pin="PA4" pad="12"/>
+<connect gate="B" pin="PA5" pad="13"/>
+<connect gate="B" pin="PA6" pad="14"/>
+<connect gate="B" pin="PA7" pad="15"/>
+<connect gate="B" pin="PA8" pad="16"/>
+<connect gate="B" pin="PA9" pad="17"/>
+<connect gate="B" pin="PB12" pad="32"/>
+<connect gate="B" pin="PB2" pad="31"/>
+<connect gate="B" pin="PB3" pad="1"/>
+<connect gate="B" pin="PB4" pad="2"/>
+<connect gate="B" pin="PB5" pad="3"/>
+<connect gate="B" pin="PB6" pad="4"/>
+<connect gate="B" pin="PB7" pad="5"/>
+<connect gate="B" pin="PB8" pad="6"/>
+<connect gate="B" pin="PC13" pad="38"/>
+<connect gate="C" pin="NRST" pad="18"/>
+<connect gate="C" pin="PC14-OSC32_IN" pad="39"/>
+<connect gate="C" pin="PC15_OSC32_OUT" pad="40"/>
+<connect gate="C" pin="PH3-BOOT0" pad="19"/>
+<connect gate="D" pin="VDDSMPS" pad="46"/>
+<connect gate="D" pin="VFBSMPS" pad="45"/>
+<connect gate="D" pin="VLXSMPS" pad="47"/>
+<connect gate="D" pin="VSSSMPS" pad="48"/>
+<connect gate="E" pin="OSC_IN" pad="26"/>
+<connect gate="E" pin="OSC_OUT" pad="27"/>
+<connect gate="E" pin="PB0-VDD_TCXO" pad="30"/>
+<connect gate="E" pin="RFI_N" pad="21"/>
+<connect gate="E" pin="RFI_P" pad="20"/>
+<connect gate="E" pin="RFO_HP" pad="23"/>
+<connect gate="E" pin="RFO_LP" pad="22"/>
+<connect gate="E" pin="VDDPA" pad="25"/>
+<connect gate="E" pin="VDDRF" pad="28"/>
+<connect gate="E" pin="VDDRF1V55" pad="29"/>
+<connect gate="E" pin="VR_PA" pad="24"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1661,11 +1700,66 @@
 </technology>
 </technologies>
 </device>
+<device name="" package="UFQFPN48_7X7_STM">
+<connects>
+<connect gate="A" pin="VBAT" pad="37"/>
+<connect gate="A" pin="VDD" pad="11"/>
+<connect gate="A" pin="VDDA" pad="41"/>
+<connect gate="A" pin="VDD_2" pad="44"/>
+<connect gate="A" pin="VSS" pad="49"/>
+<connect gate="B" pin="PA0" pad="7"/>
+<connect gate="B" pin="PA1" pad="8"/>
+<connect gate="B" pin="PA10" pad="33"/>
+<connect gate="B" pin="PA11" pad="34"/>
+<connect gate="B" pin="PA12" pad="35"/>
+<connect gate="B" pin="PA13" pad="36"/>
+<connect gate="B" pin="PA14" pad="42"/>
+<connect gate="B" pin="PA15" pad="43"/>
+<connect gate="B" pin="PA2" pad="9"/>
+<connect gate="B" pin="PA3" pad="10"/>
+<connect gate="B" pin="PA4" pad="12"/>
+<connect gate="B" pin="PA5" pad="13"/>
+<connect gate="B" pin="PA6" pad="14"/>
+<connect gate="B" pin="PA7" pad="15"/>
+<connect gate="B" pin="PA8" pad="16"/>
+<connect gate="B" pin="PA9" pad="17"/>
+<connect gate="B" pin="PB12" pad="32"/>
+<connect gate="B" pin="PB2" pad="31"/>
+<connect gate="B" pin="PB3" pad="1"/>
+<connect gate="B" pin="PB4" pad="2"/>
+<connect gate="B" pin="PB5" pad="3"/>
+<connect gate="B" pin="PB6" pad="4"/>
+<connect gate="B" pin="PB7" pad="5"/>
+<connect gate="B" pin="PB8" pad="6"/>
+<connect gate="B" pin="PC13" pad="38"/>
+<connect gate="C" pin="NRST" pad="18"/>
+<connect gate="C" pin="PC14-OSC32_IN" pad="39"/>
+<connect gate="C" pin="PC15_OSC32_OUT" pad="40"/>
+<connect gate="C" pin="PH3-BOOT0" pad="19"/>
+<connect gate="D" pin="VDDSMPS" pad="46"/>
+<connect gate="D" pin="VFBSMPS" pad="45"/>
+<connect gate="D" pin="VLXSMPS" pad="47"/>
+<connect gate="D" pin="VSSSMPS" pad="48"/>
+<connect gate="E" pin="OSC_IN" pad="26"/>
+<connect gate="E" pin="OSC_OUT" pad="27"/>
+<connect gate="E" pin="PB0-VDD_TCXO" pad="30"/>
+<connect gate="E" pin="RFI_N" pad="21"/>
+<connect gate="E" pin="RFI_P" pad="20"/>
+<connect gate="E" pin="RFO_HP" pad="23"/>
+<connect gate="E" pin="RFO_LP" pad="22"/>
+<connect gate="E" pin="VDDPA" pad="25"/>
+<connect gate="E" pin="VDDRF" pad="28"/>
+<connect gate="E" pin="VDDRF1V55" pad="29"/>
+<connect gate="E" pin="VR_PA" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="STM32WLE5J8I6" prefix="IC">
-<description>&lt;b&gt;Module 802.11 960MHz 600Kbps 73-Pin UFBGA Tray&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<description>Sub-GHz Wireless Microcontrollers. Arm Cortex-M4 @48 MHz with 64 Kbytes of Flash memory, 20 Kbytes of SRAM. LoRa, (G)FSK, (G)MSK, BPSK modulations. AES 256-bit. Multiprotocol System-on-Chip.</description>
 <gates>
 <gate name="G$1" symbol="STM32WLE5J8I6" x="0" y="0"/>
 </gates>
