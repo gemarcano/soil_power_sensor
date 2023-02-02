@@ -4127,17 +4127,29 @@
 <text x="-5.1054" y="10.1346" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="TPS60403_DBV_5">
-<pin name="OUT" x="-17.78" y="2.54" length="middle" direction="out"/>
-<pin name="IN" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="CFLY-" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="GND" x="17.78" y="0" length="middle" direction="pwr" rot="R180"/>
-<pin name="CFLY+" x="17.78" y="2.54" length="middle" direction="pas" rot="R180"/>
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
-<text x="-4.7244" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="OUT" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="IN" x="-20.32" y="0" length="middle" direction="in"/>
+<pin name="CFLY-" x="5.08" y="10.16" length="middle" direction="pas" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" length="short" direction="pwr" rot="R90"/>
+<pin name="CFLY+" x="-5.08" y="10.16" length="middle" direction="pas" rot="R270"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
+<text x="13.0556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="12.4206" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="+3V3">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="-3V3">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="-3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5096,6 +5108,31 @@
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS60403DBVR" constant="no"/>
 <attribute name="MFR_NAME" value="Texas Instruments" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+3V3" prefix="+3V3">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-3V3">
+<gates>
+<gate name="A" symbol="-3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
