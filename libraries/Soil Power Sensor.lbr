@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3743,6 +3743,20 @@
 <smd name="12" x="1.435" y="1.125" dx="0.84" dy="0.25" layer="1" roundness="25"/>
 <smd name="13" x="0" y="0" dx="1.6" dy="2.5" layer="1" cream="no"/>
 </package>
+<package name="FB_MI0805K601R-10">
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1.865" y1="0.985" x2="-1.865" y2="-0.985" width="0.05" layer="39"/>
+<wire x1="-1.865" y1="-0.985" x2="1.865" y2="-0.985" width="0.05" layer="39"/>
+<wire x1="1.865" y1="-0.985" x2="1.865" y2="0.985" width="0.05" layer="39"/>
+<wire x1="1.865" y1="0.985" x2="-1.865" y2="0.985" width="0.05" layer="39"/>
+<text x="-1.865" y="1.235" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.865" y="-1.235" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
+<smd name="2" x="0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -4327,12 +4341,22 @@
 <pin name="VCC" x="15.24" y="10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="VCCIO" x="15.24" y="7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="USBDP" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="!RESET#" x="-15.24" y="10.16" length="middle" direction="in"/>
+<pin name="!RESET" x="-15.24" y="10.16" length="middle" direction="in"/>
 <pin name="TXD" x="-15.24" y="5.08" length="middle" direction="out"/>
 <pin name="RXD" x="-15.24" y="2.54" length="middle" direction="in"/>
-<pin name="RTS#" x="-15.24" y="-2.54" length="middle" direction="out"/>
-<pin name="CTS#" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="RTS" x="-15.24" y="-2.54" length="middle" direction="out"/>
+<pin name="CTS" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="CBUS0" x="-15.24" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="MI0805K601R-10">
+<text x="-7.624440625" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-7.626640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5390,12 +5414,12 @@
 <devices>
 <device name="" package="SON45P300X300X80-13N">
 <connects>
-<connect gate="G$1" pin="!RESET#" pad="2"/>
+<connect gate="G$1" pin="!RESET" pad="2"/>
 <connect gate="G$1" pin="3V3OUT" pad="3"/>
 <connect gate="G$1" pin="CBUS0" pad="6"/>
-<connect gate="G$1" pin="CTS#" pad="11"/>
+<connect gate="G$1" pin="CTS" pad="11"/>
 <connect gate="G$1" pin="GND" pad="5 13"/>
-<connect gate="G$1" pin="RTS#" pad="8"/>
+<connect gate="G$1" pin="RTS" pad="8"/>
 <connect gate="G$1" pin="RXD" pad="10"/>
 <connect gate="G$1" pin="TXD" pad="7"/>
 <connect gate="G$1" pin="USBDM" pad="1"/>
@@ -5411,6 +5435,29 @@
 <attribute name="MP" value="FT234XD-R"/>
 <attribute name="PACKAGE" value="DFN-12 FTDI"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/FT234XD-R/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MI0805K601R-10" prefix="E">
+<gates>
+<gate name="G$1" symbol="MI0805K601R-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FB_MI0805K601R-10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 600 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 1.5A 100mOhm "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-2-ND"/>
+<attribute name="MF" value="Laird-Signal Integrity Products"/>
+<attribute name="MP" value="MI0805K601R-10"/>
+<attribute name="PACKAGE" value="0805 Laird"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MI0805K601R-10/?ref=eda"/>
 </technology>
 </technologies>
 </device>
