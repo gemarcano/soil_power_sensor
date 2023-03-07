@@ -10019,6 +10019,19 @@ Source: AVX .. aphvc.pdf</description>
 <smd name="1" x="-0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
 <smd name="2" x="0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
 </package>
+<package name="AAA55">
+<smd name="P1" x="2.159" y="0" dx="4.2" dy="5.2" layer="1"/>
+<smd name="P2" x="15.113" y="0" dx="4" dy="2.4" layer="1" rot="R180"/>
+<dimension x1="0" y1="0" x2="17.018" y2="0" x3="8.509" y3="5.08" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="4.318" y1="0" x2="49.022" y2="0" x3="26.67" y3="-5.08" textsize="1.778" layer="21"/>
+<smd name="N2" x="34.036" y="0" dx="4" dy="2.4" layer="1" rot="R180"/>
+<smd name="N1" x="51.181" y="0" dx="4.2" dy="5.2" layer="1"/>
+<dimension x1="49.022" y1="0" x2="32.004" y2="0" x3="40.513" y3="5.08" textsize="1.778" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="54.61" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="54.61" y1="-3.81" x2="54.61" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="54.61" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -10185,6 +10198,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="1.27" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
 <pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
+</symbol>
+<symbol name="BATTERY">
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10732,6 +10756,23 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PACKAGE" value="0805 Laird"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MI0805K601R-10/?ref=eda"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AAA55" prefix="G">
+<description>AAA Battery Holder using Keystone 55 clips</description>
+<gates>
+<gate name="A" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AAA55">
+<connects>
+<connect gate="A" pin="+" pad="P1 P2"/>
+<connect gate="A" pin="-" pad="N1 N2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11996,6 +12037,163 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP2" urn="urn:adsk.eagle:footprint:15390/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
+<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
+<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
+<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
+<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
+</package>
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP2" urn="urn:adsk.eagle:package:15452/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP2"/>
+</packageinstances>
+</package3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JP3E" urn="urn:adsk.eagle:symbol:15389/1" library_version="2">
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
+<text x="-3.81" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="2">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP2E" urn="urn:adsk.eagle:component:15482/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="JP3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP2">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15452/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="34" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JP1E" urn="urn:adsk.eagle:component:15487/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="JP2E" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="61" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12087,7 +12285,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U2" library="Soil Power Sensor" deviceset="FT234XD-R" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
@@ -12102,7 +12299,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7u"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="E1" library="Soil Power Sensor" deviceset="MI0805K601R-10" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="G1" library="Soil Power Sensor" deviceset="AAA55" device=""/>
+<part name="G2" library="Soil Power Sensor" deviceset="AAA55" device=""/>
+<part name="G3" library="Soil Power Sensor" deviceset="AAA55" device=""/>
+<part name="G4" library="Soil Power Sensor" deviceset="AAA55" device=""/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -12607,6 +12811,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </sheet>
 <sheet>
 <plain>
+<text x="233.68" y="154.94" size="1.778" layer="94">Jumper for selecting
+input into Vcc</text>
+<text x="170.18" y="134.62" size="1.778" layer="94">4 AAA Batteries yield ~4V
+continuous discharge voltage</text>
+<text x="220.98" y="144.78" size="1.778" layer="94">Jumper allows easy bypass
+of battery terminal</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -12686,6 +12896,36 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="GND25" gate="1" x="76.2" y="45.72" smashed="yes">
 <attribute name="VALUE" x="73.66" y="43.18" size="1.778" layer="96"/>
 </instance>
+<instance part="G1" gate="A" x="203.2" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="207.01" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="207.01" y="148.59" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="G2" gate="A" x="187.96" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="191.77" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="191.77" y="148.59" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="G3" gate="A" x="177.8" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="181.61" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="181.61" y="148.59" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="G4" gate="A" x="167.64" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="171.45" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="171.45" y="148.59" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="JP1" gate="1" x="226.06" y="157.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="226.06" y="161.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="226.06" y="151.765" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="1" x="154.94" y="147.32" smashed="yes">
+<attribute name="VALUE" x="152.4" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="VCC" x="220.98" y="177.8" smashed="yes">
+<attribute name="VALUE" x="218.44" y="175.26" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP2" gate="A" x="213.36" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="213.36" y="148.59" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.36" y="141.605" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12754,6 +12994,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GND25" gate="1" pin="GND"/>
 <junction x="76.2" y="48.26"/>
 </segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="G4" gate="A" pin="-"/>
+<wire x1="154.94" y1="149.86" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -12780,6 +13026,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="U12" gate="A" pin="VIN"/>
 <wire x1="55.88" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <junction x="53.34" y="68.58"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="JP1" gate="1" pin="2"/>
+<wire x1="220.98" y1="175.26" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -12828,6 +13080,50 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="104.14" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <junction x="104.14" y="63.5"/>
 <label x="124.46" y="63.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="G1" gate="A" pin="-"/>
+<pinref part="G2" gate="A" pin="+"/>
+<wire x1="198.12" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="195.58" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<junction x="195.58" y="154.94"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="G2" gate="A" pin="-"/>
+<pinref part="G3" gate="A" pin="+"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="G3" gate="A" pin="-"/>
+<pinref part="G4" gate="A" pin="+"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="G1" gate="A" pin="+"/>
+<pinref part="JP1" gate="1" pin="3"/>
+<wire x1="208.28" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="210.82" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="147.32" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
+<junction x="210.82" y="154.94"/>
+</segment>
+</net>
+<net name="VUSB" class="0">
+<segment>
+<pinref part="JP1" gate="1" pin="1"/>
+<wire x1="223.52" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="170.18" x2="213.36" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="170.18" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
+<label x="205.74" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -12946,9 +13242,6 @@ passed from host</text>
 <instance part="GND13" gate="1" x="30.48" y="63.5" smashed="yes">
 <attribute name="VALUE" x="27.94" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="53.34" y="93.98" smashed="yes">
-<attribute name="VALUE" x="50.8" y="91.44" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U2" gate="G$1" x="205.74" y="83.82" smashed="yes" rot="R180">
 <attribute name="VALUE" x="215.9" y="95.25" size="2.54133125" layer="96" rot="R180" align="top-left"/>
 <attribute name="NAME" x="208.28" y="102.87" size="2.54441875" layer="95" rot="R180"/>
@@ -13001,9 +13294,6 @@ passed from host</text>
 <instance part="E1" gate="G$1" x="149.86" y="73.66" smashed="yes">
 <attribute name="NAME" x="147.315559375" y="78.74148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="134.61003125" y="66.033359375" size="2.54331875" layer="96"/>
-</instance>
-<instance part="P+4" gate="VCC" x="137.16" y="81.28" smashed="yes">
-<attribute name="VALUE" x="134.62" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -13213,34 +13503,6 @@ passed from host</text>
 <label x="121.92" y="149.86" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="VBUS1"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="81.28" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUS2"/>
-<wire x1="53.34" y1="88.9" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
-<junction x="53.34" y="81.28"/>
-<pinref part="J1" gate="G$1" pin="VBUS3"/>
-<wire x1="86.36" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="81.28" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
-<junction x="53.34" y="88.9"/>
-<pinref part="J1" gate="G$1" pin="VBUS4"/>
-<wire x1="86.36" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-<junction x="88.9" y="81.28"/>
-</segment>
-<segment>
-<pinref part="P+4" gate="VCC" pin="VCC"/>
-<pinref part="E1" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="78.74" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -13417,6 +13679,31 @@ passed from host</text>
 <wire x1="228.6" y1="81.28" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="76.2" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VUSB" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VBUS1"/>
+<wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="81.28" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VBUS2"/>
+<wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<junction x="53.34" y="81.28"/>
+<pinref part="J1" gate="G$1" pin="VBUS3"/>
+<wire x1="86.36" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="81.28" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VBUS4"/>
+<wire x1="86.36" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="78.74" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<junction x="88.9" y="81.28"/>
+<label x="124.46" y="88.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="88.9" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="88.9" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
+<junction x="88.9" y="88.9"/>
+<pinref part="E1" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
