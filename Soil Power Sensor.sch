@@ -12663,7 +12663,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
+<part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1" value="Voltage"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
@@ -12765,7 +12765,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="U14" library="Soil Power Sensor" deviceset="FSA2466UMX" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
+<part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1" value="Current"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="20uF"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="16uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12919,6 +12921,14 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="I" gate="-3" x="15.24" y="104.14" smashed="yes">
 <attribute name="VALUE" x="12.7" y="100.457" size="1.778" layer="96"/>
 <attribute name="NAME" x="15.24" y="105.029" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="C16" gate="G$1" x="134.62" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="135.001" y="130.556" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="129.921" y="130.556" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C17" gate="G$1" x="154.94" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="153.416" y="81.661" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="153.416" y="76.581" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -13123,10 +13133,15 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="U8" gate="A" pin="AINN"/>
 <wire x1="109.22" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="152.4" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
 <junction x="111.76" y="142.24"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<junction x="127" y="142.24"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -13134,12 +13149,17 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="U5" gate="A" pin="OUT+"/>
 <pinref part="U8" gate="A" pin="AINP"/>
 <wire x1="109.22" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="137.16" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="124.46" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 <junction x="111.76" y="137.16"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="132.08" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<junction x="139.7" y="137.16"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -13166,6 +13186,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <junction x="147.32" y="86.36"/>
 <pinref part="U9" gate="A" pin="AINP"/>
 <wire x1="160.02" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="76.2" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="73.66" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="73.66" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<junction x="160.02" y="86.36"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -13180,6 +13205,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <junction x="147.32" y="91.44"/>
 <pinref part="U9" gate="A" pin="AINN"/>
 <wire x1="154.94" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="83.82" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
+<junction x="154.94" y="91.44"/>
 </segment>
 </net>
 <net name="N$36" class="0">
