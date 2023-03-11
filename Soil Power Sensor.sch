@@ -13854,6 +13854,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14826,7 +14830,7 @@ of battery terminal</text>
 </sheet>
 <sheet>
 <plain>
-<text x="33.02" y="195.58" size="1.778" layer="94">VDD_TCXO (Pin 28) must
+<text x="10.16" y="193.04" size="1.778" layer="94">VDD_TCXO (Pin 28) must
 be left floating</text>
 <text x="86.36" y="119.38" size="1.778" layer="94">GNDs should be placed as close to components/pins as possible</text>
 <text x="111.76" y="165.1" size="1.778" layer="94">Capacitor for RST must be place as
@@ -14980,6 +14984,20 @@ passed from host</text>
 <attribute name="NAME" x="147.315559375" y="78.74148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="134.61003125" y="66.033359375" size="2.54331875" layer="96"/>
 </instance>
+<instance part="R3" gate="G$1" x="71.12" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.93" y="199.1614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.93" y="203.962" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="55.88" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.69" y="199.1614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="59.69" y="203.962" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+4" gate="VCC" x="48.26" y="205.74" smashed="yes">
+<attribute name="VALUE" x="45.72" y="203.2" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND28" gate="1" x="78.74" y="195.58" smashed="yes">
+<attribute name="VALUE" x="76.2" y="193.04" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15116,6 +15134,12 @@ passed from host</text>
 <wire x1="177.8" y1="66.04" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
 <junction x="167.64" y="63.5"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="76.2" y1="200.66" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="200.66" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15394,6 +15418,25 @@ passed from host</text>
 <pinref part="U1" gate="G$1" pin="PB14"/>
 <wire x1="66.04" y1="172.72" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
 <label x="66.04" y="175.26" size="1.016" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="PA10"/>
+<wire x1="60.96" y1="200.66" x2="63.5" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="200.66" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="200.66" x2="63.5" y2="200.66" width="0.1524" layer="91"/>
+<junction x="63.5" y="200.66"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="203.2" x2="48.26" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
