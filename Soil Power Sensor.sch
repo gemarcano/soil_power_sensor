@@ -14115,6 +14115,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SDI" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -15099,6 +15102,8 @@ USB-C connector Vcc and FT234XD-R Vcc.</text>
 passed from host</text>
 <text x="193.04" y="162.56" size="1.778" layer="94">Resistor in case NRST does
 not work as expected</text>
+<text x="124.46" y="187.96" size="1.778" layer="94">TEROS-12 Sensor has min
+supply voltage of 4V</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="68.58" y="152.4" smashed="yes">
@@ -15270,6 +15275,22 @@ not work as expected</text>
 <instance part="R13" gate="G$1" x="195.58" y="172.72" smashed="yes">
 <attribute name="NAME" x="191.77" y="174.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="191.77" y="169.418" size="1.778" layer="96"/>
+</instance>
+<instance part="GND41" gate="1" x="101.6" y="175.26" smashed="yes">
+<attribute name="VALUE" x="99.06" y="172.72" size="1.778" layer="96"/>
+</instance>
+<instance part="P+6" gate="VCC" x="101.6" y="200.66" smashed="yes">
+<attribute name="VALUE" x="99.06" y="198.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SDI" gate="-1" x="114.3" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="181.991" size="1.778" layer="95"/>
+</instance>
+<instance part="SDI" gate="-2" x="114.3" y="187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="187.071" size="1.778" layer="95"/>
+</instance>
+<instance part="SDI" gate="-3" x="114.3" y="193.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="116.84" y="196.723" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="114.3" y="192.151" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -15451,6 +15472,12 @@ not work as expected</text>
 <wire x1="238.76" y1="187.96" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="185.42" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
 <junction x="246.38" y="185.42"/>
+</segment>
+<segment>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="101.6" y1="187.96" x2="101.6" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="SDI" gate="-2" pin="KL"/>
+<wire x1="109.22" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15742,6 +15769,12 @@ not work as expected</text>
 <wire x1="246.38" y1="198.12" x2="223.52" y2="198.12" width="0.1524" layer="91"/>
 <junction x="223.52" y="198.12"/>
 </segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="101.6" y1="193.04" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="SDI" gate="-3" pin="KL"/>
+<wire x1="109.22" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PB4/CTS/JNTRST" class="0">
 <segment>
@@ -15821,6 +15854,14 @@ not work as expected</text>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="86.36" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="261.62" y="86.36" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA0"/>
+<wire x1="109.22" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="182.88" x2="73.66" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="SDI" gate="-1" pin="KL"/>
 </segment>
 </net>
 </nets>
