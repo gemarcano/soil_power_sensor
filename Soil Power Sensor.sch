@@ -14235,7 +14235,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U4" library="Soil Power Sensor" deviceset="ESP32-C3-MINI-1-N4" device=""/>
 <part name="U13" library="Soil Power Sensor" deviceset="TLV1117LV33DCYR" device=""/>
@@ -14947,7 +14946,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <plain>
 <text x="233.68" y="154.94" size="1.778" layer="94">Jumper for selecting
 input into Vcc</text>
-<text x="170.18" y="134.62" size="1.778" layer="94">4 AAA Batteries yield ~4V
+<text x="170.18" y="139.7" size="1.778" layer="94">4 AAA Batteries yield ~4V
 continuous discharge voltage</text>
 <text x="220.98" y="144.78" size="1.778" layer="94">Jumper allows easy bypass
 of battery terminal</text>
@@ -15030,35 +15029,31 @@ of battery terminal</text>
 <instance part="GND25" gate="1" x="76.2" y="45.72" smashed="yes">
 <attribute name="VALUE" x="73.66" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="G1" gate="A" x="203.2" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="207.01" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="207.01" y="148.59" size="1.778" layer="96" rot="MR0"/>
+<instance part="G1" gate="A" x="200.66" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="204.47" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="204.47" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="G2" gate="A" x="187.96" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="191.77" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="191.77" y="148.59" size="1.778" layer="96" rot="MR0"/>
+<instance part="G2" gate="A" x="190.5" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="194.31" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="194.31" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="G3" gate="A" x="177.8" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="181.61" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="181.61" y="148.59" size="1.778" layer="96" rot="MR0"/>
+<instance part="G3" gate="A" x="180.34" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="184.15" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="184.15" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="G4" gate="A" x="167.64" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="171.45" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="171.45" y="148.59" size="1.778" layer="96" rot="MR0"/>
+<instance part="G4" gate="A" x="170.18" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="173.99" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="173.99" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP1" gate="1" x="226.06" y="157.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="226.06" y="161.29" size="1.778" layer="95"/>
 <attribute name="VALUE" x="226.06" y="151.765" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="154.94" y="147.32" smashed="yes">
-<attribute name="VALUE" x="152.4" y="144.78" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="157.48" y="147.32" smashed="yes">
+<attribute name="VALUE" x="154.94" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="VCC" x="220.98" y="177.8" smashed="yes">
 <attribute name="VALUE" x="218.44" y="175.26" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="JP2" gate="A" x="213.36" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="213.36" y="148.59" size="1.778" layer="95"/>
-<attribute name="VALUE" x="213.36" y="141.605" size="1.778" layer="96"/>
 </instance>
 <instance part="TP1" gate="G$1" x="114.3" y="177.8" smashed="yes">
 <attribute name="NAME" x="113.03" y="179.07" size="1.778" layer="95"/>
@@ -15155,8 +15150,8 @@ of battery terminal</text>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="G4" gate="A" pin="-"/>
-<wire x1="154.94" y1="149.86" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="149.86" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15261,12 +15256,6 @@ of battery terminal</text>
 <segment>
 <pinref part="G1" gate="A" pin="-"/>
 <pinref part="G2" gate="A" pin="+"/>
-<wire x1="198.12" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="195.58" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="154.94" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
-<junction x="195.58" y="154.94"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -15285,11 +15274,7 @@ of battery terminal</text>
 <segment>
 <pinref part="G1" gate="A" pin="+"/>
 <pinref part="JP1" gate="1" pin="3"/>
-<wire x1="208.28" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="210.82" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="147.32" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
-<junction x="210.82" y="154.94"/>
+<wire x1="205.74" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
