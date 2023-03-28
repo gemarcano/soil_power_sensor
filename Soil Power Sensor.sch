@@ -14303,6 +14303,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="JP8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16200,6 +16202,13 @@ LDO can supply max 1A</text>
 <instance part="GND40" gate="1" x="68.58" y="25.4" smashed="yes">
 <attribute name="VALUE" x="66.04" y="22.86" size="1.778" layer="96"/>
 </instance>
+<instance part="JP2" gate="1" x="91.44" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="181.61" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="191.135" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+7" gate="VCC" x="99.06" y="193.04" smashed="yes">
+<attribute name="VALUE" x="96.52" y="190.5" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16300,16 +16309,6 @@ LDO can supply max 1A</text>
 <wire x1="68.58" y1="35.56" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="35.56"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="VUSB" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="IN"/>
-<label x="109.22" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="121.92" y1="185.42" x2="116.84" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="185.42" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
-<junction x="116.84" y="185.42"/>
 </segment>
 </net>
 <net name="VUSB_3V3" class="0">
@@ -16525,6 +16524,31 @@ LDO can supply max 1A</text>
 <wire x1="78.74" y1="124.46" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
 <label x="68.58" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="IN"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="185.42" x2="116.84" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="1" pin="2"/>
+<wire x1="93.98" y1="185.42" x2="116.84" y2="185.42" width="0.1524" layer="91"/>
+<junction x="116.84" y="185.42"/>
+</segment>
+</net>
+<net name="VUSB" class="0">
+<segment>
+<pinref part="JP2" gate="1" pin="1"/>
+<wire x1="93.98" y1="182.88" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
+<label x="96.52" y="182.88" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="JP2" gate="1" pin="3"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+<wire x1="93.98" y1="187.96" x2="99.06" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="187.96" x2="99.06" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
