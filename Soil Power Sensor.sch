@@ -12496,6 +12496,46 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
+<package name="JP3Q" urn="urn:adsk.eagle:footprint:15393/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-2.159" x2="-3.81" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="2.54" x2="-1.27" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.159" x2="-0.889" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="2.54" x2="0.889" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.159" x2="0.889" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.159" x2="1.651" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="2.54" x2="3.429" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="2.159" x2="3.429" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="2.159" x2="3.81" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-2.54" x2="3.81" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-2.54" x2="1.651" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-2.159" x2="1.651" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-2.159" x2="0.889" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.159" x2="-0.889" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.159" x2="-1.651" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="2.159" x2="-3.429" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="2.54" x2="-1.651" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-2.159" x2="-3.429" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-2.54" x2="-1.651" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<text x="-3.048" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-0.508" y="-4.191" size="1.27" layer="21" ratio="10">2</text>
+<text x="2.032" y="-4.191" size="1.27" layer="21" ratio="10">3</text>
+<text x="-3.429" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.429" y="-5.842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="0.9652" x2="-2.2352" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="2.2352" y1="0.9652" x2="2.8448" y2="1.5748" layer="51"/>
+<rectangle x1="-2.8448" y1="-1.5748" x2="-2.2352" y2="-0.9652" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+<rectangle x1="2.2352" y1="-1.5748" x2="2.8448" y2="-0.9652" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="JP2" urn="urn:adsk.eagle:package:15452/1" type="box" library_version="2">
@@ -12508,6 +12548,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <description>JUMPER</description>
 <packageinstances>
 <packageinstance name="JP1"/>
+</packageinstances>
+</package3d>
+<package3d name="JP3Q" urn="urn:adsk.eagle:package:15460/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP3Q"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -12585,6 +12631,34 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="61" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JP3QE" urn="urn:adsk.eagle:component:15491/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="JP2E" x="-7.62" y="0" addlevel="always"/>
+<gate name="-2" symbol="JP2E" x="2.54" y="0" addlevel="always"/>
+<gate name="-3" symbol="JP2E" x="12.7" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="JP3Q">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-2" pin="1" pad="3"/>
+<connect gate="-2" pin="2" pad="4"/>
+<connect gate="-3" pin="1" pad="5"/>
+<connect gate="-3" pin="2" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15460/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14302,9 +14376,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="JP8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="JP9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14472,15 +14547,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="92.71" y="100.33" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="95.25" y="97.79" size="1.778" layer="97"/>
 </instance>
-<instance part="GND" gate="-1" x="15.24" y="55.88" smashed="yes">
-<attribute name="NAME" x="15.24" y="56.769" size="1.778" layer="95" rot="R180"/>
+<instance part="GND" gate="-1" x="15.24" y="45.72" smashed="yes">
+<attribute name="NAME" x="15.24" y="46.609" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND" gate="-2" x="15.24" y="50.8" smashed="yes">
-<attribute name="VALUE" x="12.7" y="47.117" size="1.778" layer="96"/>
-<attribute name="NAME" x="15.24" y="51.689" size="1.778" layer="95" rot="R180"/>
+<instance part="GND" gate="-2" x="15.24" y="40.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="36.957" size="1.778" layer="96"/>
+<attribute name="NAME" x="15.24" y="41.529" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND42" gate="1" x="22.86" y="45.72" smashed="yes">
-<attribute name="VALUE" x="20.32" y="43.18" size="1.778" layer="96"/>
+<instance part="GND42" gate="1" x="22.86" y="35.56" smashed="yes">
+<attribute name="VALUE" x="20.32" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="JP3" gate="A" x="15.24" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.59" y="75.565" size="1.778" layer="95" rot="R180"/>
@@ -14500,9 +14575,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="12.7" y="92.837" size="1.778" layer="96"/>
 <attribute name="NAME" x="15.24" y="97.409" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="JP8" gate="A" x="27.94" y="121.92" smashed="yes" rot="MR270">
-<attribute name="NAME" x="27.94" y="123.19" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="27.94" y="116.205" size="1.778" layer="96" rot="MR0"/>
+<instance part="JP9" gate="-1" x="27.94" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.94" y="125.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="27.94" y="132.715" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP9" gate="-2" x="27.94" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.94" y="115.57" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="27.94" y="122.555" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP9" gate="-3" x="30.48" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.48" y="67.31" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="30.48" y="74.295" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND26" gate="1" x="35.56" y="63.5" smashed="yes">
+<attribute name="VALUE" x="33.02" y="60.96" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14634,12 +14720,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="GND" gate="-2" pin="KL"/>
 <pinref part="GND42" gate="1" pin="GND"/>
-<wire x1="20.32" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND" gate="-1" pin="KL"/>
-<wire x1="22.86" y1="50.8" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
-<junction x="22.86" y="50.8"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<junction x="22.86" y="40.64"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="-3" pin="1"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="REF+3V3" class="0">
@@ -14890,9 +14982,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="I" gate="-1" pin="KL"/>
 <wire x1="20.32" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <junction x="33.02" y="106.68"/>
-<pinref part="JP8" gate="A" pin="2"/>
-<wire x1="30.48" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="119.38" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="127" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="-1" pin="1"/>
+<wire x1="30.48" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -14923,11 +15015,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U3" gate="A" pin="+IN"/>
 <pinref part="V" gate="-1" pin="KL"/>
 <wire x1="48.26" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="A" pin="1"/>
 <wire x1="33.02" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="121.92" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="129.54" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="154.94"/>
+<pinref part="JP9" gate="-1" pin="2"/>
+<wire x1="30.48" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -14936,10 +15028,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="48.26" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="V" gate="-2" pin="KL"/>
 <wire x1="20.32" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="17.78" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="78.74" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <junction x="40.64" y="137.16"/>
+<wire x1="40.64" y1="119.38" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="-2" pin="2"/>
+<wire x1="30.48" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="-3" pin="2"/>
+<wire x1="33.02" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="71.12" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<junction x="35.56" y="78.74"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="17.78" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="-2" pin="1"/>
+<wire x1="30.48" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="116.84" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
