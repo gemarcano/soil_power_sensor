@@ -9950,20 +9950,6 @@ Source: AVX .. aphvc.pdf</description>
 <smd name="12" x="1.435" y="1.125" dx="0.84" dy="0.25" layer="1" roundness="25"/>
 <smd name="13" x="0" y="0" dx="1.6" dy="2.5" layer="1" cream="no"/>
 </package>
-<package name="FB_MI0805K601R-10">
-<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1.865" y1="0.985" x2="-1.865" y2="-0.985" width="0.05" layer="39"/>
-<wire x1="-1.865" y1="-0.985" x2="1.865" y2="-0.985" width="0.05" layer="39"/>
-<wire x1="1.865" y1="-0.985" x2="1.865" y2="0.985" width="0.05" layer="39"/>
-<wire x1="1.865" y1="0.985" x2="-1.865" y2="0.985" width="0.05" layer="39"/>
-<text x="-1.865" y="1.235" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.865" y="-1.235" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
-<smd name="2" x="0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
-</package>
 <package name="AAA55">
 <smd name="P1" x="2.159" y="0" dx="4.2" dy="5.2" layer="1"/>
 <smd name="P2" x="15.113" y="0" dx="4" dy="2.4" layer="1" rot="R180"/>
@@ -10146,6 +10132,39 @@ Source: AVX .. aphvc.pdf</description>
 <smd name="15" x="-0.2" y="1.25" dx="0.81" dy="0.22" layer="1" rot="R270"/>
 <smd name="16" x="-0.6" y="1.25" dx="0.81" dy="0.22" layer="1" rot="R270"/>
 </package>
+<package name="SOT65P210X110-3N">
+<description>&lt;b&gt;SC70 (3)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0.65" dx="1.2" dy="0.4" layer="1"/>
+<smd name="2" x="-0.95" y="-0.65" dx="1.2" dy="0.4" layer="1"/>
+<smd name="3" x="0.95" y="0" dx="1.2" dy="0.4" layer="1"/>
+<text x="0" y="-2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.8" y1="1.325" x2="1.8" y2="1.325" width="0.05" layer="51"/>
+<wire x1="1.8" y1="1.325" x2="1.8" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="1.8" y1="-1.325" x2="-1.8" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="-1.8" y1="-1.325" x2="-1.8" y2="1.325" width="0.05" layer="51"/>
+<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.1" layer="51"/>
+<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.1" layer="51"/>
+<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="0.35" x2="0.025" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="1.1" x2="-0.35" y2="1.1" width="0.2" layer="21"/>
+</package>
+<package name="FB_MI0805K601R-10">
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1.865" y1="0.985" x2="-1.865" y2="-0.985" width="0.05" layer="39"/>
+<wire x1="-1.865" y1="-0.985" x2="1.865" y2="-0.985" width="0.05" layer="39"/>
+<wire x1="1.865" y1="-0.985" x2="1.865" y2="0.985" width="0.05" layer="39"/>
+<wire x1="1.865" y1="0.985" x2="-1.865" y2="0.985" width="0.05" layer="39"/>
+<text x="-1.865" y="1.235" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.865" y="-1.235" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
+<smd name="2" x="0.973" y="0" dx="1.285" dy="1.47" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -10303,16 +10322,6 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="CTS" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="CBUS0" x="-15.24" y="-7.62" length="middle"/>
 </symbol>
-<symbol name="MI0805K601R-10">
-<text x="-7.624440625" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
-<text x="-7.62996875" y="-7.626640625" size="2.54331875" layer="96">&gt;VALUE</text>
-<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
-</symbol>
 <symbol name="BATTERY">
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
@@ -10423,6 +10432,27 @@ Source: AVX .. aphvc.pdf</description>
 <text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 <text x="78.74" y="7.62" size="2.54" layer="94">&gt;REVISION</text>
 <text x="1.27" y="6.604" size="2.54" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="TPD2E2U06DCKR">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-3.81" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-3.81" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IO1" x="-12.7" y="0" length="middle"/>
+<pin name="IO2" x="-12.7" y="-2.54" length="middle"/>
+<pin name="GND" x="12.7" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MI0805K601R-10">
+<text x="-7.624440625" y="5.08148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-7.626640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10951,29 +10981,6 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MI0805K601R-10" prefix="E">
-<gates>
-<gate name="G$1" symbol="MI0805K601R-10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FB_MI0805K601R-10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" 600 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 1.5A 100mOhm "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-2-ND"/>
-<attribute name="MF" value="Laird-Signal Integrity Products"/>
-<attribute name="MP" value="MI0805K601R-10"/>
-<attribute name="PACKAGE" value="0805 Laird"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MI0805K601R-10/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AAA55" prefix="G">
 <description>AAA Battery Holder using Keystone 55 clips</description>
 <gates>
@@ -11102,6 +11109,55 @@ Dual DPDT Analog Switch</description>
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPD2E2U06DCKR" prefix="IC">
+<description>&lt;b&gt;ESD Suppressors / TVS Diodes&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPD2E2U06DCKR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P210X110-3N">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IO1" pad="1"/>
+<connect gate="G$1" pin="IO2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPD2E2U06DCKR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPD2E2U06DCKR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2E2U06DCKR?qs=xZ%2FP%252Ba9zWqa9UMTS1HgCWA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MI0805K601R-10" prefix="E">
+<gates>
+<gate name="G$1" symbol="MI0805K601R-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FB_MI0805K601R-10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 600 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 1.5A 100mOhm "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-2-ND"/>
+<attribute name="MF" value="Laird-Signal Integrity Products"/>
+<attribute name="MP" value="MI0805K601R-10"/>
+<attribute name="PACKAGE" value="0805 Laird"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MI0805K601R-10/?ref=eda"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14292,7 +14348,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7u"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="E1" library="Soil Power Sensor" deviceset="MI0805K601R-10" device=""/>
 <part name="G1" library="Soil Power Sensor" deviceset="AAA55" device=""/>
 <part name="G2" library="Soil Power Sensor" deviceset="AAA55" device=""/>
 <part name="G3" library="Soil Power Sensor" deviceset="AAA55" device=""/>
@@ -14374,6 +14429,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="FRAME2" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="Power Sources, Regulators, and References"/>
 <part name="FRAME3" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="STM32 and Digital Components"/>
 <part name="FRAME4" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="WiFi and Bluetooth Module"/>
+<part name="IC1" library="Soil Power Sensor" deviceset="TPD2E2U06DCKR" device=""/>
+<part name="E1" library="Soil Power Sensor" deviceset="MI0805K601R-10" device=""/>
+<part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15398,10 +15456,11 @@ of battery terminal</text>
 <plain>
 <text x="10.16" y="193.04" size="1.778" layer="94">VDD_TCXO (Pin 28) must
 be left floating</text>
-<text x="86.36" y="119.38" size="1.778" layer="94">GNDs should be placed as close to components/pins as possible</text>
+<text x="73.66" y="116.84" size="1.778" layer="94">GNDs should be placed as close to
+components/pins as possible</text>
 <text x="111.76" y="165.1" size="1.778" layer="94">Capacitor for RST must be place as
 close as possible to the pin</text>
-<text x="182.88" y="109.22" size="1.778" layer="94">0 Ohm resistors used for debugging</text>
+<text x="220.98" y="104.14" size="1.778" layer="94">0 Ohm resistors used for debugging</text>
 <text x="124.46" y="45.72" size="1.778" layer="94">Ferite core placed somewhere between 
 USB-C connector Vcc and FT234XD-R Vcc.</text>
 <text x="12.7" y="76.2" size="1.778" layer="94">5.1k resistors allow for 5V to be
@@ -15544,10 +15603,6 @@ supply voltage of 4V</text>
 <instance part="GND16" gate="1" x="162.56" y="58.42" smashed="yes">
 <attribute name="VALUE" x="160.02" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="E1" gate="G$1" x="144.78" y="73.66" smashed="yes">
-<attribute name="NAME" x="142.235559375" y="78.74148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="129.53003125" y="66.033359375" size="2.54331875" layer="96"/>
-</instance>
 <instance part="R3" gate="G$1" x="71.12" y="200.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.93" y="199.1614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="74.93" y="203.962" size="1.778" layer="96" rot="R180"/>
@@ -15599,6 +15654,17 @@ supply voltage of 4V</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REVISION" x="251.46" y="7.62" size="2.54" layer="94"/>
 <attribute name="VALUE" x="173.99" y="6.604" size="2.54" layer="94"/>
+</instance>
+<instance part="IC1" gate="G$1" x="172.72" y="114.3" smashed="yes">
+<attribute name="NAME" x="168.91" y="121.92" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="168.91" y="119.38" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="E1" gate="G$1" x="106.68" y="88.9" smashed="yes">
+<attribute name="NAME" x="104.135559375" y="99.06148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="93.97003125" y="93.973359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="GND43" gate="1" x="187.96" y="109.22" smashed="yes">
+<attribute name="VALUE" x="185.42" y="106.68" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15787,6 +15853,12 @@ supply voltage of 4V</text>
 <pinref part="SDI" gate="-2" pin="KL"/>
 <wire x1="109.22" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -15924,8 +15996,13 @@ supply voltage of 4V</text>
 <net name="D+" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="160.02" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IO1"/>
+<wire x1="160.02" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="114.3" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<junction x="152.4" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="D+1"/>
@@ -15941,8 +16018,13 @@ supply voltage of 4V</text>
 <net name="D-" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="160.02" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IO2"/>
+<wire x1="157.48" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="111.76" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="157.48" y="83.82"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="D-2"/>
@@ -15975,14 +16057,16 @@ supply voltage of 4V</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="152.4" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <junction x="162.56" y="73.66"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <junction x="172.72" y="73.66"/>
+<wire x1="114.3" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -16011,12 +16095,10 @@ supply voltage of 4V</text>
 <wire x1="86.36" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="78.74" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <junction x="88.9" y="81.28"/>
-<label x="119.38" y="88.9" size="1.778" layer="95" xref="yes"/>
-<wire x1="88.9" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="88.9" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <junction x="88.9" y="88.9"/>
+<wire x1="88.9" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<label x="53.34" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESP32_TXD0" class="0">
