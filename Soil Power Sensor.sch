@@ -188,61 +188,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:13882/1" library_version="1">
-<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME_A_L" urn="urn:adsk.eagle:component:13939/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -10445,6 +10390,40 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
+<symbol name="FRAME_A_L">
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="77.47" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="15.24" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="78.74" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="78.74" y="7.62" size="2.54" layer="94">&gt;REVISION</text>
+<text x="1.27" y="6.604" size="2.54" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX9944ATA+T" prefix="U">
@@ -11107,6 +11086,20 @@ Dual DPDT Analog Switch</description>
 <connect gate="C" pin="GND" pad="6"/>
 <connect gate="C" pin="VCC" pad="14"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_A_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14209,6 +14202,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </library>
 </libraries>
 <attributes>
+<attribute name="REVISION" value="2.0.0-a.2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -14217,7 +14211,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U3" library="Soil Power Sensor" deviceset="MAX9944ATA+T" device=""/>
 <part name="U5" library="Soil Power Sensor" deviceset="LTC6362CDDPBF" device=""/>
 <part name="U6" library="Soil Power Sensor" deviceset="LTC6362CDDPBF" device=""/>
@@ -14262,9 +14255,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U1" library="LORA-E5_Eagle_Library" deviceset="MODULE_LORA_E5" device=""/>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="Soil Power Sensor" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7u"/>
@@ -14309,7 +14300,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="U4" library="Soil Power Sensor" deviceset="ESP32-C3-MINI-1-N4" device=""/>
 <part name="U13" library="Soil Power Sensor" deviceset="TLV1117LV33DCYR" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14380,6 +14370,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="JP9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="FRAME1" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="Analog Sensing Circuit"/>
+<part name="FRAME2" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="Power Sources, Regulators, and References"/>
+<part name="FRAME3" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="STM32 and Digital Components"/>
+<part name="FRAME4" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="WiFi and Bluetooth Module"/>
 </parts>
 <sheets>
 <sheet>
@@ -14389,12 +14383,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="114.3" y="58.42" size="1.778" layer="94">G=25</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="8.89" size="2.54" layer="94"/>
-</instance>
 <instance part="U3" gate="A" x="53.34" y="152.4" smashed="yes">
 <attribute name="NAME" x="50.8" y="158.75" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.61" y="156.21" size="1.778" layer="96"/>
@@ -14467,9 +14455,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="102.87" y="67.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.87" y="62.738" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="33.02" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.5214" y="99.06" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.322" y="97.79" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="27.94" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.4414" y="99.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="31.242" y="97.79" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U3" gate="C" x="53.34" y="182.88" smashed="yes">
 <attribute name="NAME" x="49.53" y="182.118" size="1.778" layer="95"/>
@@ -14557,38 +14545,46 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND42" gate="1" x="22.86" y="35.56" smashed="yes">
 <attribute name="VALUE" x="20.32" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="A" x="15.24" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="75.565" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="21.59" y="88.9" size="1.778" layer="96" rot="R180"/>
+<instance part="JP3" gate="A" x="12.7" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.05" y="75.565" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="88.9" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="V" gate="-1" x="15.24" y="154.94" smashed="yes">
-<attribute name="NAME" x="15.24" y="155.829" size="1.778" layer="95" rot="R180"/>
+<instance part="V" gate="-1" x="12.7" y="154.94" smashed="yes">
+<attribute name="NAME" x="12.7" y="155.829" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="V" gate="-2" x="15.24" y="137.16" smashed="yes">
-<attribute name="VALUE" x="12.7" y="133.477" size="1.778" layer="96"/>
-<attribute name="NAME" x="15.24" y="138.049" size="1.778" layer="95" rot="R180"/>
+<instance part="V" gate="-2" x="12.7" y="137.16" smashed="yes">
+<attribute name="VALUE" x="10.16" y="133.477" size="1.778" layer="96"/>
+<attribute name="NAME" x="12.7" y="138.049" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="I" gate="-1" x="15.24" y="106.68" smashed="yes">
-<attribute name="NAME" x="15.24" y="107.569" size="1.778" layer="95" rot="R180"/>
+<instance part="I" gate="-1" x="12.7" y="106.68" smashed="yes">
+<attribute name="NAME" x="12.7" y="107.569" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="I" gate="-2" x="15.24" y="96.52" smashed="yes">
-<attribute name="VALUE" x="12.7" y="92.837" size="1.778" layer="96"/>
-<attribute name="NAME" x="15.24" y="97.409" size="1.778" layer="95" rot="R180"/>
+<instance part="I" gate="-2" x="12.7" y="96.52" smashed="yes">
+<attribute name="VALUE" x="10.16" y="92.837" size="1.778" layer="96"/>
+<attribute name="NAME" x="12.7" y="97.409" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="JP9" gate="-1" x="27.94" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="125.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="27.94" y="132.715" size="1.778" layer="96" rot="R180"/>
+<instance part="JP9" gate="-1" x="22.86" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="125.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="22.86" y="132.715" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP9" gate="-2" x="27.94" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="115.57" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="27.94" y="122.555" size="1.778" layer="96" rot="R180"/>
+<instance part="JP9" gate="-2" x="35.56" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.56" y="115.57" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="35.56" y="122.555" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP9" gate="-3" x="30.48" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.48" y="67.31" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="30.48" y="74.295" size="1.778" layer="96" rot="R180"/>
+<instance part="JP9" gate="-3" x="25.4" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.4" y="67.31" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="74.295" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND26" gate="1" x="35.56" y="63.5" smashed="yes">
-<attribute name="VALUE" x="33.02" y="60.96" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="30.48" y="63.5" smashed="yes">
+<attribute name="VALUE" x="27.94" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REVISION" x="251.46" y="7.62" size="2.54" layer="94"/>
+<attribute name="VALUE" x="173.99" y="6.604" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -14730,8 +14726,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="JP9" gate="-3" pin="1"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="68.58" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="REF+3V3" class="0">
@@ -14897,14 +14893,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="N$38" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="IN-"/>
-<wire x1="33.02" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<junction x="33.02" y="96.52"/>
+<junction x="27.94" y="96.52"/>
 <pinref part="I" gate="-2" pin="KL"/>
-<wire x1="20.32" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="3"/>
-<wire x1="17.78" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="83.82" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="83.82" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-3V3" class="0">
@@ -14978,13 +14974,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U7" gate="A" pin="IN+"/>
 <wire x1="48.26" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="I" gate="-1" pin="KL"/>
-<wire x1="20.32" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
-<junction x="33.02" y="106.68"/>
-<wire x1="33.02" y1="127" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="27.94" y="106.68"/>
+<wire x1="27.94" y1="127" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="-1" pin="1"/>
-<wire x1="30.48" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -15014,12 +15010,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U3" gate="A" pin="+IN"/>
 <pinref part="V" gate="-1" pin="KL"/>
-<wire x1="48.26" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="129.54" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<junction x="33.02" y="154.94"/>
+<wire x1="48.26" y1="154.94" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="154.94" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="129.54" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
+<junction x="27.94" y="154.94"/>
 <pinref part="JP9" gate="-1" pin="2"/>
-<wire x1="30.48" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -15027,24 +15023,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U3" gate="B" pin="+IN"/>
 <wire x1="48.26" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="V" gate="-2" pin="KL"/>
-<wire x1="20.32" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <junction x="40.64" y="137.16"/>
 <wire x1="40.64" y1="119.38" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="-2" pin="2"/>
-<wire x1="30.48" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="-3" pin="2"/>
-<wire x1="33.02" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="71.12" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
-<junction x="35.56" y="78.74"/>
+<wire x1="27.94" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="71.12" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
+<junction x="30.48" y="78.74"/>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="17.78" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="-2" pin="1"/>
-<wire x1="30.48" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="116.84" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15060,12 +15056,6 @@ continuous discharge voltage</text>
 of battery terminal</text>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U10" gate="A" x="76.2" y="116.84" smashed="yes">
 <attribute name="NAME" x="70.9676" y="129.5146" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="71.0946" y="126.9746" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -15182,6 +15172,14 @@ of battery terminal</text>
 <instance part="TP5" gate="G$1" x="231.14" y="177.8" smashed="yes">
 <attribute name="NAME" x="229.87" y="179.07" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="232.41" y="176.53" size="1.778" layer="97"/>
+</instance>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REVISION" x="251.46" y="7.62" size="2.54" layer="94"/>
+<attribute name="VALUE" x="173.99" y="6.604" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -15418,12 +15416,6 @@ supply voltage of 4V</text>
 <attribute name="NAME" x="52.07" y="170.18" size="1.27" layer="95" ratio="12"/>
 <attribute name="VALUE" x="52.07" y="168.91" size="1.27" layer="96" ratio="12"/>
 </instance>
-<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="GND1" gate="1" x="76.2" y="127" smashed="yes">
 <attribute name="VALUE" x="73.66" y="124.46" size="1.778" layer="96"/>
 </instance>
@@ -15599,6 +15591,14 @@ supply voltage of 4V</text>
 <instance part="SDI" gate="-3" x="114.3" y="193.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="116.84" y="196.723" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="114.3" y="192.151" size="1.778" layer="95"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REVISION" x="251.46" y="7.62" size="2.54" layer="94"/>
+<attribute name="VALUE" x="173.99" y="6.604" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -16186,12 +16186,6 @@ RC delay on EN pin</text>
 LDO can supply max 1A</text>
 </plain>
 <instances>
-<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME4" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U4" gate="G$1" x="139.7" y="99.06" smashed="yes">
 <attribute name="NAME" x="127" y="117.856" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="76.2" size="1.778" layer="96"/>
@@ -16314,6 +16308,14 @@ LDO can supply max 1A</text>
 </instance>
 <instance part="P+7" gate="VCC" x="99.06" y="193.04" smashed="yes">
 <attribute name="VALUE" x="96.52" y="190.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME4" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REVISION" x="251.46" y="7.62" size="2.54" layer="94"/>
+<attribute name="VALUE" x="173.99" y="6.604" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
