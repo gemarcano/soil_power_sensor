@@ -14,6 +14,8 @@ The following table outlines the attributes that must be defined for every part 
 | DATE_CREATED | Date the device was created in `YYYY-MM-DD` format |
 | DATE_MODIFIED | Date the device was last modified in `YYYY-MM-DD` format |
 
+Inspired by stack overflow [post](https://electronics.stackexchange.com/a/38898) of attributes used at *Embed Inc*.
+
 ### Additional Notes on Attributes
 
 #### QTY
