@@ -2,17 +2,17 @@
 
 ## Eagle Library Attributes
 
-The following table outlines the attributes that must be defined for every part that has a part placed on the PCB. Parts such as power rails that are only used in the schematic do not need to follow the convention. The order of attributes in Eagle must follow the order of attributes shown in the table to ensure continuity.
+The following table outlines the attributes that must be defined for every part that has a part placed on the PCB. Parts such as power rails that are only used in the schematic do not need to follow the convention.
 
 | Attribute | Description |
 |-----------|-------------|
 | MFC | Manufacturer |
 | MPN | Manufacture's Part Number |
+| REF | Link to part specifications |
 | QTY | Quantity of parts required to construct device |
 | AUTHOR | Author of the device in `Name <email>` format |
 | DATE_CREATED | Date the device was created in `YYYY-MM-DD` format |
 | DATE_MODIFIED | Date the device was last modified in `YYYY-MM-DD` format |
-| REF | Link to part specifications |
 
 Inspired by stack overflow [post](https://electronics.stackexchange.com/a/38898) of attributes used at *Embed Inc*.
 
