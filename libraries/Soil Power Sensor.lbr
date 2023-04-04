@@ -6038,8 +6038,8 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 </deviceset>
 <deviceset name="THS4532IPW" prefix="U">
 <gates>
-<gate name="A" symbol="OPAMP_DIFF_OCM_PD" x="7.62" y="17.78"/>
-<gate name="B" symbol="OPAMP_DIFF_OCM_PD" x="7.62" y="-17.78"/>
+<gate name="A" symbol="OPAMP_DIFF_OCM_PD" x="7.62" y="17.78" swaplevel="1"/>
+<gate name="B" symbol="OPAMP_DIFF_OCM_PD" x="7.62" y="-17.78" swaplevel="1"/>
 <gate name="C" symbol="V+V-" x="38.1" y="0"/>
 </gates>
 <devices>
