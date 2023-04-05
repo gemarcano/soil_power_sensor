@@ -5327,6 +5327,7 @@
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="20" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293B1IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -5336,6 +5337,7 @@
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="50" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293B2IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -5345,6 +5347,7 @@
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="100" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293B3IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -5354,6 +5357,7 @@
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="200" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293B4IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -5363,6 +5367,7 @@
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="500" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293B5IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -6007,6 +6012,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="20" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293A1IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -6016,6 +6022,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="50" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293A2IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -6025,6 +6032,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="100" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293A3IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -6034,6 +6042,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="200" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293A4IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
@@ -6043,6 +6052,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/TPD2E2U06"&gt; Datasheet &lt;/a&g
 <attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
 <attribute name="GAIN" value="500" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="INA293A5IDBVR" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
 <attribute name="REF" value="https://www.ti.com/product/INA293" constant="no"/>
 </technology>
