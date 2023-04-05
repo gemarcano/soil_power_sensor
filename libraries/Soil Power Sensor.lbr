@@ -4946,6 +4946,7 @@
 <attribute name="MFC" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="ESDALC6V1-1U2" constant="no"/>
 <attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.st.com/en/protections-and-emi-filters/esdalc6v1-1u2.html" constant="no"/>
 </technology>
 </technologies>
 </device>
