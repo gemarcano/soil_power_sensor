@@ -5588,7 +5588,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FT234XD-R" prefix="U">
+<deviceset name="FT234XD" prefix="U">
 <description>USB Bridge, USB to UART USB 2.0 UART Interface 12-DFN (3x3) </description>
 <gates>
 <gate name="G$1" symbol="FT234XD-R" x="0" y="0"/>
@@ -5611,12 +5611,13 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" FTDI Chip FT234XD-R, USB Controller, 3MBd, USB 1.1, USB 2.0, 5 V, 12-Pin DFN "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="768-1178-2-ND"/>
-<attribute name="MF" value="FTDI Chip"/>
-<attribute name="MP" value="FT234XD-R"/>
-<attribute name="PACKAGE" value="DFN-12 FTDI"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/FT234XD-R/?ref=eda"/>
+<attribute name="AUTHOR" value="SnapEDA" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-05" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
+<attribute name="MFC" value="FTDI" constant="no"/>
+<attribute name="MPN" value="FT234XD-R" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://ftdichip.com/products/ft234xd/" constant="no"/>
 </technology>
 </technologies>
 </device>
