@@ -3475,6 +3475,36 @@
 <circle x="-0.5" y="1.2" radius="0.1" width="0.0762" layer="21"/>
 <circle x="-0.5" y="1.2" radius="0.1" width="0.0762" layer="51"/>
 </package>
+<package name="SOP65P490X110-8N">
+<smd name="1" x="0" y="0" dx="1.45" dy="0.45" layer="1"/>
+<smd name="2" x="0" y="-0.65" dx="1.45" dy="0.45" layer="1"/>
+<smd name="3" x="0" y="-1.3" dx="1.45" dy="0.45" layer="1"/>
+<smd name="4" x="0" y="-1.95" dx="1.45" dy="0.45" layer="1"/>
+<smd name="8" x="4.4" y="0" dx="1.45" dy="0.45" layer="1"/>
+<smd name="7" x="4.4" y="-0.65" dx="1.45" dy="0.45" layer="1"/>
+<smd name="6" x="4.4" y="-1.3" dx="1.45" dy="0.45" layer="1"/>
+<smd name="5" x="4.4" y="-1.95" dx="1.45" dy="0.45" layer="1"/>
+<wire x1="0.7" y1="0.525" x2="3.7" y2="0.525" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="0.525" x2="3.7" y2="-2.475" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.475" x2="0.7" y2="-2.475" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="-2.475" x2="0.7" y2="0.525" width="0.1524" layer="21"/>
+<wire x1="0.7" y1="0.525" x2="3.7" y2="0.525" width="0.0762" layer="51"/>
+<wire x1="3.7" y1="0.525" x2="3.7" y2="-2.475" width="0.0762" layer="51"/>
+<wire x1="3.7" y1="-2.475" x2="0.7" y2="-2.475" width="0.0762" layer="51"/>
+<wire x1="0.7" y1="-2.475" x2="0.7" y2="0.525" width="0.0762" layer="51"/>
+<text x="-1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.26" y1="-0.15" x2="0.69" y2="0.165" layer="51"/>
+<rectangle x1="-0.26" y1="-0.8" x2="0.69" y2="-0.485" layer="51"/>
+<rectangle x1="-0.26" y1="-1.45" x2="0.69" y2="-1.135" layer="51"/>
+<rectangle x1="-0.26" y1="-2.1" x2="0.69" y2="-1.785" layer="51"/>
+<rectangle x1="3.69" y1="-0.15" x2="4.64" y2="0.165" layer="51"/>
+<rectangle x1="3.69" y1="-0.8" x2="4.64" y2="-0.485" layer="51"/>
+<rectangle x1="3.69" y1="-1.45" x2="4.64" y2="-1.135" layer="51"/>
+<rectangle x1="3.69" y1="-2.1" x2="4.64" y2="-1.785" layer="51"/>
+<circle x="1" y="0.2" radius="0.1" width="0.0762" layer="51"/>
+<circle x="1" y="0.2" radius="0.1" width="0.0762" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -4220,15 +4250,15 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LMP2232">
+<deviceset name="LMP2232*">
 <description>Dual, Micropower, 1.6V, Precision , Operational Amplifier with CMOS Input</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="-17.78" y="12.7" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="-17.78" y="-12.7" swaplevel="1"/>
-<gate name="C" symbol="V+V-" x="7.62" y="0" addlevel="request" swaplevel="1"/>
+<gate name="C" symbol="V+V-" x="7.62" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P599X175-8N">
+<device name="MAX/NOPB" package="SOIC127P599X175-8N">
 <connects>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
@@ -4236,9 +4266,60 @@
 <connect gate="B" pin="+IN" pad="5"/>
 <connect gate="B" pin="-IN" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
+<connect gate="C" pin="V+" pad="8"/>
+<connect gate="C" pin="V-" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="A">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-05" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="LMP2232AMAX/NOPB" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/LMP2232" constant="no"/>
+</technology>
+<technology name="B">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-05" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="LMP2232BMAX/NOPB" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/LMP2232" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MMX/NOPB" package="SOP65P490X110-8N">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="C" pin="V+" pad="8"/>
+<connect gate="C" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="A">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-05" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="LMP2232AMMX/NOPB" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/LMP2232" constant="no"/>
+</technology>
+<technology name="B">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-05" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-05" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="LMP2232BMMX/NOPB" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/LMP2232" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
