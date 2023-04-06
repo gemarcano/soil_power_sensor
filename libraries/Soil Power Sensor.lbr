@@ -2229,6 +2229,7 @@
 </devices>
 </deviceset>
 <deviceset name="MI0805K601R-10" prefix="E">
+<description>Middle Current Ferrite Chip Bead (≧1,000 mA, ＜3000 mA)</description>
 <gates>
 <gate name="G$1" symbol="MI0805K601R-10" x="0" y="0"/>
 </gates>
@@ -2240,12 +2241,13 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" 600 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 1.5A 100mOhm "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-2-ND"/>
-<attribute name="MF" value="Laird-Signal Integrity Products"/>
-<attribute name="MP" value="MI0805K601R-10"/>
-<attribute name="PACKAGE" value="0805 Laird"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MI0805K601R-10/?ref=eda"/>
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-06" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-06" constant="no"/>
+<attribute name="MFC" value="Laird" constant="no"/>
+<attribute name="MPN" value="MI0805K601R-10" constant="no"/>
+<attribute name="QTY" value="1" constant="no"/>
+<attribute name="REF" value="https://www.laird.com/products/inductive-components-emc-components-and-ferrite-cores/ferrite-chip-beads/0805-series/mi0805k601r-10" constant="no"/>
 </technology>
 </technologies>
 </device>
