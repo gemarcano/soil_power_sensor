@@ -12597,7 +12597,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12681,8 +12680,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="+3V4" library="Soil Power Sensor" deviceset="+3V3" device=""/>
 <part name="+3V8" library="Soil Power Sensor" deviceset="+3V3" device=""/>
-<part name="+3V10" library="Soil Power Sensor" deviceset="+3V3" device=""/>
 <part name="+3V12" library="Soil Power Sensor" deviceset="+3V3" device=""/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14492,14 +14491,21 @@ supply voltage of 4V</text>
 <pinref part="SDI" gate="-1" pin="KL"/>
 </segment>
 </net>
+<net name="ESP32_EN" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA9"/>
+<wire x1="88.9" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
+<label x="91.44" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<text x="45.72" y="137.16" size="1.778" layer="94">Pulls EN to GND</text>
-<text x="60.96" y="182.88" size="1.778" layer="94">Recommended values for
-RC delay on EN pin</text>
-<text x="152.4" y="162.56" size="1.778" layer="94">Capacitors placed close to 3V3 pin</text>
+<text x="76.2" y="185.42" size="1.778" layer="94">RC Filter for added delay
+(values from ESP32 DS)</text>
+<text x="200.66" y="167.64" size="1.778" layer="94">Capacitors placed
+close to 3V3 pin</text>
 <text x="177.8" y="104.14" size="1.778" layer="94">Capacitors only placed if needed</text>
 <wire x1="27.94" y1="83.82" x2="27.94" y2="17.78" width="0.2032" layer="94"/>
 <wire x1="27.94" y1="17.78" x2="78.74" y2="17.78" width="0.2032" layer="94"/>
@@ -14526,9 +14532,6 @@ RC delay on EN pin</text>
 <instance part="R22" gate="G$1" x="73.66" y="154.94" smashed="yes">
 <attribute name="NAME" x="69.85" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="151.638" size="1.778" layer="96"/>
-</instance>
-<instance part="GND32" gate="1" x="48.26" y="147.32" smashed="yes">
-<attribute name="VALUE" x="45.72" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="G$1" x="88.9" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="158.75" size="1.778" layer="95" rot="R90"/>
@@ -14617,11 +14620,11 @@ RC delay on EN pin</text>
 <instance part="+3V8" gate="G$1" x="114.3" y="172.72" smashed="yes">
 <attribute name="VALUE" x="111.76" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="88.9" y="172.72" smashed="yes">
-<attribute name="VALUE" x="86.36" y="167.64" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="+3V12" gate="G$1" x="45.72" y="71.12" smashed="yes">
 <attribute name="VALUE" x="43.18" y="66.04" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND32" gate="1" x="43.18" y="142.24" smashed="yes">
+<attribute name="VALUE" x="40.64" y="139.7" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14633,18 +14636,6 @@ RC delay on EN pin</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="165.1" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="124.46" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="S3" gate="1" pin="P"/>
-<pinref part="S3" gate="1" pin="P1"/>
-<wire x1="50.8" y1="157.48" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
-<junction x="50.8" y="154.94"/>
-<wire x1="48.26" y1="154.94" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="GND32" gate="1" pin="GND"/>
-<junction x="48.26" y="149.86"/>
 </segment>
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
@@ -14709,6 +14700,20 @@ RC delay on EN pin</text>
 <wire x1="68.58" y1="35.56" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 <junction x="68.58" y="35.56"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="43.18" y1="144.78" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="S3" gate="1" pin="P"/>
+<pinref part="S3" gate="1" pin="P1"/>
+<wire x1="50.8" y1="157.48" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<junction x="50.8" y="154.94"/>
+<wire x1="48.26" y1="154.94" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<junction x="48.26" y="154.94"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -14901,11 +14906,6 @@ RC delay on EN pin</text>
 <wire x1="114.3" y1="144.78" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="167.64" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="+3V10" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="JP6" gate="A" pin="1"/>
 <wire x1="53.34" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
@@ -14916,6 +14916,13 @@ RC delay on EN pin</text>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <junction x="45.72" y="66.04"/>
+</segment>
+</net>
+<net name="ESP32_EN" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="167.64" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
+<label x="88.9" y="170.18" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
