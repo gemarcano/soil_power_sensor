@@ -12507,7 +12507,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </library>
 </libraries>
 <attributes>
-<attribute name="REVISION" value="2.0.0-a.2"/>
+<attribute name="REVISION" value="2.0.0-a.3"/>
 </attributes>
 <variantdefs>
 </variantdefs>
