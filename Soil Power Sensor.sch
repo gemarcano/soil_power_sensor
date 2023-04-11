@@ -12650,7 +12650,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U5" library="Soil Power Sensor" deviceset="THS4532" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="+3V7" library="Soil Power Sensor" deviceset="+3V3" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U8" library="Soil Power Sensor" deviceset="MAX1120*" device="" technology="1A"/>
@@ -13425,9 +13424,6 @@ continuous discharge voltage</text>
 <instance part="GND25" gate="1" x="86.36" y="81.28" smashed="yes">
 <attribute name="VALUE" x="83.82" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="P+8" gate="VCC" x="76.2" y="111.76" smashed="yes">
-<attribute name="VALUE" x="73.66" y="109.22" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U13" gate="A" x="185.42" y="177.8" smashed="yes">
 <attribute name="NAME" x="175.26" y="183.88" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="175.26" y="168.72" size="2.0828" layer="96" ratio="10" rot="SR0"/>
@@ -13619,12 +13615,6 @@ continuous discharge voltage</text>
 <junction x="91.44" y="182.88"/>
 </segment>
 <segment>
-<pinref part="U12" gate="A" pin="EN"/>
-<pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="73.66" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="93.98" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U13" gate="A" pin="IN"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="165.1" y1="180.34" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
@@ -13762,6 +13752,20 @@ continuous discharge voltage</text>
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="PC1" class="0">
+<segment>
+<pinref part="U12" gate="A" pin="EN"/>
+<wire x1="73.66" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="93.98" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<label x="68.58" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="A" pin="EN"/>
+<wire x1="180.34" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="177.8" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13773,7 +13777,7 @@ components/pins as possible</text>
 <text x="111.76" y="165.1" size="1.778" layer="94">Capacitor for RST must be place as
 close as possible to the pin</text>
 <text x="220.98" y="104.14" size="1.778" layer="94">0 Ohm resistors used for debugging</text>
-<text x="38.1" y="96.52" size="1.778" layer="94">Ferite core placed somewhere between 
+<text x="40.64" y="93.98" size="1.778" layer="94">Ferite core placed somewhere between 
 USB-C connector Vcc and FT234XD-R Vcc.</text>
 <text x="12.7" y="76.2" size="1.778" layer="94">5.1k resistors allow for 5V to be
 passed from host</text>
@@ -14583,8 +14587,15 @@ supply voltage of 4V</text>
 <net name="PC0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC0"/>
-<wire x1="73.66" y1="132.08" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="73.66" y="116.84" size="1.016" layer="95" rot="R270" xref="yes"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="73.66" y="119.38" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="PC1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC1"/>
+<wire x1="71.12" y1="132.08" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="71.12" y="119.38" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
