@@ -825,6 +825,42 @@
 <text x="-1.905" y="7.366" size="0.889" layer="25" ratio="12">&gt;NAME</text>
 <text x="0" y="3.81" size="0.6096" layer="27" ratio="12" align="center">&gt;VALUE</text>
 </package>
+<package name="SON50P200X200X80-9TPN">
+<description>DSG0008A</description>
+<smd name="1" x="0" y="0" dx="0.5" dy="0.25" layer="1"/>
+<smd name="2" x="0" y="-0.5" dx="0.5" dy="0.25" layer="1"/>
+<smd name="3" x="0" y="-1" dx="0.5" dy="0.25" layer="1"/>
+<smd name="4" x="0" y="-1.5" dx="0.5" dy="0.25" layer="1"/>
+<smd name="8" x="1.9" y="0" dx="0.5" dy="0.25" layer="1"/>
+<smd name="7" x="1.9" y="-0.5" dx="0.5" dy="0.25" layer="1"/>
+<smd name="6" x="1.9" y="-1" dx="0.5" dy="0.25" layer="1"/>
+<smd name="5" x="1.9" y="-1.5" dx="0.5" dy="0.25" layer="1"/>
+<smd name="9" x="0.95" y="-0.75" dx="0.9" dy="1.6" layer="1"/>
+<wire x1="-0.05" y1="0.25" x2="1.95" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="1.95" y1="0.25" x2="1.95" y2="-1.75" width="0.1524" layer="21"/>
+<wire x1="1.95" y1="-1.75" x2="-0.05" y2="-1.75" width="0.1524" layer="21"/>
+<wire x1="-0.05" y1="-1.75" x2="-0.05" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-0.05" y1="0.25" x2="1.95" y2="0.25" width="0.0762" layer="51"/>
+<wire x1="1.95" y1="0.25" x2="1.95" y2="-1.75" width="0.0762" layer="51"/>
+<wire x1="1.95" y1="-1.75" x2="-0.05" y2="-1.75" width="0.0762" layer="51"/>
+<wire x1="-0.05" y1="-1.75" x2="-0.05" y2="0.25" width="0.0762" layer="51"/>
+<rectangle x1="-0.05" y1="-0.125" x2="0.25" y2="0.125" layer="51"/>
+<rectangle x1="-0.05" y1="-0.625" x2="0.25" y2="-0.375" layer="51"/>
+<rectangle x1="-0.05" y1="-1.125" x2="0.25" y2="-0.875" layer="51"/>
+<rectangle x1="-0.05" y1="-1.625" x2="0.25" y2="-1.375" layer="51"/>
+<rectangle x1="1.65" y1="-0.125" x2="1.95" y2="0.125" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-0.625" x2="1.95" y2="-0.375" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-1.125" x2="1.95" y2="-0.875" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-1.625" x2="1.95" y2="-1.375" layer="51" rot="R180"/>
+<polygon width="0.0762" layer="21">
+<vertex x="-0.2" y="0.4"/>
+<vertex x="-0.1" y="0.5"/>
+<vertex x="-0.3" y="0.5"/>
+<vertex x="-0.3" y="0.3"/>
+</polygon>
+<text x="-2.5" y="0.84" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -1354,6 +1390,22 @@
 <wire x1="17.78" y1="2.54" x2="16.51" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="17.78" y1="5.08" x2="16.51" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="17.78" y1="7.62" x2="16.51" y2="7.62" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="LM27761">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.2032" layer="94"/>
+<pin name="VIN" x="-15.24" y="12.7" length="short"/>
+<pin name="EN" x="-15.24" y="-10.16" length="short"/>
+<pin name="C1+" x="-15.24" y="7.62" length="short"/>
+<pin name="C1-" x="-15.24" y="-5.08" length="short"/>
+<pin name="GND" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="VOUT" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="VFB" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="CPOUT" x="15.24" y="-7.62" length="short" rot="R180"/>
+<text x="-12.7" y="18.542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="16.002" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2337,6 +2389,36 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 <attribute name="MFC" value="Seeed" constant="no"/>
 <attribute name="MPN" value="317990687" constant="no"/>
 <attribute name="REF" value="https://wiki.seeedstudio.com/LoRa-E5_STM32WLE5JC_Module/" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM27761" prefix="U">
+<description>Low-Noise Regulated Inverter with Integrated LDO</description>
+<gates>
+<gate name="A" symbol="LM27761" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DSG" package="SON50P200X200X80-9TPN">
+<connects>
+<connect gate="A" pin="C1+" pad="8"/>
+<connect gate="A" pin="C1-" pad="7"/>
+<connect gate="A" pin="CPOUT" pad="3"/>
+<connect gate="A" pin="EN" pad="6"/>
+<connect gate="A" pin="GND" pad="2 9"/>
+<connect gate="A" pin="VFB" pad="5"/>
+<connect gate="A" pin="VIN" pad="1"/>
+<connect gate="A" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-11" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-11" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="LM27761DSGR" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/LM27761" constant="no"/>
 </technology>
 </technologies>
 </device>
