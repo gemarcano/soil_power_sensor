@@ -8805,8 +8805,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="12.7" y1="-5.08" x2="12.7" y2="5.08" width="0.2032" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.2032" layer="94"/>
 <wire x1="-12.7" y1="5.08" x2="-12.7" y2="-5.08" width="0.2032" layer="94"/>
-<text x="-5.2324" y="6.3246" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="-11.4554" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-12.7" y="8.89" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-12.7" y="5.842" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="MAX1120*">
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.41" layer="94"/>
@@ -9508,7 +9508,14 @@ Onboard PCB antenna or external antenna connector.&lt;br&gt;</description>
 <connect gate="A" pin="OUT" pad="5"/>
 </connects>
 <technologies>
-<technology name="33"/>
+<technology name="33">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-10" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-10" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="TPS7A2033PDBVR" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/TPS7A20/part-details/TPS7A2033PDBVR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
