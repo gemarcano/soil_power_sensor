@@ -8910,12 +8910,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.2032" layer="94"/>
 <wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="94"/>
 <wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.2032" layer="94"/>
-<pin name="VIN" x="-15.24" y="12.7" length="short"/>
+<pin name="VIN" x="-15.24" y="12.7" length="short" direction="pwr"/>
 <pin name="EN" x="-15.24" y="-10.16" length="short"/>
 <pin name="C1+" x="-15.24" y="7.62" length="short"/>
 <pin name="C1-" x="-15.24" y="-5.08" length="short"/>
-<pin name="GND" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="VOUT" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="GND" x="15.24" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="15.24" y="12.7" length="short" direction="pwr" rot="R180"/>
 <pin name="VFB" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="CPOUT" x="15.24" y="-7.62" length="short" rot="R180"/>
 <text x="-12.7" y="18.542" size="1.778" layer="95">&gt;NAME</text>
