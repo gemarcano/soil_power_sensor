@@ -9113,8 +9113,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REF19*" prefix="U">
-<description>Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References</description>
+<deviceset name="REF20*" prefix="U">
+<description>3.3-V Vref, low-drift, low-power, dual-output Vref &amp; Vref/2 voltage reference</description>
 <gates>
 <gate name="A" symbol="REF19XX" x="0" y="0"/>
 </gates>
@@ -9130,11 +9130,11 @@ Source: AVX .. aphvc.pdf</description>
 <technologies>
 <technology name="33">
 <attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
-<attribute name="DATE_CREATED" value="2023-04-06" constant="no"/>
-<attribute name="DATE_MODIFIED" value="2023-04-06" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-11" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-11" constant="no"/>
 <attribute name="MFC" value="TI" constant="no"/>
-<attribute name="MPN" value="REF1933AIDDCT" constant="no"/>
-<attribute name="REF" value="https://www.ti.com/product/REF1933" constant="no"/>
+<attribute name="MPN" value="REF2033QDDCRQ1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/REF2033" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12520,7 +12520,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U7" library="Soil Power Sensor" deviceset="INA296*" device="" technology="A5"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U12" library="Soil Power Sensor" deviceset="REF19*" device="" technology="33"/>
+<part name="U12" library="Soil Power Sensor" deviceset="REF20*" device="" technology="33"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>

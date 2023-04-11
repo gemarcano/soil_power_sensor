@@ -2424,6 +2424,33 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 </device>
 </devices>
 </deviceset>
+<deviceset name="REF20*" prefix="U">
+<description>3.3-V Vref, low-drift, low-power, dual-output Vref &amp; Vref/2 voltage reference</description>
+<gates>
+<gate name="A" symbol="REF19XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X110-5N">
+<connects>
+<connect gate="A" pin="EN" pad="3"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="VBIAS" pad="1"/>
+<connect gate="A" pin="VIN" pad="4"/>
+<connect gate="A" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name="33">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-04-11" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-04-11" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="REF2033QDDCRQ1" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/REF2033" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
