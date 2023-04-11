@@ -6,6 +6,42 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.0.0-a.3] - 2023-04-11
+
+### Schematic
+
+- Removed jumper for 4th AAA battery cell
+- Added document title and revision to frames
+- Added TVS diode for both USB signal channels
+- Fixed in-situ load connections
+- Replaced FDA LTC6362 with THS4532IPW
+- Moved multiplexer to analog signal side to reduce the number of ADCs as a cost saving measure
+- Replaced low current main LDO TPS7A2033 with 1A TLV1117LV
+
+- Replaced REF1933 with REF2033 due to availability
+- Replaced TPS60403 with LM27761 due to availability
+
+- Connected ESP32 EN pin to STM32 PA9 pin
+- Connected STM32 PC0 to THS4532 PD pin
+- Connected STM32 PC1 to EN on REF2033 and LM27761
+
+### Library
+
+- Verified footprints of all devices and fixed where applicable
+- Added devices to Soil Power Sensor Library
+	- TPD2E2U06DCKR
+	- THS4532IPW
+	- REF2033
+	- LM27761
+- Removed devices from Soil Power Sensor Library
+	- MAX9918
+	- LTC6362
+	- STM32 Devices
+	- Random oscillators
+- Moved Wio-E5 to Soil Power Sensor library
+- Defined attributes in CONTRIBUTING.md for efficient BOM generation
+
+
 ## [2.0.0-a.2] - 2023-03-14
 
 ### Added
