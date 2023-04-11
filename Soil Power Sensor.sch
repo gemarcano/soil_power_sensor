@@ -13306,6 +13306,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="170.18" y="170.18"/>
 </segment>
 </net>
+<net name="PC0" class="0">
+<segment>
+<pinref part="U5" gate="B" pin="!PD"/>
+<wire x1="127" y1="73.66" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<label x="96.52" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="!PD"/>
+<wire x1="101.6" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="127" y1="160.02" x2="127" y2="162.56" width="0.1524" layer="91"/>
+<label x="101.6" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13688,7 +13702,7 @@ continuous discharge voltage</text>
 <plain>
 <text x="10.16" y="193.04" size="1.778" layer="94">VDD_TCXO (Pin 28) must
 be left floating</text>
-<text x="73.66" y="116.84" size="1.778" layer="94">GNDs should be placed as close to
+<text x="91.44" y="119.38" size="1.778" layer="94">GNDs should be placed as close to
 components/pins as possible</text>
 <text x="111.76" y="165.1" size="1.778" layer="94">Capacitor for RST must be place as
 close as possible to the pin</text>
@@ -13712,8 +13726,8 @@ supply voltage of 4V</text>
 <attribute name="NAME" x="52.07" y="170.18" size="1.27" layer="95" ratio="12"/>
 <attribute name="VALUE" x="52.07" y="168.91" size="1.27" layer="96" ratio="12"/>
 </instance>
-<instance part="GND1" gate="1" x="76.2" y="127" smashed="yes">
-<attribute name="VALUE" x="73.66" y="124.46" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="78.74" y="124.46" smashed="yes">
+<attribute name="VALUE" x="76.2" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="15.24" y="170.18" smashed="yes">
 <attribute name="VALUE" x="12.7" y="165.1" size="1.778" layer="96" rot="R90"/>
@@ -13934,11 +13948,6 @@ supply voltage of 4V</text>
 <wire x1="76.2" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="76.2" y1="132.08" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
@@ -14095,6 +14104,13 @@ supply voltage of 4V</text>
 <pinref part="GND43" gate="1" pin="GND"/>
 <wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="78.74" y1="127" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14496,6 +14512,13 @@ supply voltage of 4V</text>
 <pinref part="U1" gate="G$1" pin="PA9"/>
 <wire x1="88.9" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 <label x="91.44" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PC0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC0"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="73.66" y="116.84" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
