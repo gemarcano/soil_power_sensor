@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.0.0-a.4] -
+
+### Schematic
+
+- Fixed duplicated naming for NRST net between STM32 and ESP32
+- Fixed name of FSA2466 symbol
+- Renamed differential pair nets to allow for differential pair routing
+- Replaced Vcc on STM32 JTAG with +3V3
+
+### Library
+
+- Updated MAX9944 footprint
+- Updated AAA55 Footprint
+
 ## [2.0.0-a.3] - 2023-04-11
 
 ### Schematic
