@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [2.0.0-a.4] -
+## [2.0.0-a.4] - 2023-04-26
 
 ### Schematic
 
@@ -15,10 +15,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Renamed differential pair nets to allow for differential pair routing
 - Replaced Vcc on STM32 JTAG with +3V3
 
+- Added experiment drawings
+
 ### Library
 
 - Updated MAX9944 footprint
 - Updated AAA55 Footprint
+
+### Board
+
+- Created initial layout for board
 
 ## [2.0.0-a.3] - 2023-04-11
 
