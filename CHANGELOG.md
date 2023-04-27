@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [2.0.0-a.5] - 
 
+### Schematic
+
+- Removed buffer on negative rail and replaced MAX9944 with MAX9943
+
 ### Library
 
 - Added MAX9943 device

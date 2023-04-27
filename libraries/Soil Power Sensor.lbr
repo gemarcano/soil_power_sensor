@@ -2516,7 +2516,7 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 <connect gate="A" pin="-IN" pad="4"/>
 <connect gate="A" pin="OUT" pad="1"/>
 <connect gate="A" pin="V+" pad="6"/>
-<connect gate="A" pin="V-" pad="2 7"/>
+<connect gate="A" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
