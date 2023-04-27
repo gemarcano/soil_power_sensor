@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.0.0-a.5] - 
+
+### Library
+
+- Added MAX9943 device
+
 ## [2.0.0-a.4] - 2023-04-26
 
 ### Schematic
