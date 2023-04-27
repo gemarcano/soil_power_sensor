@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Added MAX9943 device
 - Added prefix for -3V3
+- Updated LM27751 footprint
 
 ## [2.0.0-a.4] - 2023-04-26
 
