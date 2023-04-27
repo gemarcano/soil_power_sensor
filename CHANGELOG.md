@@ -10,11 +10,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Schematic
 
-- Removed buffer on negative rail and replaced MAX9944 with MAX9943
+- Removed buffer on negative rail and replaced MAX9944 with 
+- Added values to parts missing VALUE text
+- Renumbered all parts
 
 ### Library
 
 - Added MAX9943 device
+- Added prefix for -3V3
 
 ## [2.0.0-a.4] - 2023-04-26
 
