@@ -12531,7 +12531,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330m"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="Soil Power Sensor" deviceset="WIO-E5" device=""/>
+<part name="U1" library="Soil Power Sensor" deviceset="WIO-E5" device="" value="WIO E5"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="Soil Power Sensor" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7u"/>
@@ -12546,7 +12546,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="STM32 Reset"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="Connector_USB" library_urn="urn:adsk.eagle:library:27510300" deviceset="12401832E402A" device="" package3d_urn="urn:adsk.eagle:package:27659500/2"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12572,12 +12572,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="G2" library="Soil Power Sensor" deviceset="AAA55" device=""/>
 <part name="G3" library="Soil Power Sensor" deviceset="AAA55" device=""/>
 <part name="G4" library="Soil Power Sensor" deviceset="AAA55" device=""/>
-<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1" value="Power Mode"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U4" library="Soil Power Sensor" deviceset="ESP32-C3-MINI-1-N4" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="ESP32 Reset"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -12616,20 +12616,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2"/>
+<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2" value="STM32 JTAG"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2"/>
+<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2" value="ESP32 JTAG"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="SDI" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
-<part name="GND" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="SDI" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1" value="SDI"/>
+<part name="GND" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="GND"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="JP9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="Rsense"/>
+<part name="V" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="Voltage"/>
+<part name="I" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="Current"/>
+<part name="JP9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3QE" device="" package3d_urn="urn:adsk.eagle:package:15460/1" value="Sense Mode"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="Analog Sensing Circuit"/>
 <part name="FRAME2" library="Soil Power Sensor" deviceset="FRAME_A_L" device="" value="Power Sources, Regulators, and References"/>
@@ -12818,12 +12818,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="35.56" y="120.65" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="127.635" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP9" gate="-3" x="25.4" y="58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.4" y="57.15" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="25.4" y="64.135" size="1.778" layer="96" rot="R180"/>
+<instance part="JP9" gate="-3" x="25.4" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.4" y="52.07" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="59.055" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND26" gate="1" x="30.48" y="53.34" smashed="yes">
-<attribute name="VALUE" x="27.94" y="50.8" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="30.48" y="48.26" smashed="yes">
+<attribute name="VALUE" x="27.94" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -12940,8 +12940,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="JP9" gate="-3" pin="1"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="27.94" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="58.42" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="53.34" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
@@ -13162,8 +13162,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <wire x1="30.48" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="-3" pin="2"/>
-<wire x1="27.94" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="60.96" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <junction x="30.48" y="68.58"/>
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="15.24" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
@@ -13770,8 +13770,8 @@ supply voltage of 4V</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="68.58" y="152.4" smashed="yes">
-<attribute name="NAME" x="52.07" y="170.18" size="1.27" layer="95" ratio="12"/>
-<attribute name="VALUE" x="52.07" y="168.91" size="1.27" layer="96" ratio="12"/>
+<attribute name="NAME" x="52.07" y="172.72" size="1.27" layer="95" ratio="12"/>
+<attribute name="VALUE" x="52.07" y="170.434" size="1.27" layer="96" ratio="12"/>
 </instance>
 <instance part="GND1" gate="1" x="78.74" y="124.46" smashed="yes">
 <attribute name="VALUE" x="76.2" y="121.92" size="1.778" layer="96"/>
