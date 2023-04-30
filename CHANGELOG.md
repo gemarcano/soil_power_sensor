@@ -18,6 +18,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Board
 
 - Iterate on board design
+- Added UC Santa Cruz Logo
+- Removed tValues
 
 ### Library
 
