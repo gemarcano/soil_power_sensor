@@ -28,6 +28,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Updated LM27751 footprint
 - Updated MAX9943 footprints
 
+### Other
+
+- Added source files for logos
+
 ## [2.0.0-a.4] - 2023-04-26
 
 ### Schematic
