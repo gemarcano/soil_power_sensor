@@ -2557,6 +2557,8 @@
 UC Santa Cruz</text>
 <text x="43.688" y="25.146" size="1.778" layer="21">SPS</text>
 <text x="50.038" y="25.146" size="1.778" layer="21">&gt;REVISION</text>
+<text x="13.208" y="62.738" size="2.54" layer="21" align="center">+</text>
+<text x="12.7" y="57.15" size="2.54" layer="21" rot="R90" align="center">-</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -5167,7 +5169,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-1.27" y="-73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="-1.27" y="-73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="-1.27" y="-73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0" y="34.25" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="Current" x="7.62" y="44.45" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="-22.86" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5176,7 +5177,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-22.86" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="-22.86" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="-22.86" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0" y="49.49" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IC1" library="Soil Power Sensor" package="SOT65P210X110-3N" value="TPD2E2U06DCK" x="73.66" y="48.26" smashed="yes" rot="R270">
 <attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" x="-22.86" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5561,7 +5561,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-22.86" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="-22.86" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="-22.86" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0" y="64.73" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="X5" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" value="SMA-142-0701-801/806" x="93.98" y="38.1" smashed="yes" rot="R180">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="33.02" y="48.26" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7093,8 +7092,6 @@ design rules under a new name.</description>
 <approved hash="4,16,25b590fc528aba16"/>
 <approved hash="4,16,cd84abb434aa973c"/>
 <approved hash="4,16,e4103e51a90515a8"/>
-<approved hash="23,1,5407ec77ec475437"/>
-<approved hash="23,1,fd9400e400c8fdb8"/>
 </errors>
 </board>
 </drawing>
