@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Added values to parts missing VALUE text
 - Renumbered all parts
 - Remove power test points
+- Added MPN to all passive components
 
 ### Board
 
@@ -21,6 +22,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Added UC Santa Cruz Logo
 - Removed tValues
 - Generated gerber files
+- Updated low pass filter capacitance values
+- Replaced 100nF capacitors with 0.1uF
+- Replaced 250k resistors to 249K based on availability
+- Replaced 0804 footprints with 0603
 
 ### Library
 
