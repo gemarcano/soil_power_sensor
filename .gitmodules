@@ -1,0 +1,3 @@
+[submodule "jlcpcb-eagle"]
+	path = jlcpcb-eagle
+	url = git@github.com:JLCPCB/jlcpcb-eagle.git
