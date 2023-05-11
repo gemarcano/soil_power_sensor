@@ -1,5 +1,12 @@
 # Contributing to Soil Power Sensor
 
+## Steps to new versions
+
+1. Update global attributes for schematic and board
+2. Generate BOM as `Soil Power Sensor.csv`
+3. Generated gerber files as `Soil Power Sensor_yyyy_mm_dd.zip`
+4. Tag commit using [semantic versioning](https://semver.org/)
+
 ## Eagle Library Attributes
 
 The following table outlines the attributes that can be defined for every part that has a part placed on the PCB. Parts such as power rails that are only used in the schematic are not required to have any attributes.
