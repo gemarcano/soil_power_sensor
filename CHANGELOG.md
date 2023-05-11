@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [2.0.0-a.5] - 
+## [2.0.0-a.6] - 2023-05-10
+
+### Schematic
+
+- Updated current gain resistors
+
+## [2.0.0-a.5] - 2023-05-02
 
 ### Schematic
 

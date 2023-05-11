@@ -5,3 +5,7 @@ This repo contains the EagleCAD source files for the PCB design of the Soil Powe
 ## BOM
 
 https://octopart.com/bom-tool/qA6fh8Fx
+
+## Compatibility
+
+Both versions 2.0.0-a.5 and 2.0.0-a.6 use the same topology but different resistors and are therefore compatible.
