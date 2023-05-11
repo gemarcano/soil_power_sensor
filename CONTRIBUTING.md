@@ -2,10 +2,11 @@
 
 ## Steps to new versions
 
-1. Update global attributes for schematic and board
+1. Update `REVISION` global attribute for schematic and board
 2. Generate BOM as `Soil Power Sensor.csv`
-3. Generated gerber files as `Soil Power Sensor_yyyy_mm_dd.zip`
-4. Tag commit using [semantic versioning](https://semver.org/)
+3. Upload BOM to Octopart [BOM](https://octopart.com/bom-tool/qA6fh8Fx) and rename with version
+4. Generated gerber files as `Soil Power Sensor_yyyy_mm_dd.zip`
+5. Tag commit
 
 ## Eagle Library Attributes
 
