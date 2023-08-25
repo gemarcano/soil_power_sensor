@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -965,6 +965,29 @@ Document Number: 21-0036
 <rectangle x1="20.8664" y1="-28.7528" x2="25.1336" y2="-27.1272" layer="51"/>
 <rectangle x1="0" y1="-44" x2="23" y2="-34" layer="39"/>
 </package>
+<package name="ARM10_DEBUG">
+<smd name="VCC" x="0" y="0" dx="2.77" dy="0.65" layer="1"/>
+<smd name="GND@3" x="0" y="-1.27" dx="2.77" dy="0.65" layer="1"/>
+<smd name="GND@5" x="0" y="-2.54" dx="2.77" dy="0.65" layer="1"/>
+<smd name="JRCLK" x="0" y="-3.81" dx="2.77" dy="0.65" layer="1"/>
+<smd name="GND@9" x="0" y="-5.08" dx="2.77" dy="0.65" layer="1"/>
+<smd name="NRST" x="4.03" y="-5.08" dx="2.77" dy="0.65" layer="1"/>
+<smd name="TDI" x="4.03" y="-3.81" dx="2.77" dy="0.65" layer="1"/>
+<smd name="TDO/SWO" x="4.03" y="-2.54" dx="2.77" dy="0.65" layer="1"/>
+<smd name="TCK/SWDCLK" x="4.03" y="-1.27" dx="2.77" dy="0.65" layer="1"/>
+<smd name="TMS/SWDIO" x="4.03" y="0" dx="2.77" dy="0.65" layer="1"/>
+<wire x1="-2.77" y1="0.65" x2="6.8" y2="0.65" width="0.1524" layer="21"/>
+<wire x1="6.8" y1="0.65" x2="6.8" y2="-5.73" width="0.1524" layer="21"/>
+<wire x1="6.8" y1="-5.73" x2="-2.77" y2="-5.73" width="0.1524" layer="21"/>
+<wire x1="-2.77" y1="-5.73" x2="-2.77" y2="0.65" width="0.1524" layer="21"/>
+<text x="-2.77" y="0.94633125" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2.77" y="-7.80433125" size="1.778" layer="27">&gt;VALUE</text>
+<polygon width="0.1524" layer="21">
+<vertex x="-5.08" y="1.27"/>
+<vertex x="-3.81" y="2.54"/>
+<vertex x="-5.08" y="2.54"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -1551,6 +1574,20 @@ Document Number: 21-0036
 <wire x1="-17.78" y1="-20.32" x2="-17.78" y2="17.78" width="0.127" layer="94"/>
 <text x="-17.78" y="22.86" size="1.778" layer="95" font="vector" rot="MR180">&gt;NAME</text>
 <text x="-17.78" y="20.32" size="1.778" layer="96" font="vector" rot="MR180">&gt;VALUE</text>
+</symbol>
+<symbol name="ARM10_DEBUG">
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="9" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2684,6 +2721,38 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 <attribute name="MFC" value="Seeedstudio" constant="no"/>
 <attribute name="MPN" value="113990939" constant="no"/>
 <attribute name="REF" value="https://wiki.seeedstudio.com/LoRa_E5_mini/" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARM10_DEBUG" prefix="D">
+<description>Connector Header Surface Mount 10 position 0.050" (1.27mm)</description>
+<gates>
+<gate name="G$1" symbol="ARM10_DEBUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ARM10_DEBUG">
+<connects>
+<connect gate="G$1" pin="1" pad="VCC"/>
+<connect gate="G$1" pin="10" pad="NRST"/>
+<connect gate="G$1" pin="2" pad="TMS/SWDIO"/>
+<connect gate="G$1" pin="3" pad="GND@3"/>
+<connect gate="G$1" pin="4" pad="TCK/SWDCLK"/>
+<connect gate="G$1" pin="5" pad="GND@5"/>
+<connect gate="G$1" pin="6" pad="TDO/SWO"/>
+<connect gate="G$1" pin="7" pad="JRCLK"/>
+<connect gate="G$1" pin="8" pad="TDI"/>
+<connect gate="G$1" pin="9" pad="GND@9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-08-25" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-08-25" constant="no"/>
+<attribute name="MFC" value="CNC Tech" constant="no"/>
+<attribute name="MPN" value="3220-10-0300-00" constant="no"/>
+<attribute name="REF" value="https://www.cnctech.us/pdfs/3220-XX-0300-00_.pdf" constant="no"/>
 </technology>
 </technologies>
 </device>
