@@ -988,6 +988,63 @@ Document Number: 21-0036
 <vertex x="-5.08" y="2.54"/>
 </polygon>
 </package>
+<package name="TSSOP65P640X120-16">
+<smd name="PIN1" x="0" y="0" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN2" x="0" y="-0.65" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN3" x="0" y="-1.3" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN4" x="0" y="-1.95" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN5" x="0" y="-2.6" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN6" x="0" y="-3.25" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN7" x="0" y="-3.9" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN8" x="0" y="-4.55" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN9" x="5.8" y="-4.55" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN10" x="5.8" y="-3.9" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN11" x="5.8" y="-3.25" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN12" x="5.8" y="-2.6" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN13" x="5.8" y="-1.95" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN14" x="5.8" y="-1.3" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN15" x="5.8" y="-0.65" dx="1.5" dy="0.45" layer="1"/>
+<smd name="PIN16" x="5.8" y="0" dx="1.5" dy="0.45" layer="1"/>
+<wire x1="-1.5" y1="0.45" x2="7.3" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="7.3" y1="0.45" x2="7.3" y2="-5" width="0.1524" layer="21"/>
+<wire x1="7.3" y1="-5" x2="-1.5" y2="-5" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-5" x2="-1.5" y2="0.45" width="0.1524" layer="21"/>
+<text x="-1.5" y="0.74633125" size="1.778" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-7.07433125" size="1.778" layer="27">&gt;VALUE</text>
+<polygon width="0.1524" layer="21">
+<vertex x="-3.81" y="2.54"/>
+<vertex x="-3.81" y="1.27"/>
+<vertex x="-2.54" y="2.54"/>
+</polygon>
+</package>
+<package name="WQFN50P300X300X80-16TPN">
+<smd name="1" x="0" y="0" dx="0.6" dy="0.24" layer="1"/>
+<smd name="2" x="0" y="-0.5" dx="0.6" dy="0.24" layer="1"/>
+<smd name="3" x="0" y="-1" dx="0.6" dy="0.24" layer="1"/>
+<smd name="4" x="0" y="-1.5" dx="0.6" dy="0.24" layer="1"/>
+<smd name="12" x="2.8" y="0" dx="0.6" dy="0.24" layer="1"/>
+<smd name="11" x="2.8" y="-0.5" dx="0.6" dy="0.24" layer="1"/>
+<smd name="10" x="2.8" y="-1" dx="0.6" dy="0.24" layer="1"/>
+<smd name="9" x="2.8" y="-1.5" dx="0.6" dy="0.24" layer="1"/>
+<smd name="17" x="1.4" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="16" x="0.65" y="0.65" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="15" x="1.15" y="0.65" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="14" x="1.65" y="0.65" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="13" x="2.15" y="0.65" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="5" x="0.65" y="-2.15" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="6" x="1.15" y="-2.15" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="7" x="1.65" y="-2.15" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<smd name="8" x="2.15" y="-2.15" dx="0.6" dy="0.24" layer="1" rot="R90"/>
+<wire x1="-0.1" y1="0.75" x2="2.9" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="2.9" y1="0.75" x2="2.9" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="2.9" y1="-2.25" x2="-0.1" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="-2.25" x2="-0.1" y2="0.75" width="0.1524" layer="21"/>
+<polygon width="0.1524" layer="21">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-1.27" y="2.54"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -1588,6 +1645,30 @@ Document Number: 21-0036
 <pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="9" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="ADS1219">
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.2032" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="20.32" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.2032" layer="94"/>
+<pin name="A0" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="!RESET" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="DGND" x="15.24" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="AGND" x="15.24" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="AIN3" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="AIN2" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="REFN" x="-15.24" y="-20.32" visible="pin" length="short"/>
+<pin name="SCL" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SDA" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!DRDY" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="DVDD" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="AVDD" x="15.24" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="AIN1" x="-15.24" y="10.16" visible="pin" length="short"/>
+<pin name="AIN0" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="REFP" x="-15.24" y="17.78" visible="pin" length="short"/>
+<text x="-12.7" y="22.86" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2753,6 +2834,96 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 <attribute name="MFC" value="CNC Tech" constant="no"/>
 <attribute name="MPN" value="3220-10-0300-00" constant="no"/>
 <attribute name="REF" value="https://www.cnctech.us/pdfs/3220-XX-0300-00_.pdf" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADS1219?*">
+<description>24-bit, 1kSPS, 4-ch general-purpose delta-sigma ADC with I2C interface and external Vref inputs</description>
+<gates>
+<gate name="G$1" symbol="ADS1219" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IPW" package="TSSOP65P640X120-16">
+<connects>
+<connect gate="G$1" pin="!DRDY" pad="PIN14"/>
+<connect gate="G$1" pin="!RESET" pad="PIN3"/>
+<connect gate="G$1" pin="A0" pad="PIN1"/>
+<connect gate="G$1" pin="A1" pad="PIN2"/>
+<connect gate="G$1" pin="AGND" pad="PIN5"/>
+<connect gate="G$1" pin="AIN0" pad="PIN11"/>
+<connect gate="G$1" pin="AIN1" pad="PIN10"/>
+<connect gate="G$1" pin="AIN2" pad="PIN7"/>
+<connect gate="G$1" pin="AIN3" pad="PIN6"/>
+<connect gate="G$1" pin="AVDD" pad="PIN12"/>
+<connect gate="G$1" pin="DGND" pad="PIN4"/>
+<connect gate="G$1" pin="DVDD" pad="PIN13"/>
+<connect gate="G$1" pin="REFN" pad="PIN8"/>
+<connect gate="G$1" pin="REFP" pad="PIN9"/>
+<connect gate="G$1" pin="SCL" pad="PIN16"/>
+<connect gate="G$1" pin="SDA" pad="PIN15"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-09-01" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-09-01" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="ADS1219IPW" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/ADS1219" constant="no"/>
+</technology>
+<technology name="R">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-09-01" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-09-01" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="ADS1219IPWR" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/ADS1219" constant="no"/>
+</technology>
+<technology name="T">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-09-01" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-09-01" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="ADS1219IPWT" constant="no"/>
+<attribute name="REF" value="https://www.ti.com/product/ADS1219" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="IRTE" package="WQFN50P300X300X80-16TPN">
+<connects>
+<connect gate="G$1" pin="!DRDY" pad="12"/>
+<connect gate="G$1" pin="!RESET" pad="1"/>
+<connect gate="G$1" pin="A0" pad="15"/>
+<connect gate="G$1" pin="A1" pad="16"/>
+<connect gate="G$1" pin="AGND" pad="3"/>
+<connect gate="G$1" pin="AIN0" pad="9"/>
+<connect gate="G$1" pin="AIN1" pad="8"/>
+<connect gate="G$1" pin="AIN2" pad="5"/>
+<connect gate="G$1" pin="AIN3" pad="4"/>
+<connect gate="G$1" pin="AVDD" pad="10"/>
+<connect gate="G$1" pin="DGND" pad="2"/>
+<connect gate="G$1" pin="DVDD" pad="11"/>
+<connect gate="G$1" pin="REFN" pad="6"/>
+<connect gate="G$1" pin="REFP" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="14"/>
+<connect gate="G$1" pin="SDA" pad="13"/>
+</connects>
+<technologies>
+<technology name="R">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-09-01" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-09-01" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="ADS1219IRTER" constant="no"/>
+</technology>
+<technology name="T">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" constant="no"/>
+<attribute name="DATE_CREATED" value="2023-09-01" constant="no"/>
+<attribute name="DATE_MODIFIED" value="2023-09-01" constant="no"/>
+<attribute name="MFC" value="TI" constant="no"/>
+<attribute name="MPN" value="ADS1219IRTET" constant="no"/>
 </technology>
 </technologies>
 </device>
