@@ -4037,6 +4037,28 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
 <smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
 </package>
+<package name="SOIC127P602X164-8N">
+<description>Created by John Madden &lt;jmadden173@pm.me&gt;</description>
+<smd name="P1" x="0" y="0" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P2" x="0" y="-1.27" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P3" x="0" y="-2.54" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P4" x="0" y="-3.81" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P5" x="6" y="-3.81" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P6" x="6" y="-2.54" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P7" x="6" y="-1.27" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P8" x="6" y="0" dx="0.9" dy="0.5" layer="1"/>
+<wire x1="-0.9" y1="0.5" x2="6.9" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="6.9" y1="0.5" x2="6.9" y2="-4.31" width="0.1524" layer="21"/>
+<wire x1="6.9" y1="-4.31" x2="-0.9" y2="-4.31" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-4.31" x2="-0.9" y2="0.5" width="0.1524" layer="21"/>
+<text x="-0.9" y="0.79633125" size="1.778" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-6.38433125" size="1.778" layer="27">&gt;VALUE</text>
+<polygon width="0.1524" layer="21">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-1.27" y="2.54"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="con-wago-500" urn="urn:adsk.eagle:library:195">
@@ -5015,6 +5037,15 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="-68.58" y="-116.84" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-69.215" y="-117.602" size="0.0254" layer="27"/>
 </element>
+<element name="U5" library="Soil Power Sensor" package="SOIC127P602X164-8N" value="FM24CL16B-G" x="-68.58" y="-121.92" smashed="yes">
+<attribute name="AUTHOR" value="John Madden &lt;jmadden173@pm.me&gt;" x="-68.58" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="DATE_CREATED" value="2023-09-11" x="-68.58" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="DATE_MODIFIED" value="2023-09-11" x="-68.58" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MFC" value="Cypress" x="-68.58" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="FM24CL16B-G" x="-68.58" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69.48" y="-121.12366875" size="1.778" layer="25"/>
+<attribute name="VALUE" x="-69.48" y="-128.30433125" size="1.778" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -5104,6 +5135,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="10"/>
 <contactref element="C10" pad="1"/>
 <contactref element="U4" pad="2"/>
+<contactref element="U5" pad="P8"/>
+<wire x1="-69.43" y1="-111.76" x2="-62.58" y2="-121.92" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.835" y1="-93.98" x2="-69.43" y2="-111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.96" y1="-91.44" x2="-69.835" y2="-93.98" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.16" y1="-91.94" x2="-60.96" y2="-91.44" width="0" layer="19" extent="1-1"/>
@@ -5218,6 +5251,8 @@ design rules under a new name.</description>
 <contactref element="U4" pad="4"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C10" pad="2"/>
+<contactref element="U5" pad="P4"/>
+<wire x1="-67.73" y1="-111.76" x2="-68.58" y2="-125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.73" y1="-106.68" x2="-67.73" y2="-111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.65" y1="-96.52" x2="-67.73" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.81" y1="-93.59" x2="-62.65" y2="-96.52" width="0" layer="19" extent="1-1"/>
@@ -6009,11 +6044,15 @@ design rules under a new name.</description>
 <signal name="SCL">
 <contactref element="U7" pad="P1"/>
 <contactref element="U1" pad="14"/>
+<contactref element="U5" pad="P6"/>
+<wire x1="-59.31" y1="-90.79" x2="-62.58" y2="-124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.848" y1="34.798" x2="-59.31" y2="-90.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U7" pad="P2"/>
 <contactref element="U1" pad="13"/>
+<contactref element="U5" pad="P5"/>
+<wire x1="-58.81" y1="-90.79" x2="-62.58" y2="-125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.848" y1="32.258" x2="-58.81" y2="-90.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
