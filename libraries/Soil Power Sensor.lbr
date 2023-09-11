@@ -1656,16 +1656,16 @@ Document Number: 21-0036
 <pin name="!RESET" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="DGND" x="15.24" y="-20.32" visible="pin" length="short" rot="R180"/>
 <pin name="AGND" x="15.24" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="AIN3" x="-15.24" y="-5.08" visible="pin" length="short"/>
-<pin name="AIN2" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="AIN3" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="AIN2" x="-15.24" y="-5.08" visible="pin" length="short"/>
 <pin name="REFN" x="-15.24" y="-20.32" visible="pin" length="short"/>
 <pin name="SCL" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
 <pin name="SDA" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="!DRDY" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="DVDD" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="AVDD" x="15.24" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="AIN1" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="AIN0" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="AIN1" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="AIN0" x="-15.24" y="10.16" visible="pin" length="short"/>
 <pin name="REFP" x="-15.24" y="17.78" visible="pin" length="short"/>
 <text x="-12.7" y="22.86" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
 <text x="-12.7" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
@@ -2839,7 +2839,7 @@ The Wio-E5 wireless module is embedded with the ST system-level package chip STM
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS1219?*">
+<deviceset name="ADS1219?*" prefix="U">
 <description>24-bit, 1kSPS, 4-ch general-purpose delta-sigma ADC with I2C interface and external Vref inputs</description>
 <gates>
 <gate name="G$1" symbol="ADS1219" x="0" y="0"/>
