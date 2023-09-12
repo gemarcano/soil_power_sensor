@@ -4,13 +4,41 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
 ## [Unreleased]
+
+### Added
+
+- Test points for supply rails (#7)
+- Connection from INA296 Vcc to STM32 GPIO (#12)
+
+### Changed
+
+- Replaced Wio-E5 with daughter board equivalent, the Wio-E5 mini (#2)
+- Debug headers to the ARM10 connector (#3)
+- Updated ADC from MAX11208 to ADS1219 (#10)
+- Replaced LM27761 with TSP60400 (#4)
+- Resistor values for voltage/current channels (#5)
+
+### Depreciated
+
+N/A
+
+### Removed
+
+- Board wide ground planes (#11)
+
+### Security
+
+N/A
+
 
 ## [2.0.0-a.6] - 2023-05-10
 
 ### Schematic
 
 - Updated current gain resistors
+
 
 ## [2.0.0-a.5] - 2023-05-02
 
@@ -44,6 +72,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Added source files for logos
 
+
 ## [2.0.0-a.4] - 2023-04-26
 
 ### Schematic
@@ -63,6 +92,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Board
 
 - Created initial layout for board
+
 
 ## [2.0.0-a.3] - 2023-04-11
 
