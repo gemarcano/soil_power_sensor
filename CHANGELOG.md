@@ -11,6 +11,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Test points for supply rails (#7)
 - Connection from INA296 Vcc to STM32 GPIO (#12)
+- Header for USB Serial/JTAG controller on ESP32
+- Library devices
+    - WIO-E5_MINI
+    - ADS1219
+    - FM24CL16B
+    - ARM10_DEBUG
 
 ### Changed
 
@@ -19,6 +25,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Updated ADC from MAX11208 to ADS1219 (#10)
 - Replaced LM27761 with TSP60400 (#4)
 - Resistor values for voltage/current channels (#5)
+- Communication between ESP32 and STM32 to I2C
+- ESP32_EN signal to a pull-up configuration
+- Replaced Rsense header with 0603 pad
+- Connected REF203 EN pin to POWERDOWN signal
+- Update low pass filter cutoff frequency
+- Library device
+    - AAA55
+    - MAX9944
+    - THS4532
+    - INA296
+
+
 
 ### Depreciated
 
@@ -27,6 +45,7 @@ N/A
 ### Removed
 
 - Board wide ground planes (#11)
+- Physical reset switch for ESP32
 
 ### Security
 
