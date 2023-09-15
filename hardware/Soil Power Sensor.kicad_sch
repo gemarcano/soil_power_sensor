@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5300ec4d-4648-40a1-8d89-4fa6b3bf32a3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1383843a-880b-4efd-8c7f-ecdf3639f794)
+    (property "Sheetname" "Soil Power Sensor_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Soil_Power_Sensor_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43a883bb-5678-46a3-a756-4c64cbfd0ddc)
+    (property "Sheetname" "Soil Power Sensor_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Soil_Power_Sensor_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 642281e5-1644-4dc3-b6e5-bcf5b1c03ff1)
+    (property "Sheetname" "Soil Power Sensor_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 643deee0-b2c1-47dd-8bbd-6697ae8f1315)
+    (property "Sheetname" "Soil Power Sensor_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Soil_Power_Sensor_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
