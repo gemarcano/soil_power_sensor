@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
@@ -4806,13 +4806,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TP_SIGNAL_NAME" value="" x="65.532" y="28.956" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="64.897" y="28.194" size="0.0254" layer="27"/>
 </element>
-<element name="REF+1V1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="55.372" y="21.148409375" smashed="yes">
+<element name="REF+1V65" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="55.372" y="21.148409375" smashed="yes">
 <attribute name="NAME" x="51.181" y="22.164409375" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="19" x="55.372" y="21.148409375" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="55.372" y="21.148409375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.737" y="20.386409375" size="0.0254" layer="27"/>
 </element>
-<element name="REF+3V1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="55.372" y="25.654" smashed="yes">
+<element name="REF+3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="55.372" y="25.654" smashed="yes">
 <attribute name="NAME" x="52.197" y="26.67" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="19" x="55.372" y="25.654" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="55.372" y="25.654" size="1.778" layer="27" display="off"/>
@@ -5371,7 +5371,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <contactref element="R4" pad="1"/>
 <contactref element="U5" pad="1"/>
 <contactref element="C10" pad="1"/>
-<contactref element="REF+1V1" pad="TP"/>
+<contactref element="REF+1V65" pad="TP"/>
 <wire x1="45.466" y1="23.114" x2="46.902" y2="23.114" width="0.127" layer="1"/>
 <wire x1="43.561" y1="23.114" x2="45.466" y2="23.114" width="0.127" layer="16"/>
 <wire x1="43.053" y1="23.622" x2="43.561" y2="23.114" width="0.127" layer="16"/>
@@ -5619,7 +5619,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <signal name="REF+3V3">
 <contactref element="C9" pad="1"/>
 <contactref element="U5" pad="5"/>
-<contactref element="REF+3V1" pad="TP"/>
+<contactref element="REF+3V3" pad="TP"/>
 <contactref element="U3" pad="PIN9"/>
 <contactref element="C5" pad="1"/>
 <wire x1="31.75" y1="13.716" x2="35.472" y2="13.716" width="0.127" layer="1"/>

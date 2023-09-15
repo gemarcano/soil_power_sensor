@@ -11249,8 +11249,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="VBAT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="VUSB" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="VCC" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="REF+1V1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="REF+3V1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="REF+1V65" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="REF+3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="U2" library="Soil Power Sensor" deviceset="MAX9944" device="ASA"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12027,11 +12027,11 @@ LDO on Wio-E5 mini</text>
 <attribute name="NAME" x="95.25" y="186.69" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="97.79" y="184.15" size="1.778" layer="97"/>
 </instance>
-<instance part="REF+1V1" gate="G$1" x="104.14" y="109.22" smashed="yes">
+<instance part="REF+1V65" gate="G$1" x="104.14" y="109.22" smashed="yes">
 <attribute name="NAME" x="102.87" y="110.49" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="105.41" y="107.95" size="1.778" layer="97"/>
 </instance>
-<instance part="REF+3V1" gate="G$1" x="99.06" y="114.3" smashed="yes">
+<instance part="REF+3V3" gate="G$1" x="99.06" y="114.3" smashed="yes">
 <attribute name="NAME" x="97.79" y="115.57" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="100.33" y="113.03" size="1.778" layer="97"/>
 </instance>
@@ -12144,7 +12144,7 @@ LDO on Wio-E5 mini</text>
 <junction x="91.44" y="104.14"/>
 <label x="106.68" y="104.14" size="1.778" layer="95" xref="yes"/>
 <wire x1="91.44" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="REF+3V1" gate="G$1" pin="TP"/>
+<pinref part="REF+3V3" gate="G$1" pin="TP"/>
 <wire x1="99.06" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="111.76" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="99.06" y="104.14"/>
@@ -12159,7 +12159,7 @@ LDO on Wio-E5 mini</text>
 <wire x1="81.28" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <junction x="81.28" y="99.06"/>
 <label x="106.68" y="99.06" size="1.778" layer="95" xref="yes"/>
-<pinref part="REF+1V1" gate="G$1" pin="TP"/>
+<pinref part="REF+1V65" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="106.68" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <junction x="104.14" y="99.06"/>
