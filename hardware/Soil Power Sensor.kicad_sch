@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Soil Power Sensor")
+    (date "2023-09-15")
+    (rev "2.1.0")
+    (company "jlab")
+  )
+
   (lib_symbols
   )
 
