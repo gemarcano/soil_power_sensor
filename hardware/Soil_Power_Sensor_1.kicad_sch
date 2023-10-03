@@ -1919,7 +1919,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 17.78 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06fe79ec-15a6-4224-b7aa-7c01b2fd7a78)
-    (property "Reference" "X2" (at 16.51 104.14 0)
+    (property "Reference" "J2" (at 16.51 104.14 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "Current" (at 20.32 112.903 0)
@@ -1936,7 +1936,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "X2") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2828,7 +2828,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 22.86 181.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9c6c85b-a387-4d04-9bec-7b597d2a0c60)
-    (property "Reference" "X3" (at 21.3868 177.2412 0)
+    (property "Reference" "J3" (at 21.3868 177.2412 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "GND" (at 25.4 185.293 0)
@@ -2845,7 +2845,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "X3") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2936,7 +2936,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 20.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dec93dd6-3372-4f9c-b50c-be99d0358aec)
-    (property "Reference" "X1" (at 18.7452 15.9512 0)
+    (property "Reference" "J1" (at 18.7452 15.9512 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "Voltage" (at 22.86 24.003 0)
@@ -2953,7 +2953,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "X1") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3031,7 +3031,7 @@
   (symbol (lib_id "Device:R") (at 35.56 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f35d6ef0-adad-4b07-9987-78f6465034ae)
-    (property "Reference" "RSENSE0" (at 33.02 132.08 0)
+    (property "Reference" "RSENSE" (at 33.02 132.08 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "NC" (at 33.02 134.62 0)
@@ -3048,7 +3048,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "RSENSE0") (unit 1)
+          (reference "RSENSE") (unit 1)
         )
       )
     )
