@@ -963,13 +963,6 @@
     (uuid d791faf9-8040-4b53-b80a-6ea8e6ef1cc5)
   )
 
-  (global_label "POWERDOWN" (shape bidirectional) (at 86.36 147.32 180) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify right))
-    (uuid 0523ba71-e856-4c30-b053-7e2117771cdd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 70.7294 147.32 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "VUSB" (shape bidirectional) (at 60.96 50.8 180) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify right))
     (uuid bf7139fd-f0bb-4c46-9b3e-b0b8896bfbd3)
@@ -990,6 +983,11 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 138.0753 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+  )
+
+  (hierarchical_label "POWERDOWN" (shape input) (at 86.36 147.32 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a63a5706-7bd9-4afd-a165-b7d868ca50b7)
   )
 
   (symbol (lib_id "power:VCC") (at 43.18 127 0) (unit 1)

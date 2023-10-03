@@ -473,19 +473,19 @@
     ],
     [
       "643deee0-b2c1-47dd-8bbd-6697ae8f1315",
-      "Soil Power Sensor_1"
+      "Analog"
     ],
     [
       "642281e5-1644-4dc3-b6e5-bcf5b1c03ff1",
-      "Soil Power Sensor_2"
+      "Power"
     ],
     [
       "43a883bb-5678-46a3-a756-4c64cbfd0ddc",
-      "Soil Power Sensor_3"
+      "STM32"
     ],
     [
       "1383843a-880b-4efd-8c7f-ecdf3639f794",
-      "Soil Power Sensor_4"
+      "ESP32"
     ]
   ],
   "text_variables": {}
