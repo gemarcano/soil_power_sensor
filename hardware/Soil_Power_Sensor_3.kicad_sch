@@ -842,7 +842,7 @@
     (uuid fa4ddcc6-156a-4c0a-9bac-3ecba1815a60)
   )
 
-  (text "TEROS-12 Sensor has min\nsupply voltage of 4V" (at 116.84 45.72 0)
+  (text "TEROS-12 Sensor has min\nsupply voltage of 4V" (at 86.36 72.39 0)
     (effects (font (size 1.778 1.5113)) (justify right bottom))
     (uuid 31cd28b5-b888-4daa-99f8-b02c6a010393)
   )
