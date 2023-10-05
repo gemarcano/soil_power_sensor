@@ -1,4 +1,4 @@
-22241044135940098
+22225795932716747
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85260,19 +85260,12 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 Soil Power Sensor
-1X02
-<b>PIN HEADER</b>
-
-0
-2
-2
-Soil Power Sensor
 AAA55
 
 
 0
 4
-4
+2
 Soil Power Sensor
 ARM10_DEBUG
 
@@ -85280,48 +85273,6 @@ ARM10_DEBUG
 0
 10
 10
-Soil Power Sensor
-B1,27
-<b>TEST PAD</b>
-
-0
-1
-1
-Soil Power Sensor
-C0603
-<b>CAPACITOR</b>
-
-0
-2
-2
-Soil Power Sensor
-JP1
-<b>JUMPER</b>
-
-0
-2
-2
-Soil Power Sensor
-JP2
-<b>JUMPER</b>
-
-0
-3
-3
-Soil Power Sensor
-JP3Q
-<b>JUMPER</b>
-
-0
-6
-6
-Soil Power Sensor
-R0603
-<b>RESISTOR</b>
-
-0
-2
-2
 Soil Power Sensor
 SOIC127P600X155-8N
 21-0041
@@ -85371,20 +85322,6 @@ TSSOP65P640X120-16
 0
 16
 16
-Soil Power Sensor
-W237-102
-<b>WAGO SCREW CLAMP</b>
-
-0
-2
-2
-Soil Power Sensor
-W237-103
-<b>WAGO SCREW CLAMP</b>
-
-0
-3
-3
 Soil Power Sensor
 WIO-E5_MINI
 
