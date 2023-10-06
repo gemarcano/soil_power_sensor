@@ -1,11 +1,11 @@
 (footprint "XCVR_ESP32-C3-MINI-1-N4" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (fp_text reference "REF**" (at -6.85 -9) (layer "F.SilkS")
-      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 2763ec0d-a725-497c-ac42-43365f76d8ec)
   )
   (fp_text value "XCVR_ESP32-C3-MINI-1-N4" (at -6.85 9) (layer "F.Fab")
-      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left top))
+      (effects (font (size 1 1) (thickness 0.15)) (justify left top))
     (tstamp 32768628-d5cc-4872-b926-aeab6fa932b4)
   )
   (fp_poly
