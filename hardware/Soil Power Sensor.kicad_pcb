@@ -516,7 +516,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 16ff10f9-0dc9-41d6-aa00-aa8c5174dd53)
-    (at 183.02 86.36 -90)
+    (at 182.88 83.82 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "Soil_Power_Sensor_4.kicad_sch")
@@ -580,7 +580,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 196bed2e-a476-4c09-9188-c4f862ba6d61)
-    (at 161.785 73.66 180)
+    (at 163.055 74.65 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch")
@@ -634,7 +634,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 1eb4dafa-657f-4877-9959-05621a03f579)
-    (at 161.785 78.74 180)
+    (at 163.055 79.73 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch")
@@ -797,7 +797,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 25c7426b-5578-4e15-8f50-08bdbae03761)
-    (at 183.02 91.44 -90)
+    (at 183.02 90.17 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "Soil_Power_Sensor_4.kicad_sch")
@@ -1660,7 +1660,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 44df62db-9e7d-460e-90d1-ce07885fc618)
-    (at 174.485 71.12)
+    (at 173 71.12)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "MPN" "CC0603KPX7R7BB104")
@@ -2187,7 +2187,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 578f1606-5a1f-4216-bad5-841dfc5c6ce7)
-    (at 174.485 66.04)
+    (at 173 66.04)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "MPN" "CC0603KPX7R7BB104")
@@ -2539,7 +2539,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tstamp 7c3f6ae0-6e43-4570-9ff0-155354777fd5)
-    (at 168.0025 66.99)
+    (at 167.5075 66.99)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch")
@@ -3770,7 +3770,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp ce7e187e-c8e5-406c-a993-48bc7b904051)
-    (at 170.18 74.435 -90)
+    (at 171.45 76.695 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch")
@@ -3910,7 +3910,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tstamp db9e1aba-9baf-4959-9db7-6467aab45e48)
-    (at 166.2375 74.61)
+    (at 167.5075 76.87)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Author" "John Madden <jmadden173@pm.me>")
