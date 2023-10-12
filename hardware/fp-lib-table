@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Soil Power Sensor")(type "KiCad")(uri "$(KIPRJMOD)/Soil Power Sensor.pretty")(options "")(descr ""))
+)
