@@ -1635,6 +1635,11 @@
     (effects (font (size 1.778 1.5113)) (justify left bottom))
     (uuid 8676a83d-f484-48cd-af12-b45d8dc0e970)
   )
+  (text "Current xfer fn:\nVout = (200)(G)(Rsense)(Iin)\nR9 = R6\nR7 = R8"
+    (at 175.895 137.795 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 94119c35-8d50-47c5-ba66-3475b3ebba48)
+  )
   (text "w0 = 312.7" (at 179.07 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 988bf439-1209-48e5-a3fb-b13546a0e0a3)
@@ -1654,6 +1659,11 @@
   (text "~{RESET} to VDD holds\ndevice in operation" (at 248.92 106.68 0)
     (effects (font (size 1.778 1.5113)) (justify left bottom))
     (uuid d3bf9742-310e-4864-8281-97024a6ff94a)
+  )
+  (text "Voltage Gain:\nVout = Vin (R5 / R3)\nR5 = R1\nR3 = R2"
+    (at 155.575 34.925 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f0824067-8913-41da-923a-54e93217b631)
   )
 
   (global_label "REF+1V65" (shape input) (at 120.65 46.99 180) (fields_autoplaced)
