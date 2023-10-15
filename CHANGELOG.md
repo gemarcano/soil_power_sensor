@@ -14,6 +14,8 @@ Migrated from Autodesk Eagle to KiCAD
 - Test points for supply rails (#7)
 - Connection from INA296 Vcc to STM32 GPIO (#12)
 - Header for USB Serial/JTAG controller on ESP32
+- Added header for Rsense
+- Added xfer equations on schematic and PCB
 - Library devices
     - WIO-E5_MINI
     - ADS1219

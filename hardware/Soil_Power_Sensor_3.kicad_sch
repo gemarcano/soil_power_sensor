@@ -974,7 +974,7 @@
   (symbol (lib_id "Device:R") (at 228.6 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fbb5b8e-993a-42cc-b475-ca36ddd03cd4)
-    (property "Reference" "R10" (at 226.06 58.42 0)
+    (property "Reference" "R13" (at 226.06 58.42 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1M" (at 226.06 62.23 0)
@@ -994,7 +994,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R10") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1078,7 +1078,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:FM24CL16B") (at 138.43 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68d5fbcb-8c65-4945-bc6d-fc06d850fb88)
-    (property "Reference" "U7" (at 138.43 149.86 0)
+    (property "Reference" "U6" (at 138.43 149.86 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "FM24CL16B" (at 138.43 153.67 0)
@@ -1110,7 +1110,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1219,7 +1219,7 @@
   (symbol (lib_id "Device:R") (at 228.6 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a581ecc4-8d40-4398-b7b2-d30f29a6cbc0)
-    (property "Reference" "R11" (at 226.06 73.66 0)
+    (property "Reference" "R10" (at 226.06 73.66 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1M" (at 226.06 77.47 0)
@@ -1239,7 +1239,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1334,7 +1334,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:Wio-E5 mini") (at 157.48 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7f17a1f-44ac-4441-b93b-0dbafe5ddc22)
-    (property "Reference" "U8" (at 158.75 34.29 0)
+    (property "Reference" "U7" (at 158.75 34.29 0)
       (effects (font (size 1.778 1.778)))
     )
     (property "Value" "Wio-E5 mini" (at 158.75 38.1 0)
@@ -1382,7 +1382,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
