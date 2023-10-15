@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\John\source\repos\jlab\soil_power_sensor\hardware\Soil Power Sensor.kicad_sch</source>
+    <date>2023-10-14 10:03:34 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Soil Power Sensor</title>
+        <company>jlab</company>
+        <rev>2.1.0</rev>
+        <date>2023-10-09</date>
+        <source>Soil Power Sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/">
+      <title_block>
+        <title>Soil Power Sensor</title>
+        <company>jlab</company>
+        <rev>2.1.0</rev>
+        <date>2023-10-09</date>
+        <source>Soil_Power_Sensor_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/">
+      <title_block>
+        <title>Soil Power Sensor</title>
+        <company>jlab</company>
+        <rev>2.1.0</rev>
+        <date>2023-10-09</date>
+        <source>Soil_Power_Sensor_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/">
+      <title_block>
+        <title>Soil Power Sensor</title>
+        <company>jlab</company>
+        <rev>2.1.0</rev>
+        <date>2023-10-09</date>
+        <source>Soil_Power_Sensor_3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/">
+      <title_block>
+        <title>Soil Power Sensor</title>
+        <company>jlab</company>
+        <rev>2.1.0</rev>
+        <date>2023-10-09</date>
+        <source>Soil_Power_Sensor_4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>413242fe-e69e-4768-b327-111dbb3469c8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>f6ea6f2f-f636-42bc-b4c2-a9de1de452a1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>791cdb93-9cf0-4f0c-8be6-60fc6b277a37</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.7nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603GRNPO9BN272</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603GRNPO9BN272"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>3281f710-b150-4125-8aa6-d71eaa4a1728</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603FRNPO9BN102</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603FRNPO9BN102"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>9dbc1249-23d8-49b8-8f19-d51d8d375a2a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Voltage</value>
+      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree</footprint>
+      <fields>
+        <field name="MPN">237-102</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="237-102"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>dec93dd6-3372-4f9c-b50c-be99d0358aec</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Current</value>
+      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree</footprint>
+      <fields>
+        <field name="MPN">237-102</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="237-102"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>06fe79ec-15a6-4224-b7aa-7c01b2fd7a78</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>GND</value>
+      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree</footprint>
+      <fields>
+        <field name="MPN">237-102</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="237-102"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>b9c6c85b-a387-4d04-9bec-7b597d2a0c60</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Rsense</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>09e7ae4b-5a2d-40df-b671-2932ecc09d4d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PinJumper_02x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Soil Power Sensor-eagle-import" part="PinJumper_02x03" description=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>e6c1d097-97e4-451f-8d65-23f3377370cf 499247a8-47f2-491a-817a-b823426e4c6d 3ff84597-bbaa-417f-80e1-d65ca057b470</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>33d3720f-5d3a-4144-b236-701bf8fdd815</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>7b44f5fd-349f-440b-927d-c53e48f5cd80</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>7a831184-6b86-4d15-bc92-bde1034e0b30</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330m</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">PT0603FR-070R33L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="PT0603FR-070R33L"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>5385f841-2dda-439c-90bf-0979413eaa06</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>29143343-ef79-4b96-a921-830c5404fbff</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>499k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07499KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07499KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>eb154749-ac69-4621-b868-45c15cd955f8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>08aef06a-5bdd-4811-a360-2f6879e8cf9e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07100KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>3bd341c9-5dc3-4de7-9345-6b4293fd6d6b</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>499k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RT0603BRD07499KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RT0603BRD07499KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>a3cbb1b3-7a1e-444b-929f-454614f6199d</tstamps>
+    </comp>
+    <comp ref="RSENSE1">
+      <value>NC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>f35d6ef0-adad-4b07-9987-78f6465034ae</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>THS4532</value>
+      <footprint>Soil Power Sensor:SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/ths4532</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">THS4532IPW</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="THS4532" description="Dual, Ultra low power 0.25mA, RRO, fully differential amplifier"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="THS4532IPW"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="Dual, Ultra low power 0.25mA, RRO, fully differential amplifier"/>
+      <property name="ki_keywords" value="differential opamp"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>7abe6c35-c312-471b-b203-b578459ed85b 5f76928e-fb11-4887-b481-d85c9006c65f e4cc0704-5f6d-459a-90cf-b4a3c87ada10 07ce1db8-ccd5-4461-9c78-98d22b130288</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX9944</value>
+      <footprint>Soil Power Sensor:SOIC127P600X155-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9943-MAX9944.pdf</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">MAX9944ASA+T</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="MAX9944" description="High-Voltage, Precision, Low-Power Op Amps"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="MAX9944ASA+T"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="High-Voltage, Precision, Low-Power Op Amps"/>
+      <property name="ki_keywords" value="opamp, lowpower"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>c0940545-aa66-49c3-b2ca-0300b72ef2f4 e23989d2-24cd-435e-9f69-4d78019302d7 2d54d396-eb34-4579-a663-1ee0388c16bd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA296A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ina296a.pdf</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">INA296A5IDDFR</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="INA296A" description="–5 V to 110 V, Bidirectional, 1.1 MHz, 8 V/μs, Ultra-Precise Current Sense"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="INA296A5IDDFR"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="–5 V to 110 V, Bidirectional, 1.1 MHz, 8 V/μs, Ultra-Precise Current Sense"/>
+      <property name="ki_keywords" value="current sense amplifier"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>91d3004d-84b8-4381-a56a-742f4ea021da</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ADS1219</value>
+      <footprint>Soil Power Sensor:TSSOP65P640X120-16</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/ads1219</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">ADS1219IPWR</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="ADS1219" description="24-bit, 1kSPS, 4-ch general-purpose delta-sigma ADC with I2C interface and external Vref inputs"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="ADS1219IPWR"/>
+      <property name="Sheetname" value="Analog"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_1.kicad_sch"/>
+      <property name="ki_description" value="24-bit, 1kSPS, 4-ch general-purpose delta-sigma ADC with I2C interface and external Vref inputs"/>
+      <property name="ki_keywords" value="adc,i2c"/>
+      <sheetpath names="/Analog/" tstamps="/643deee0-b2c1-47dd-8bbd-6697ae8f1315/"/>
+      <tstamps>feb74f18-1b00-48ec-a2cb-ac50c8b7f8fc</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>5424d757-4efa-4604-90b3-ba1dd92e06cc</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>6fbc65c0-36f6-4f1e-938a-3c7478f3e623</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>68d177cb-6ec8-4cce-a492-0ff2cb8316d3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KRX5R7BB105"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>a981f1b1-8953-4361-b6c6-fac4f14cdc9c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KRX5R7BB105"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>0888b2bf-c27d-4c61-b8e0-d0bcd8472b16</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="CC0603KRX5R7BB105"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>7d280d5e-a4b5-4ea5-bc36-3d376de73254</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>AAA55</value>
+      <footprint>Soil Power Sensor:AAA55</footprint>
+      <fields>
+        <field name="MPN">55</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="55"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>e01cfd55-8d5b-4ccc-a4b4-e11045a8b98a</tstamps>
+    </comp>
+    <comp ref="G2">
+      <value>AAA55</value>
+      <footprint>Soil Power Sensor:AAA55</footprint>
+      <fields>
+        <field name="MPN">55</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="55"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>64fa2131-00bd-4e97-bc25-17802f51f2bb</tstamps>
+    </comp>
+    <comp ref="G3">
+      <value>AAA55</value>
+      <footprint>Soil Power Sensor:AAA55</footprint>
+      <fields>
+        <field name="MPN">55</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="55"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>b90f8b0d-0a10-41be-9125-774ef29de8b5</tstamps>
+    </comp>
+    <comp ref="G4">
+      <value>AAA55</value>
+      <footprint>Soil Power Sensor:AAA55</footprint>
+      <fields>
+        <field name="MPN">55</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="55"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>5630c255-4384-4a1a-8185-2f661292a172</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>3164e6c4-5022-436b-ba4f-82496d250929</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>REF+3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>83e8c643-bd1d-423b-b1f8-43318fd68cbd</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>REF+1V65</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>6c836eeb-0ffa-4866-8f46-a8e9eb8a20cb</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>-3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>82d7f770-8d01-46b0-afca-fabab0dc2b9a</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>VCC</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>65bc8fa8-7515-4db5-8ff4-534038fb1e56</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>VBAT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>e4e711c3-f9ef-41d7-84ab-a7f3c8aaa3b0</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>VUSB</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>698ad1c9-d4d0-4866-a384-46d3a95f78f8</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>REF2033</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ref2033.pdf</datasheet>
+      <fields>
+        <field name="MPN">REF2033QDDCRQ1</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="REF2033" description="3.3V Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage Reference, SOT-23-5"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="REF2033QDDCRQ1"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="3.3V Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage Reference, SOT-23-5"/>
+      <property name="ki_keywords" value="voltage reference"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>2852e9f5-ea6c-4289-9b19-9434d8eb0477</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TPS60400DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps60400.pdf</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">TPS60400DBVR</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="TPS60400DBV" description="Unregulated 60-mA Charge Pump Voltage Inverter"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="TPS60400DBVR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_2.kicad_sch"/>
+      <property name="ki_description" value="Unregulated 60-mA Charge Pump Voltage Inverter"/>
+      <property name="ki_keywords" value="inverter"/>
+      <sheetpath names="/Power/" tstamps="/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/"/>
+      <tstamps>29e913b1-52cc-41af-8be0-1debb1167822</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ARM10_DEBUG</value>
+      <footprint>Soil Power Sensor:ARM10_DEBUG</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <fields>
+        <field name="MPN">FTSH-105-01-LM-DV-K</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="FTSH-105-01-LM-DV-K"/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>aaab37c3-b4a5-4f69-b11f-ef85f8956ca9</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03</value>
+      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>a9dcecff-da63-4d13-bd82-7354bcfb915a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>a581ecc4-8d40-4398-b7b2-d30f29a6cbc0</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>1fbb5b8e-993a-42cc-b475-ca36ddd03cd4</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>+3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>ef440f60-d3f3-482d-be31-d8eb21298998</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>FM24CL16B</value>
+      <footprint>Soil Power Sensor:SOIC127P602X164-8N</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">FM24CL16B-G</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="FM24CL16B" description="16-Kbit (2K × 8) Serial (I2C) F-RAM"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="FM24CL16B-G"/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <property name="ki_description" value="16-Kbit (2K × 8) Serial (I2C) F-RAM"/>
+      <property name="ki_keywords" value="fram,i2c"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>68d5fbcb-8c65-4945-bc6d-fc06d850fb88</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>Wio-E5 mini</value>
+      <footprint>Soil Power Sensor:WIO-E5_MINI</footprint>
+      <datasheet>https://wiki.seeedstudio.com/LoRa_E5_mini/</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">113990939</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="Wio-E5 mini" description=""/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="113990939"/>
+      <property name="Sheetname" value="STM32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_3.kicad_sch"/>
+      <sheetpath names="/STM32/" tstamps="/43a883bb-5678-46a3-a756-4c64cbfd0ddc/"/>
+      <tstamps>b7f17a1f-44ac-4441-b93b-0dbafe5ddc22</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R5BB106</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KRX5R5BB106"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>6ff86082-0e11-47a3-b5ca-dbb601910bd5</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KRX5R7BB105"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>412d054f-a835-4a88-9e02-db0d3c538223</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KPX7R7BB104"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>c512abe1-08ef-442f-867d-aa7b694e56d6</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>ARM10_DEBUG</value>
+      <footprint>Soil Power Sensor:ARM10_DEBUG</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <fields>
+        <field name="MPN">FTSH-105-01-LM-DV-K</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="FTSH-105-01-LM-DV-K"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>986691e9-5cc0-4724-a591-c7855318b978</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>BOOT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>cfae1701-ac4f-41ba-bff4-88cc25cfaa43</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>c8228fc6-5d92-4051-bf6e-007d1bf85827</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>04864ce4-107f-4d3d-b006-e6bcf6fb1653</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>9a1f3da7-826a-4985-a3ee-e7704801ba87</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>6287ee6d-7565-45e1-8686-c9ce524a954f</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>ESP32-C3-MINI-1-N4</value>
+      <footprint>Soil Power Sensor:XCVR_ESP32-C3-MINI-1-N4</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+        <field name="MPN">ESP32-C3-MINI-1-N4</field>
+      </fields>
+      <libsource lib="Soil Power Sensor-eagle-import" part="ESP32-C3-MINI-1-N4" description="Smallsized 2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 module"/>
+      <property name="Author" value="John Madden &lt;jmadden173@pm.me&gt;"/>
+      <property name="Date Created" value="2023-10-03"/>
+      <property name="Date Modified" value="2023-10-03"/>
+      <property name="DPN" value=""/>
+      <property name="DNP" value=""/>
+      <property name="MPN" value="ESP32-C3-MINI-1-N4"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="Soil_Power_Sensor_4.kicad_sch"/>
+      <property name="ki_description" value="Smallsized 2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 module"/>
+      <property name="ki_keywords" value="esp32,mcu"/>
+      <sheetpath names="/ESP32/" tstamps="/1383843a-880b-4efd-8c7f-ecdf3639f794/"/>
+      <tstamps>cf499e4a-d404-4304-a3c5-c6faaeecd2fb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10</field>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="no_connect"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="GNDDetect" type="passive"/>
+        <pin num="10" name="~{RESET}" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="REF2033">
+      <description>3.3V Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage Reference, SOT-23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ref2033.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">REF2033</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ref2033.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbias" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="Vref" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="ADS1219">
+      <description>24-bit, 1kSPS, 4-ch general-purpose delta-sigma ADC with I2C interface and external Vref inputs</description>
+      <docs>https://www.ti.com/lit/gpn/ads1219</docs>
+      <footprints>
+        <fp>*TSSOP*</fp>
+        <fp>*WQFN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1219</field>
+        <field name="Footprint">Soil Power Sensor:TSSOP65P640X120-16</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/ads1219</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="PIN1" name="A0" type="bidirectional"/>
+        <pin num="PIN2" name="A1" type="bidirectional"/>
+        <pin num="PIN3" name="~{RESET}" type="bidirectional"/>
+        <pin num="PIN4" name="DGND" type="bidirectional"/>
+        <pin num="PIN5" name="AGND" type="bidirectional"/>
+        <pin num="PIN6" name="AIN3" type="bidirectional"/>
+        <pin num="PIN7" name="AIN2" type="bidirectional"/>
+        <pin num="PIN8" name="REFN" type="bidirectional"/>
+        <pin num="PIN9" name="REFP" type="bidirectional"/>
+        <pin num="PIN10" name="AIN1" type="bidirectional"/>
+        <pin num="PIN11" name="AIN0" type="bidirectional"/>
+        <pin num="PIN12" name="AVDD" type="bidirectional"/>
+        <pin num="PIN13" name="DVDD" type="bidirectional"/>
+        <pin num="PIN14" name="~{DRDY}" type="bidirectional"/>
+        <pin num="PIN15" name="SDA" type="bidirectional"/>
+        <pin num="PIN16" name="SCL" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="ESP32-C3-MINI-1-N4">
+      <description>Smallsized 2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 module</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-MINI-1-N4</field>
+        <field name="Footprint">Soil Power Sensor:XCVR_ESP32-C3-MINI-1-N4</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="IO2" type="bidirectional"/>
+        <pin num="6" name="IO3" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="IO0" type="bidirectional"/>
+        <pin num="13" name="IO1" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="IO10" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="IO4" type="bidirectional"/>
+        <pin num="19" name="IO5" type="bidirectional"/>
+        <pin num="20" name="IO6" type="bidirectional"/>
+        <pin num="21" name="IO7" type="bidirectional"/>
+        <pin num="22" name="IO8" type="bidirectional"/>
+        <pin num="23" name="IO9" type="bidirectional"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="IO18" type="bidirectional"/>
+        <pin num="27" name="IO19" type="bidirectional"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="NC" type="no_connect"/>
+        <pin num="30" name="RXD0" type="bidirectional"/>
+        <pin num="31" name="TXD0" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="NC" type="no_connect"/>
+        <pin num="34" name="NC" type="no_connect"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="GND" type="power_in"/>
+        <pin num="49_1" name="GND" type="power_in"/>
+        <pin num="49_2" name="GND" type="power_in"/>
+        <pin num="49_3" name="GND" type="power_in"/>
+        <pin num="49_4" name="GND" type="power_in"/>
+        <pin num="49_5" name="GND" type="power_in"/>
+        <pin num="49_6" name="GND" type="power_in"/>
+        <pin num="49_7" name="GND" type="power_in"/>
+        <pin num="49_8" name="GND" type="power_in"/>
+        <pin num="49_9" name="GND" type="power_in"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="FM24CL16B">
+      <description>16-Kbit (2K × 8) Serial (I2C) F-RAM</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9</docs>
+      <footprints>
+        <fp>*SOIC*</fp>
+        <fp>*DFN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FM24CL16B</field>
+        <field name="Footprint">Soil Power Sensor:SOIC127P602X164-8N</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="bidirectional"/>
+        <pin num="7" name="WP" type="bidirectional"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="INA296A">
+      <description>–5 V to 110 V, Bidirectional, 1.1 MHz, 8 V/μs, Ultra-Precise Current Sense</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ina296a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA296A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina296a.pdf</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="REF2" type="bidirectional"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="REF1" type="bidirectional"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="MAX9944">
+      <description>High-Voltage, Precision, Low-Power Op Amps</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9943-MAX9944.pdf</docs>
+      <footprints>
+        <fp>SOIC127P600X155-8N</fp>
+        <fp>TDFN300X300X75-8N</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX9944</field>
+        <field name="Footprint">Soil Power Sensor:SOIC127P600X155-8N</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9943-MAX9944.pdf</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="VEE" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="PinJumper_02x03">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PinJumper_02x03</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="THS4532">
+      <description>Dual, Ultra low power 0.25mA, RRO, fully differential amplifier</description>
+      <docs>https://www.ti.com/lit/gpn/ths4532</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">THS4532</field>
+        <field name="Footprint">Soil Power Sensor:SOP65P640X120-16N</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/ths4532</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{PD}" type="input"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="Vocm" type="input"/>
+        <pin num="5" name="~{PD}" type="input"/>
+        <pin num="6" name="+" type="input"/>
+        <pin num="7" name="-" type="input"/>
+        <pin num="8" name="Vocm" type="input"/>
+        <pin num="9" name="V2+" type="power_in"/>
+        <pin num="10" name="+" type="output"/>
+        <pin num="11" name="-" type="output"/>
+        <pin num="12" name="V2-" type="power_in"/>
+        <pin num="13" name="V1+" type="power_in"/>
+        <pin num="14" name="+" type="output"/>
+        <pin num="15" name="-" type="output"/>
+        <pin num="16" name="V1-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="TPS60400DBV">
+      <description>Unregulated 60-mA Charge Pump Voltage Inverter</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps60400.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS60400DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps60400.pdf</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="CFLY-" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="CFLY+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Soil Power Sensor-eagle-import" part="Wio-E5 mini">
+      <docs>https://wiki.seeedstudio.com/LoRa_E5_mini/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Wio-E5 mini</field>
+        <field name="Footprint">Soil Power Sensor:WIO-E5_MINI</field>
+        <field name="Datasheet">https://wiki.seeedstudio.com/LoRa_E5_mini/</field>
+        <field name="Author">John Madden &lt;jmadden173@pm.me&gt;</field>
+        <field name="Date Created">2023-10-03</field>
+        <field name="Date Modified">2023-10-03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="PB15/SCL" type="bidirectional"/>
+        <pin num="3" name="PA15/SDA" type="bidirectional"/>
+        <pin num="4" name="PB4/A4" type="bidirectional"/>
+        <pin num="5" name="PB3/A3" type="bidirectional"/>
+        <pin num="6" name="PB7/RX" type="bidirectional"/>
+        <pin num="7" name="PB6/TX" type="bidirectional"/>
+        <pin num="8" name="PA0/D0" type="bidirectional"/>
+        <pin num="9" name="PC0/RX1" type="bidirectional"/>
+        <pin num="10" name="PC1/TX1" type="bidirectional"/>
+        <pin num="11" name="PA3/RX2" type="bidirectional"/>
+        <pin num="12" name="PA2/TX2" type="bidirectional"/>
+        <pin num="13" name="D9/PA9" type="bidirectional"/>
+        <pin num="14" name="D10/PB10" type="bidirectional"/>
+        <pin num="15" name="SCK/PB13" type="bidirectional"/>
+        <pin num="16" name="NSS/PB9" type="bidirectional"/>
+        <pin num="17" name="MISO/PB14" type="bidirectional"/>
+        <pin num="18" name="MOSI/PA10" type="bidirectional"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="RST" type="bidirectional"/>
+        <pin num="21" name="SWDLK/PA14" type="bidirectional"/>
+        <pin num="22" name="SWDIO/PA13" type="bidirectional"/>
+        <pin num="23" name="3V3" type="power_in"/>
+        <pin num="24" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Soil Power Sensor-eagle-import">
+      <uri>C:\Users\John\source\repos\jlab\soil_power_sensor\hardware/Soil Power Sensor-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="V1+" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="V2+" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="PIN12" pinfunction="AVDD" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN13" pinfunction="DVDD" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN3" pinfunction="~{RESET}" pintype="bidirectional"/>
+      <node ref="U6" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="23" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="IN" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="-3V3">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/Analog/ADC_DRDY">
+      <node ref="U4" pin="PIN14" pinfunction="~{DRDY}" pintype="bidirectional"/>
+      <node ref="U7" pin="11" pinfunction="PA3/RX2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Analog/POWERDOWN">
+      <node ref="U1" pin="1" pinfunction="~{PD}" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="~{PD}" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="D9/PA9" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/ESP32/ESP32_EN">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="D10/PB10" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ESP32/ESP32_TCK">
+      <node ref="D2" pin="4" pinfunction="SWDCLK/TCK" pintype="output"/>
+      <node ref="U9" pin="20" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ESP32/ESP32_TDI">
+      <node ref="D2" pin="8" pinfunction="NC/TDI" pintype="output"/>
+      <node ref="U9" pin="19" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ESP32/ESP32_TDO">
+      <node ref="D2" pin="6" pinfunction="SWO/TDO" pintype="input"/>
+      <node ref="U9" pin="21" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/ESP32/ESP32_TMS">
+      <node ref="D2" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="U9" pin="18" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/STM32/SCL">
+      <node ref="U4" pin="PIN16" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="PB15/SCL" pintype="bidirectional"/>
+      <node ref="U9" pin="13" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/STM32/SDA">
+      <node ref="U4" pin="PIN15" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="PA15/SDA" pintype="bidirectional"/>
+      <node ref="U9" pin="12" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/STM32/STM_SWDCLK">
+      <node ref="D1" pin="4" pinfunction="SWDCLK/TCK" pintype="output"/>
+      <node ref="U7" pin="21" pinfunction="SWDLK/PA14" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/STM32/STM_SWDIO">
+      <node ref="D1" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="U7" pin="22" pinfunction="SWDIO/PA13" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/STM32/STM_SWO">
+      <node ref="D1" pin="6" pinfunction="SWO/TDO" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="PB3/A3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="D1" pin="9" pinfunction="GNDDetect" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="D2" pin="9" pinfunction="GNDDetect" pintype="passive"/>
+      <node ref="G4" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="V2-" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="V1-" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="NC" pintype="passive"/>
+      <node ref="U4" pin="PIN1" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN2" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN4" pinfunction="DGND" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN5" pinfunction="AGND" pintype="bidirectional"/>
+      <node ref="U4" pin="PIN8" pinfunction="REFN" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="36" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="41" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="44" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="45" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="46" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="47" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="48" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="49_9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="50" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="51" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="52" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="53" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(G1-+)">
+      <node ref="G1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(G1--)">
+      <node ref="G1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="G3" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(G2-+)">
+      <node ref="G2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="G3" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(G2--)">
+      <node ref="G2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="G4" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RSENSE1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(J4-Pin_1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RSENSE1" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J5-Pin_1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="23" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="30" pinfunction="RXD0" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(J6-Pin_2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U9" pin="31" pinfunction="TXD0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(J8-Pin_3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="PA2/TX2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U2A--)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U2B--)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U3-OUT)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(U4-AIN0)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="-" pintype="output"/>
+      <node ref="U4" pin="PIN11" pinfunction="AIN0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(U4-AIN1)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="+" pintype="output"/>
+      <node ref="U4" pin="PIN10" pinfunction="AIN1" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U4-AIN2)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="-" pintype="output"/>
+      <node ref="U4" pin="PIN7" pinfunction="AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(U4-AIN3)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="output"/>
+      <node ref="U4" pin="PIN6" pinfunction="AIN3" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(U7-SCK{slash}PB13)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="SCK/PB13" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(U8-CFLY+)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="CFLY+" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(U8-CFLY-)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="CFLY-" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U9-EN)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U9-IO2)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U9-IO8)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U9" pin="22" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="REF+1V65">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Vocm" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="Vocm" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="REF2" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="REF1" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="Vbias" pintype="output"/>
+    </net>
+    <net code="47" name="REF+3V3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="PIN9" pinfunction="REFP" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="Vref" pintype="output"/>
+    </net>
+    <net code="48" name="VCC">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="49" name="VUSB">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="24" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="50" name="unconnected-(D1-KEY-Pad7)">
+      <node ref="D1" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(D1-NC{slash}TDI-Pad8)">
+      <node ref="D1" pin="8" pinfunction="NC/TDI" pintype="output"/>
+    </net>
+    <net code="52" name="unconnected-(D1-~{RESET}-Pad10)">
+      <node ref="D1" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
+    </net>
+    <net code="53" name="unconnected-(D2-KEY-Pad7)">
+      <node ref="D2" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(D2-~{RESET}-Pad10)">
+      <node ref="D2" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
+    </net>
+    <net code="55" name="unconnected-(U6-NC-Pad1)">
+      <node ref="U6" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U6-NC-Pad2)">
+      <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U6-NC-Pad3)">
+      <node ref="U6" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U6-WP-Pad7)">
+      <node ref="U6" pin="7" pinfunction="WP" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U7-MISO{slash}PB14-Pad17)">
+      <node ref="U7" pin="17" pinfunction="MISO/PB14" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U7-MOSI{slash}PA10-Pad18)">
+      <node ref="U7" pin="18" pinfunction="MOSI/PA10" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U7-NSS{slash}PB9-Pad16)">
+      <node ref="U7" pin="16" pinfunction="NSS/PB9" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U7-PA0{slash}D0-Pad8)">
+      <node ref="U7" pin="8" pinfunction="PA0/D0" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U7-PB4{slash}A4-Pad4)">
+      <node ref="U7" pin="4" pinfunction="PB4/A4" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(U7-PB6{slash}TX-Pad7)">
+      <node ref="U7" pin="7" pinfunction="PB6/TX" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(U7-PB7{slash}RX-Pad6)">
+      <node ref="U7" pin="6" pinfunction="PB7/RX" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(U7-PC0{slash}RX1-Pad9)">
+      <node ref="U7" pin="9" pinfunction="PC0/RX1" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(U7-PC1{slash}TX1-Pad10)">
+      <node ref="U7" pin="10" pinfunction="PC1/TX1" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U7-RST-Pad20)">
+      <node ref="U7" pin="20" pinfunction="RST" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(U9-IO3-Pad6)">
+      <node ref="U9" pin="6" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(U9-IO10-Pad16)">
+      <node ref="U9" pin="16" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U9-IO18-Pad26)">
+      <node ref="U9" pin="26" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(U9-IO19-Pad27)">
+      <node ref="U9" pin="27" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(U9-NC-Pad4)">
+      <node ref="U9" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U9-NC-Pad7)">
+      <node ref="U9" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U9-NC-Pad9)">
+      <node ref="U9" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U9-NC-Pad10)">
+      <node ref="U9" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U9-NC-Pad15)">
+      <node ref="U9" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U9-NC-Pad17)">
+      <node ref="U9" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U9-NC-Pad24)">
+      <node ref="U9" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U9-NC-Pad25)">
+      <node ref="U9" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U9-NC-Pad28)">
+      <node ref="U9" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U9-NC-Pad29)">
+      <node ref="U9" pin="29" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U9-NC-Pad32)">
+      <node ref="U9" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U9-NC-Pad33)">
+      <node ref="U9" pin="33" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U9-NC-Pad34)">
+      <node ref="U9" pin="34" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U9-NC-Pad35)">
+      <node ref="U9" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
