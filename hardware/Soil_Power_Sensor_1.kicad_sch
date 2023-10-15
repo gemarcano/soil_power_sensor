@@ -12,6 +12,66 @@
   )
 
   (lib_symbols
+    (symbol "Connector:Conn_01x02_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02_Socket" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_Socket_1_1"
+        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -0.508 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.508 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -890,6 +950,9 @@
   (junction (at 185.42 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 38c10d5d-151a-4bfa-a494-17da0c6523e8)
   )
+  (junction (at 35.56 130.175) (diameter 0) (color 0 0 0 0)
+    (uuid 3a9e164e-ccf2-4d6a-810c-d7aaaeee42f0)
+  )
   (junction (at 185.42 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 4179b0be-773c-49bd-b60b-2db0532d30be)
   )
@@ -913,6 +976,9 @@
   )
   (junction (at 35.56 109.22) (diameter 0) (color 0 0 0 0)
     (uuid 8110405a-7c1d-48c3-aeb3-eb8eb85abf5f)
+  )
+  (junction (at 35.56 141.605) (diameter 0) (color 0 0 0 0)
+    (uuid 92125680-b35a-496f-850c-f6f77aab86c1)
   )
   (junction (at 38.1 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 93a863fa-4c73-422f-9225-59d4bf25df8b)
@@ -1048,7 +1114,7 @@
     (stroke (width 0) (type default))
     (uuid 2b738b74-0179-4f45-bd80-359f8129df6a)
   )
-  (wire (pts (xy 35.56 124.46) (xy 35.56 130.81))
+  (wire (pts (xy 35.56 124.46) (xy 35.56 130.175))
     (stroke (width 0.1524) (type solid))
     (uuid 2d54e10a-df65-4368-99c4-d39030403825)
   )
@@ -1132,7 +1198,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid 55847229-84cd-4230-990d-bc78dff7a397)
   )
-  (wire (pts (xy 35.56 138.43) (xy 35.56 149.86))
+  (wire (pts (xy 35.56 140.335) (xy 35.56 141.605))
     (stroke (width 0.1524) (type solid))
     (uuid 5899e726-36de-404f-9ffd-cff50f877ba2)
   )
@@ -1236,7 +1302,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid 7af48401-c641-446d-92d4-26ff70343dc9)
   )
-  (wire (pts (xy 27.94 184.15) (xy 34.29 184.15))
+  (wire (pts (xy 22.86 184.15) (xy 34.29 184.15))
     (stroke (width 0) (type default))
     (uuid 7e0138b5-2382-4e9e-8a0b-88ae22e97e73)
   )
@@ -1287,6 +1353,10 @@
   (wire (pts (xy 125.73 138.43) (xy 121.92 138.43))
     (stroke (width 0) (type default))
     (uuid 94506a35-4d0d-437c-ba31-9e5a7cf72d6a)
+  )
+  (wire (pts (xy 21.59 141.605) (xy 35.56 141.605))
+    (stroke (width 0) (type default))
+    (uuid 97399878-788d-451f-adc4-8b9b29ebe857)
   )
   (wire (pts (xy 35.56 162.56) (xy 38.1 162.56))
     (stroke (width 0.1524) (type solid))
@@ -1356,6 +1426,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid b7f7f5e5-fb0b-48cd-b66a-b33e27f41c38)
   )
+  (wire (pts (xy 35.56 130.175) (xy 35.56 132.715))
+    (stroke (width 0.1524) (type solid))
+    (uuid b9162861-f1c0-4c80-bc60-058409f1da4b)
+  )
   (wire (pts (xy 143.51 138.43) (xy 144.78 138.43))
     (stroke (width 0.1524) (type solid))
     (uuid ba5379e1-a83c-41bb-9c27-ebb90442e228)
@@ -1392,6 +1466,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid c78f506c-d5bb-49fe-ad9c-fc9170f3a9fb)
   )
+  (wire (pts (xy 35.56 141.605) (xy 35.56 149.86))
+    (stroke (width 0.1524) (type solid))
+    (uuid c7b5d846-7e83-4fbd-85e2-dd717d064f52)
+  )
   (wire (pts (xy 48.26 96.52) (xy 48.26 149.86))
     (stroke (width 0.1524) (type solid))
     (uuid c7c00da6-99a8-4cf3-9a16-14c4cd1aa25b)
@@ -1408,7 +1486,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid ca7684ee-223a-43e2-8467-ac8dcdabb46d)
   )
-  (wire (pts (xy 25.4 22.86) (xy 27.94 22.86))
+  (wire (pts (xy 22.86 22.86) (xy 27.94 22.86))
     (stroke (width 0) (type default))
     (uuid cadcbb0b-2bd1-4ba7-9bba-731f7af0df4f)
   )
@@ -1468,7 +1546,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid d774a3cc-f9f9-4237-b000-d04589a67817)
   )
-  (wire (pts (xy 35.56 20.32) (xy 25.4 20.32))
+  (wire (pts (xy 35.56 20.32) (xy 22.86 20.32))
     (stroke (width 0.1524) (type solid))
     (uuid db49446a-4b4f-46b4-a31a-7b5ddd64832b)
   )
@@ -1480,6 +1558,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid e448963f-893e-4883-8c42-f5ce99a24e08)
   )
+  (wire (pts (xy 21.59 130.175) (xy 35.56 130.175))
+    (stroke (width 0) (type default))
+    (uuid e4ab8895-e389-4255-a693-9cb0520de366)
+  )
   (wire (pts (xy 53.34 119.38) (xy 53.34 124.46))
     (stroke (width 0.1524) (type solid))
     (uuid e63b2d7c-d1ab-48c1-8770-30a2d87c3de8)
@@ -1488,7 +1570,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid e6b6ebdf-76ef-49b9-8b11-0ec7b2e7f0d4)
   )
-  (wire (pts (xy 27.94 181.61) (xy 34.29 181.61))
+  (wire (pts (xy 22.86 181.61) (xy 34.29 181.61))
     (stroke (width 0) (type default))
     (uuid e9a3c45b-c5e3-44d9-9876-01bc15b8c708)
   )
@@ -1511,6 +1593,10 @@
   (wire (pts (xy 144.78 73.66) (xy 144.78 52.07))
     (stroke (width 0.1524) (type solid))
     (uuid f0667be6-9b90-4097-840c-f675bf58d242)
+  )
+  (wire (pts (xy 21.59 132.715) (xy 21.59 141.605))
+    (stroke (width 0) (type default))
+    (uuid f124a709-9861-48d8-ba33-cf3c190c07dc)
   )
   (wire (pts (xy 121.92 130.81) (xy 121.92 113.03))
     (stroke (width 0.1524) (type solid))
@@ -1627,7 +1713,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 17.78 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06fe79ec-15a6-4224-b7aa-7c01b2fd7a78)
-    (property "Reference" "J1" (at 16.51 104.14 0)
+    (property "Reference" "J2" (at 16.51 104.14 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "Current" (at 20.32 112.903 0)
@@ -1644,7 +1730,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1653,7 +1739,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:THS4532") (at 133.35 93.98 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07ce1db8-ccd5-4461-9c78-98d22b130288)
-    (property "Reference" "U3" (at 134.62 92.075 0)
+    (property "Reference" "U1" (at 134.62 92.075 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "THS4532" (at 134.62 95.885 0)
@@ -1693,7 +1779,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U3") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -1702,7 +1788,7 @@
   (symbol (lib_id "Device:R") (at 114.3 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08aef06a-5bdd-4811-a360-2f6879e8cf9e)
-    (property "Reference" "R4" (at 115.57 109.22 90)
+    (property "Reference" "R7" (at 115.57 109.22 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "10k" (at 116.84 115.57 90)
@@ -1722,7 +1808,33 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R4") (unit 1)
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Socket") (at 16.51 132.715 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 09e7ae4b-5a2d-40df-b671-2932ecc09d4d)
+    (property "Reference" "J4" (at 17.145 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Rsense" (at 17.145 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 16.51 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 16.51 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d43af87d-b8cb-4a4b-8185-040c15087d66))
+    (pin "2" (uuid 3b678928-8ad3-4094-958a-5f17c265a092))
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1781,7 +1893,7 @@
   (symbol (lib_id "Device:R") (at 134.62 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29143343-ef79-4b96-a921-830c5404fbff)
-    (property "Reference" "R8" (at 135.89 19.05 90)
+    (property "Reference" "R5" (at 135.89 19.05 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100k" (at 137.16 25.4 90)
@@ -1801,7 +1913,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1810,7 +1922,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:MAX9944") (at 73.66 49.53 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d54d396-eb34-4579-a663-1ee0388c16bd)
-    (property "Reference" "U1" (at 74.93 47.625 0)
+    (property "Reference" "U2" (at 74.93 47.625 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "MAX9944" (at 74.93 51.435 0)
@@ -1842,7 +1954,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U1") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -1851,7 +1963,7 @@
   (symbol (lib_id "Device:C") (at 185.42 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3281f710-b150-4125-8aa6-d71eaa4a1728)
-    (property "Reference" "C2" (at 181.61 77.47 0)
+    (property "Reference" "C5" (at 181.61 77.47 0)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
     (property "Value" "2.7nF" (at 181.61 80.01 0)
@@ -1871,7 +1983,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1880,7 +1992,7 @@
   (symbol (lib_id "Device:R") (at 134.62 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33d3720f-5d3a-4144-b236-701bf8fdd815)
-    (property "Reference" "R9" (at 135.89 69.85 90)
+    (property "Reference" "R1" (at 135.89 69.85 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100k" (at 137.16 76.2 90)
@@ -1900,7 +2012,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1934,7 +2046,7 @@
   (symbol (lib_id "Device:R") (at 114.3 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bd341c9-5dc3-4de7-9345-6b4293fd6d6b)
-    (property "Reference" "R5" (at 115.57 151.13 90)
+    (property "Reference" "R8" (at 115.57 151.13 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "10k" (at 116.84 157.48 90)
@@ -1954,7 +2066,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1975,7 +2087,7 @@
     (property "Datasheet" "" (at 34.29 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d773d47b-e10b-4654-964f-ebb5373b46f6))
+    (pin "1" (uuid 809cfafa-2f6a-4066-8535-624cd85916c7))
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
@@ -1988,7 +2100,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:PinJumper_02x03") (at 30.48 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ff84597-bbaa-417f-80e1-d65ca057b470)
-    (property "Reference" "U10" (at 28.575 73.66 0)
+    (property "Reference" "J7" (at 28.575 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PinJumper_02x03" (at 28.575 76.2 0)
@@ -2009,7 +2121,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U10") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2018,7 +2130,7 @@
   (symbol (lib_id "Device:C") (at 254 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 413242fe-e69e-4768-b327-111dbb3469c8)
-    (property "Reference" "C4" (at 250.19 74.93 0)
+    (property "Reference" "C1" (at 250.19 74.93 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 250.19 77.47 0)
@@ -2035,7 +2147,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2069,7 +2181,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:PinJumper_02x03") (at 33.02 163.83 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 499247a8-47f2-491a-817a-b823426e4c6d)
-    (property "Reference" "U10" (at 31.115 157.48 0)
+    (property "Reference" "J7" (at 31.115 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PinJumper_02x03" (at 31.115 160.02 0)
@@ -2090,7 +2202,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U10") (unit 3)
+          (reference "J7") (unit 3)
         )
       )
     )
@@ -2124,7 +2236,7 @@
   (symbol (lib_id "Device:R") (at 35.56 115.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5385f841-2dda-439c-90bf-0979413eaa06)
-    (property "Reference" "R1" (at 34.29 113.03 0)
+    (property "Reference" "R4" (at 34.29 113.03 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "330m" (at 34.29 115.57 0)
@@ -2144,7 +2256,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2178,7 +2290,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:THS4532") (at 133.35 180.34 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f76928e-fb11-4887-b481-d85c9006c65f)
-    (property "Reference" "U3" (at 134.62 178.435 0)
+    (property "Reference" "U1" (at 134.62 178.435 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "THS4532" (at 134.62 182.245 0)
@@ -2218,7 +2330,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U3") (unit 4)
+          (reference "U1") (unit 4)
         )
       )
     )
@@ -2227,7 +2339,7 @@
   (symbol (lib_id "Device:C") (at 185.42 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 791cdb93-9cf0-4f0c-8be6-60fc6b277a37)
-    (property "Reference" "C1" (at 181.61 57.15 0)
+    (property "Reference" "C4" (at 181.61 57.15 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 181.61 59.69 0)
@@ -2244,7 +2356,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2253,7 +2365,7 @@
   (symbol (lib_id "Device:R") (at 114.3 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a831184-6b86-4d15-bc92-bde1034e0b30)
-    (property "Reference" "R2" (at 115.57 19.05 90)
+    (property "Reference" "R3" (at 115.57 19.05 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100k" (at 116.84 25.4 90)
@@ -2273,7 +2385,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2282,7 +2394,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:THS4532") (at 134.62 134.62 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7abe6c35-c312-471b-b203-b578459ed85b)
-    (property "Reference" "U3" (at 135.89 120.65 0)
+    (property "Reference" "U1" (at 135.89 120.65 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "THS4532" (at 135.89 124.46 0)
@@ -2322,7 +2434,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U3") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -2331,7 +2443,7 @@
   (symbol (lib_id "Device:R") (at 114.3 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b44f5fd-349f-440b-927d-c53e48f5cd80)
-    (property "Reference" "R3" (at 115.57 69.85 90)
+    (property "Reference" "R2" (at 115.57 69.85 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100k" (at 116.84 76.2 90)
@@ -2351,7 +2463,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2410,7 +2522,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:INA296A") (at 73.66 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91d3004d-84b8-4381-a56a-742f4ea021da)
-    (property "Reference" "U2" (at 60.96 105.41 0)
+    (property "Reference" "U3" (at 60.96 105.41 0)
       (effects (font (size 2.0828 1.7703)) (justify left bottom))
     )
     (property "Value" "INA296A" (at 74.93 105.41 0)
@@ -2442,7 +2554,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2476,7 +2588,7 @@
   (symbol (lib_id "Device:C") (at 185.42 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dbc1249-23d8-49b8-8f19-d51d8d375a2a)
-    (property "Reference" "C3" (at 181.61 92.71 0)
+    (property "Reference" "C7" (at 181.61 92.71 0)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
     (property "Value" "1nF" (at 181.61 95.25 0)
@@ -2496,7 +2608,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2505,7 +2617,7 @@
   (symbol (lib_id "Device:R") (at 132.08 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3cbb1b3-7a1e-444b-929f-454614f6199d)
-    (property "Reference" "R6" (at 133.35 109.22 90)
+    (property "Reference" "R9" (at 133.35 109.22 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "499k" (at 134.62 115.57 90)
@@ -2525,7 +2637,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2581,23 +2693,23 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 22.86 181.61 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 17.78 181.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9c6c85b-a387-4d04-9bec-7b597d2a0c60)
-    (property "Reference" "J3" (at 21.3868 177.2412 0)
+    (property "Reference" "J3" (at 16.3068 177.2412 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
-    (property "Value" "GND" (at 25.4 185.293 0)
+    (property "Value" "GND" (at 20.32 185.293 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
-    (property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (at 22.86 181.61 0)
+    (property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (at 17.78 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 22.86 181.61 0)
+    (property "Datasheet" "~" (at 17.78 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 570b4804-f77a-47d0-94c2-d9a853462cc6))
-    (pin "2" (uuid 9a53b38b-d6b3-4ddb-871c-9d29e375cbe2))
+    (pin "1" (uuid 6ae98652-a586-4a8f-bb60-bf6e003d5c6a))
+    (pin "2" (uuid a5f2285b-23ef-4e4e-8f62-c895b56e305a))
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
@@ -2610,7 +2722,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:MAX9944") (at 73.66 73.66 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0940545-aa66-49c3-b2ca-0300b72ef2f4)
-    (property "Reference" "U1" (at 74.93 68.58 0)
+    (property "Reference" "U2" (at 74.93 68.58 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "MAX9944" (at 74.93 78.74 0)
@@ -2642,7 +2754,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U1") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -2723,19 +2835,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 20.32 20.32 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 17.78 20.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dec93dd6-3372-4f9c-b50c-be99d0358aec)
-    (property "Reference" "J2" (at 18.7452 15.9512 0)
+    (property "Reference" "J1" (at 16.2052 15.9512 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
-    (property "Value" "Voltage" (at 22.86 24.003 0)
+    (property "Value" "Voltage" (at 20.32 24.003 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
-    (property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (at 20.32 20.32 0)
+    (property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (at 17.78 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 20.32 20.32 0)
+    (property "Datasheet" "~" (at 17.78 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fceee56b-be4d-42d9-9254-b5fad9d868fa))
@@ -2743,7 +2855,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2752,7 +2864,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:MAX9944") (at 73.66 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e23989d2-24cd-435e-9f69-4d78019302d7)
-    (property "Reference" "U1" (at 74.93 17.78 0)
+    (property "Reference" "U2" (at 74.93 17.78 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "MAX9944" (at 74.93 27.94 0)
@@ -2784,7 +2896,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2793,7 +2905,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:THS4532") (at 133.35 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4cc0704-5f6d-459a-90cf-b4a3c87ada10)
-    (property "Reference" "U3" (at 134.62 34.29 0)
+    (property "Reference" "U1" (at 134.62 34.29 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "THS4532" (at 134.62 38.1 0)
@@ -2833,7 +2945,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2842,7 +2954,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:PinJumper_02x03") (at 43.18 95.25 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6c1d097-97e4-451f-8d65-23f3377370cf)
-    (property "Reference" "U10" (at 41.275 88.9 0)
+    (property "Reference" "J7" (at 41.275 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PinJumper_02x03" (at 41.275 91.44 0)
@@ -2863,7 +2975,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "U10") (unit 2)
+          (reference "J7") (unit 2)
         )
       )
     )
@@ -2872,7 +2984,7 @@
   (symbol (lib_id "Device:R") (at 132.08 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb154749-ac69-4621-b868-45c15cd955f8)
-    (property "Reference" "R7" (at 133.35 151.13 90)
+    (property "Reference" "R6" (at 133.35 151.13 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "499k" (at 134.62 157.48 90)
@@ -2892,29 +3004,29 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 35.56 134.62 180) (unit 1)
+  (symbol (lib_id "Device:R") (at 35.56 136.525 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f35d6ef0-adad-4b07-9987-78f6465034ae)
-    (property "Reference" "RSENSE1" (at 33.02 132.08 0)
+    (property "Reference" "RSENSE1" (at 33.02 133.985 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "NC" (at 33.02 134.62 0)
+    (property "Value" "NC" (at 33.02 136.525 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 37.338 134.62 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 37.338 136.525 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 35.56 134.62 0)
+    (property "Datasheet" "~" (at 35.56 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c28d6fe5-cd4c-4a7e-a8e9-aa1d3f013ad1))
-    (pin "2" (uuid c4546615-f609-473f-a258-b3bd3628baa9))
+    (pin "1" (uuid a485d547-0e17-4041-9c58-020dfe534232))
+    (pin "2" (uuid 8856f406-d77c-453c-9b59-0ddab0a052d4))
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
@@ -2927,7 +3039,7 @@
   (symbol (lib_id "Device:C") (at 269.24 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6ea6f2f-f636-42bc-b4c2-a9de1de452a1)
-    (property "Reference" "C5" (at 265.43 72.39 0)
+    (property "Reference" "C2" (at 265.43 72.39 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 265.43 74.93 0)
@@ -2944,7 +3056,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
